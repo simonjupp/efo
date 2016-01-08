@@ -1,0 +1,3 @@
+http://purl.obolibrary.org/obo/SO_0000274	snRNA
+http://purl.obolibrary.org/obo/SO_0000704	gene
+http://purl.obolibrary.org/obo/SO_0000655	ncRNA

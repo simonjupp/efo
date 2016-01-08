@@ -1,0 +1,5 @@
+http://purl.obolibrary.org/obo/DOID_10718	giardiasis
+http://purl.obolibrary.org/obo/DOID_7551	gonorrhea
+http://purl.obolibrary.org/obo/DOID_13406	pulmonary sarcoidosis
+http://purl.obolibrary.org/obo/DOID_1947	trichomoniasis
+http://purl.obolibrary.org/obo/DOID_10113	trypanosomiasis

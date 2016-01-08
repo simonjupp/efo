@@ -1,0 +1,351 @@
+http://purl.obolibrary.org/obo/GO_0009277	fungal-type cell wall
+http://purl.obolibrary.org/obo/GO_0009156	ribonucleoside monophosphate biosynthetic process
+http://purl.obolibrary.org/obo/GO_0033142	progesterone receptor binding
+http://purl.obolibrary.org/obo/GO_0042538	hyperosmotic salinity response
+http://purl.obolibrary.org/obo/GO_0030430	host cell cytoplasm
+http://purl.obolibrary.org/obo/GO_0009279	cell outer membrane
+http://purl.obolibrary.org/obo/GO_0030431	sleep
+http://purl.obolibrary.org/obo/GO_0014069	postsynaptic density
+http://purl.obolibrary.org/obo/GO_0016246	RNA interference
+http://purl.obolibrary.org/obo/GO_190252	response to etoposide
+http://purl.obolibrary.org/obo/GO_0015031	protein transport
+http://purl.obolibrary.org/obo/GO_0007417	central nervous system development
+http://purl.obolibrary.org/obo/GO_0045121	membrane raft
+http://purl.obolibrary.org/obo/GO_0048513	organ development
+http://purl.obolibrary.org/obo/GO_0044710	single-organism metabolic process
+http://purl.obolibrary.org/obo/GO_0030312	external encapsulating structure
+http://purl.obolibrary.org/obo/GO_0072758	response to topoisomerase inhibitor
+http://purl.obolibrary.org/obo/GO_0030313	cell envelope
+http://purl.obolibrary.org/obo/GO_1903492	response to aspirin
+http://purl.obolibrary.org/obo/GO_1903491	response to simvastatin
+http://purl.obolibrary.org/obo/GO_0019637	organophosphate metabolic process
+http://purl.obolibrary.org/obo/GO_0009163	nucleoside biosynthetic process
+http://purl.obolibrary.org/obo/GO_0044271	cellular nitrogen compound biosynthetic process
+http://purl.obolibrary.org/obo/GO_1903493	response to clopidogrel
+http://purl.obolibrary.org/obo/GO_0009161	ribonucleoside monophosphate metabolic process
+http://purl.obolibrary.org/obo/GO_0009167	purine ribonucleoside monophosphate metabolic process
+http://purl.obolibrary.org/obo/GO_0009168	purine ribonucleoside monophosphate biosynthetic process
+http://purl.obolibrary.org/obo/GO_0009165	nucleotide biosynthetic process
+http://purl.obolibrary.org/obo/GO_0007420	brain development
+http://purl.obolibrary.org/obo/GO_0030662	coated vesicle membrane
+http://purl.obolibrary.org/obo/GO_0044700	single organism signaling
+http://purl.obolibrary.org/obo/GO_0051384	response to glucocorticoid stimulus
+http://purl.obolibrary.org/obo/GO_0038023	signaling receptor activity
+http://purl.obolibrary.org/obo/GO_0055069	zinc ion homeostasis
+http://purl.obolibrary.org/obo/GO_0008517	folic acid transporter activity
+http://purl.obolibrary.org/obo/GO_0005801	cis-Golgi network
+http://purl.obolibrary.org/obo/GO_0014072	response to opiate
+http://purl.obolibrary.org/obo/GO_0044707	single-multicellular organism process
+http://purl.obolibrary.org/obo/GO_0051701	interaction with host
+http://purl.obolibrary.org/obo/GO_0001775	cell activation
+http://purl.obolibrary.org/obo/GO_0043170	macromolecule metabolic process
+http://purl.obolibrary.org/obo/GO_0044267	cellular protein metabolic process
+http://purl.obolibrary.org/obo/GO_1990110	callus formation
+http://purl.obolibrary.org/obo/GO_0005929	cilium
+http://purl.obolibrary.org/obo/GO_0030667	secretory granule membrane
+http://purl.obolibrary.org/obo/GO_0044260	cellular macromolecule metabolic process
+http://purl.obolibrary.org/obo/GO_0009058	biosynthetic process
+http://purl.obolibrary.org/obo/GO_0009611	response to wounding
+http://purl.obolibrary.org/obo/GO_0006464	cellular protein modification process
+http://purl.obolibrary.org/obo/GO_0009615	response to virus
+http://purl.obolibrary.org/obo/GO_0016023	cytoplasmic membrane-bounded vesicle
+http://purl.obolibrary.org/obo/GO_0016020	membrane
+http://purl.obolibrary.org/obo/GO_0005819	spindle
+http://purl.obolibrary.org/obo/GO_0051234	establishment of localization
+http://purl.obolibrary.org/obo/GO_0019538	protein metabolic process
+http://purl.obolibrary.org/obo/GO_1901293	nucleoside phosphate biosynthetic process
+http://purl.obolibrary.org/obo/GO_0031427	response to methotrexate
+http://purl.obolibrary.org/obo/GO_0030218	erythrocyte differentiation
+http://purl.obolibrary.org/obo/GO_0035456	response to interferon beta
+http://purl.obolibrary.org/obo/GO_0031410	cytoplasmic vesicle
+http://purl.obolibrary.org/obo/GO_0007568	aging
+http://purl.obolibrary.org/obo/GO_0031090	organelle membrane
+http://purl.obolibrary.org/obo/GO_0009987	cellular process
+http://purl.obolibrary.org/obo/GO_0009628	response to abiotic stimulus
+http://purl.obolibrary.org/obo/GO_0033273	response to vitamin
+http://purl.obolibrary.org/obo/GO_0009507	chloroplast
+http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
+http://purl.obolibrary.org/obo/GO_0005829	cytosol
+http://purl.obolibrary.org/obo/GO_0003014	renal system process
+http://purl.obolibrary.org/obo/GO_0032502	developmental process
+http://purl.obolibrary.org/obo/GO_0060073	micturition
+http://purl.obolibrary.org/obo/GO_0009199	ribonucleoside triphosphate metabolic process
+http://purl.obolibrary.org/obo/GO_0036211	protein modification process
+http://purl.obolibrary.org/obo/GO_0006486	protein glycosylation
+http://purl.obolibrary.org/obo/GO_0015630	microtubule cytoskeleton
+http://purl.obolibrary.org/obo/GO_0006487	protein N-linked glycosylation
+http://purl.obolibrary.org/obo/GO_1902518	response to cyclophosphamide
+http://purl.obolibrary.org/obo/GO_0097330	response to 5-fluoro-2'-deoxyuridine
+http://purl.obolibrary.org/obo/GO_0097331	response to cytarabine
+http://purl.obolibrary.org/obo/GO_0016043	cellular component organization
+http://purl.obolibrary.org/obo/GO_0097332	response to antipsychotic drug
+http://purl.obolibrary.org/obo/GO_1902519	response to docetaxel
+http://purl.obolibrary.org/obo/GO_0097333	response to olanzapine
+http://purl.obolibrary.org/obo/GO_0097334	response to perphenazine
+http://purl.obolibrary.org/obo/GO_0097335	response to quetiapine
+http://purl.obolibrary.org/obo/GO_0023014	signal transduction by phosphorylation
+http://purl.obolibrary.org/obo/GO_0097336	response to risperidone
+http://purl.obolibrary.org/obo/GO_0097337	response to ziprasidone
+http://purl.obolibrary.org/obo/GO_0097338	response to clozapine
+http://purl.obolibrary.org/obo/GO_0006807	nitrogen compound metabolic process
+http://purl.obolibrary.org/obo/GO_0071467	cellular response to pH
+http://purl.obolibrary.org/obo/GO_0042455	ribonucleoside biosynthetic process
+http://purl.obolibrary.org/obo/GO_0019438	aromatic compound biosynthetic process
+http://purl.obolibrary.org/obo/GO_0042451	purine nucleoside biosynthetic process
+http://purl.obolibrary.org/obo/GO_0090407	organophosphate biosynthetic process
+http://purl.obolibrary.org/obo/GO_0051181	cofactor transport
+http://purl.obolibrary.org/obo/GO_0051180	vitamin transport
+http://purl.obolibrary.org/obo/GO_1902520	response to doxorubicin
+http://purl.obolibrary.org/obo/GO_1901554	response to acetaminophen
+http://purl.obolibrary.org/obo/GO_1902522	response to epirubicin
+http://purl.obolibrary.org/obo/GO_1901555	response to paclitaxel
+http://purl.obolibrary.org/obo/GO_1901556	response to candesartan
+http://purl.obolibrary.org/obo/GO_0030101	natural killer cell activation
+http://purl.obolibrary.org/obo/GO_0007588	excretion
+http://purl.obolibrary.org/obo/GO_0015884	folic acid transport
+http://purl.obolibrary.org/obo/GO_1901557	response to fenofibrate
+http://purl.obolibrary.org/obo/GO_0043413	macromolecule glycosylation
+http://purl.obolibrary.org/obo/GO_1901558	response to metformin
+http://purl.obolibrary.org/obo/GO_0043655	extracellular space of host
+http://purl.obolibrary.org/obo/GO_0051186	cofactor metabolic process
+http://purl.obolibrary.org/obo/GO_1901559	response to ribavirin
+http://purl.obolibrary.org/obo/GO_0043656	intracellular region of host
+http://purl.obolibrary.org/obo/GO_0043657	host cell
+http://purl.obolibrary.org/obo/GO_0006139	nucleobase-containing compound metabolic process
+http://purl.obolibrary.org/obo/GO_0009526	plastid envelope
+http://purl.obolibrary.org/obo/GO_0006810	transport
+http://purl.obolibrary.org/obo/GO_0009408	response to heat
+http://purl.obolibrary.org/obo/GO_0009409	response to cold
+http://purl.obolibrary.org/obo/GO_0071214	cellular response to abiotic stimulus
+http://purl.obolibrary.org/obo/GO_0046129	purine ribonucleoside biosynthetic process
+http://purl.obolibrary.org/obo/GO_0046128	purine ribonucleoside metabolic process
+http://purl.obolibrary.org/obo/GO_0050896	response to stimulus
+http://purl.obolibrary.org/obo/GO_0043412	macromolecule modification
+http://purl.obolibrary.org/obo/GO_0046483	heterocycle metabolic process
+http://purl.obolibrary.org/obo/GO_0055074	calcium ion homeostasis
+http://purl.obolibrary.org/obo/GO_0043209	myelin sheath
+http://purl.obolibrary.org/obo/GO_0009414	response to water deprivation
+http://purl.obolibrary.org/obo/GO_0030133	transport vesicle
+http://purl.obolibrary.org/obo/GO_0007596	blood coagulation
+http://purl.obolibrary.org/obo/GO_0042116	macrophage activation
+http://purl.obolibrary.org/obo/GO_0030134	ER to Golgi transport vesicle
+http://purl.obolibrary.org/obo/GO_0030135	coated vesicle
+http://purl.obolibrary.org/obo/GO_0033643	host cell part
+http://purl.obolibrary.org/obo/GO_0005730	nucleolus
+http://purl.obolibrary.org/obo/GO_0009536	plastid
+http://purl.obolibrary.org/obo/GO_0009415	response to water stimulus
+http://purl.obolibrary.org/obo/GO_0009537	proplastid
+http://purl.obolibrary.org/obo/GO_0005975	carbohydrate metabolic process
+http://purl.obolibrary.org/obo/GO_0005856	cytoskeleton
+http://purl.obolibrary.org/obo/GO_0044419	interspecies interaction between organisms
+http://purl.obolibrary.org/obo/GO_0005737	cytoplasm
+http://purl.obolibrary.org/obo/GO_0046034	ATP metabolic process
+http://purl.obolibrary.org/obo/GO_0005739	mitochondrion
+http://purl.obolibrary.org/obo/GO_0019693	ribose phosphate metabolic process
+http://purl.obolibrary.org/obo/GO_0046390	ribose phosphate biosynthetic process
+http://purl.obolibrary.org/obo/GO_0033646	host intracellular part
+http://purl.obolibrary.org/obo/GO_0042476	odontogenesis
+http://purl.obolibrary.org/obo/GO_0051716	cellular response to stimulus
+http://purl.obolibrary.org/obo/GO_0045184	establishment of protein localization
+http://purl.obolibrary.org/obo/GO_0042593	glucose homeostasis
+http://purl.obolibrary.org/obo/GO_0042592	homeostatic process
+http://purl.obolibrary.org/obo/GO_0055086	nucleobase-containing small molecule metabolic process
+http://purl.obolibrary.org/obo/GO_0006950	response to stress
+http://purl.obolibrary.org/obo/GO_0005740	mitochondrial envelope
+http://purl.obolibrary.org/obo/GO_1901657	glycosyl compound metabolic process
+http://purl.obolibrary.org/obo/GO_0044403	symbiosis, encompassing mutualism through parasitism
+http://purl.obolibrary.org/obo/GO_0044767	single-organism developmental process
+http://purl.obolibrary.org/obo/GO_0008219	cell death
+http://purl.obolibrary.org/obo/GO_0005622	intracellular
+http://purl.obolibrary.org/obo/GO_0006954	inflammatory response
+http://purl.obolibrary.org/obo/GO_1901659	glycosyl compound biosynthetic process
+http://purl.obolibrary.org/obo/GO_0009306	protein secretion
+http://purl.obolibrary.org/obo/GO_0005623	cell
+http://purl.obolibrary.org/obo/GO_0097366	response to bronchodilator
+http://purl.obolibrary.org/obo/GO_0018130	heterocycle biosynthetic process
+http://purl.obolibrary.org/obo/GO_0072522	purine-containing compound biosynthetic process
+http://purl.obolibrary.org/obo/GO_0072521	purine-containing compound metabolic process
+http://purl.obolibrary.org/obo/GO_0044763	single-organism cellular process
+http://purl.obolibrary.org/obo/GO_0044765	single-organism transport
+http://purl.obolibrary.org/obo/GO_0006163	purine nucleotide metabolic process
+http://purl.obolibrary.org/obo/GO_0006164	purine nucleotide biosynthetic process
+http://purl.obolibrary.org/obo/GO_0009314	response to radiation
+http://purl.obolibrary.org/obo/GO_0043229	intracellular organelle
+http://purl.obolibrary.org/obo/GO_0043227	membrane-bounded organelle
+http://purl.obolibrary.org/obo/GO_0008104	protein localization
+http://purl.obolibrary.org/obo/GO_0043226	organelle
+http://purl.obolibrary.org/obo/GO_0046858	chlorosome
+http://purl.obolibrary.org/obo/GO_0005634	nucleus
+http://purl.obolibrary.org/obo/GO_0006725	cellular aromatic compound metabolic process
+http://purl.obolibrary.org/obo/GO_0005758	mitochondrial intermembrane space
+http://purl.obolibrary.org/obo/GO_1901905	response to tamsulosin
+http://purl.obolibrary.org/obo/GO_0044430	cytoskeletal part
+http://purl.obolibrary.org/obo/GO_0022402	cell cycle process
+http://purl.obolibrary.org/obo/GO_0044433	cytoplasmic vesicle part
+http://purl.obolibrary.org/obo/GO_0044434	chloroplast part
+http://purl.obolibrary.org/obo/GO_0044435	plastid part
+http://purl.obolibrary.org/obo/GO_0071944	cell periphery
+http://purl.obolibrary.org/obo/GO_0071704	organic substance metabolic process
+http://purl.obolibrary.org/obo/GO_0065010	extracellular membrane-bounded organelle
+http://purl.obolibrary.org/obo/GO_0042493	response to drug
+http://purl.obolibrary.org/obo/GO_0009201	ribonucleoside triphosphate biosynthetic process
+http://purl.obolibrary.org/obo/GO_0006970	response to osmotic stress
+http://purl.obolibrary.org/obo/GO_0009205	purine ribonucleoside triphosphate metabolic process
+http://purl.obolibrary.org/obo/GO_0044425	membrane part
+http://purl.obolibrary.org/obo/GO_0005764	lysosome
+http://purl.obolibrary.org/obo/GO_0009206	purine ribonucleoside triphosphate biosynthetic process
+http://purl.obolibrary.org/obo/GO_0005886	plasma membrane
+http://purl.obolibrary.org/obo/GO_0044428	nuclear part
+http://purl.obolibrary.org/obo/GO_0044429	mitochondrial part
+http://purl.obolibrary.org/obo/GO_0048103	somatic stem cell division
+http://purl.obolibrary.org/obo/GO_0051301	cell division
+http://purl.obolibrary.org/obo/GO_0044421	extracellular region part
+http://purl.obolibrary.org/obo/GO_0044422	organelle part
+http://purl.obolibrary.org/obo/GO_0003674	molecular function
+http://purl.obolibrary.org/obo/GO_0044424	intracellular part
+http://purl.obolibrary.org/obo/GO_1901360	organic cyclic compound metabolic process
+http://purl.obolibrary.org/obo/GO_1901362	organic cyclic compound biosynthetic process
+http://purl.obolibrary.org/obo/GO_0042360	vitamin E metabolic process
+http://purl.obolibrary.org/obo/GO_1901563	response to camptothecin
+http://purl.obolibrary.org/obo/GO_0007154	cell communication
+http://purl.obolibrary.org/obo/GO_0036277	response to anticonvulsant
+http://purl.obolibrary.org/obo/GO_1901564	organonitrogen compound metabolic process
+http://purl.obolibrary.org/obo/GO_1901566	organonitrogen compound biosynthetic process
+http://purl.obolibrary.org/obo/GO_0034654	nucleobase-containing compound biosynthetic process
+http://purl.obolibrary.org/obo/GO_0005773	vacuole
+http://purl.obolibrary.org/obo/GO_0036272	response to gemcitabine
+http://purl.obolibrary.org/obo/GO_0044217	other organism part
+http://purl.obolibrary.org/obo/GO_0036271	response to methylphenidate
+http://purl.obolibrary.org/obo/GO_0036270	response to diruetic
+http://purl.obolibrary.org/obo/GO_0052047	interaction with other organism via secreted substance involved in symbiotic interaction
+http://purl.obolibrary.org/obo/GO_0036276	response to antidepressant
+http://purl.obolibrary.org/obo/GO_0036275	response to 5' fluorouracil
+http://purl.obolibrary.org/obo/GO_0036274	response to lapatinib
+http://purl.obolibrary.org/obo/GO_0036273	response to statin
+http://purl.obolibrary.org/obo/GO_0006629	lipid metabolic process
+http://purl.obolibrary.org/obo/GO_0050789	regulation of biological process
+http://purl.obolibrary.org/obo/GO_0000278	mitotic cell cycle
+http://purl.obolibrary.org/obo/GO_0052048	interaction with host via secreted substance involved in symbiotic interaction
+http://purl.obolibrary.org/obo/GO_0044456	synapse part
+http://purl.obolibrary.org/obo/GO_0044699	single-organism process
+http://purl.obolibrary.org/obo/GO_0043005	neuron projection
+http://purl.obolibrary.org/obo/GO_0012507	ER to Golgi transport vesicle membrane
+http://purl.obolibrary.org/obo/GO_0042278	purine nucleoside metabolic process
+http://purl.obolibrary.org/obo/GO_0012506	vesicle membrane
+http://purl.obolibrary.org/obo/GO_0012505	endomembrane system
+http://purl.obolibrary.org/obo/GO_0044691	tooth eruption
+http://purl.obolibrary.org/obo/GO_0009101	glycoprotein biosynthetic process
+http://purl.obolibrary.org/obo/GO_0012511	monolayer-surrounded lipid storage body
+http://purl.obolibrary.org/obo/GO_0034641	cellular nitrogen compound metabolic process
+http://purl.obolibrary.org/obo/GO_0030284	estrogen receptor activity
+http://purl.obolibrary.org/obo/GO_0007165	signal transduction
+http://purl.obolibrary.org/obo/GO_1901576	organic substance biosynthetic process
+http://purl.obolibrary.org/obo/GO_0031012	extracellular matrix
+http://purl.obolibrary.org/obo/GO_0007049	cell cycle
+http://purl.obolibrary.org/obo/GO_0005783	endoplasmic reticulum
+http://purl.obolibrary.org/obo/GO_0030168	platelet activation
+http://purl.obolibrary.org/obo/GO_0006996	organelle organization
+http://purl.obolibrary.org/obo/GO_0006754	ATP biosynthetic process
+http://purl.obolibrary.org/obo/GO_0007601	visual perception
+http://purl.obolibrary.org/obo/GO_0006753	nucleoside phosphate metabolic process
+http://purl.obolibrary.org/obo/GO_0007600	sensory perception
+http://purl.obolibrary.org/obo/GO_0007605	sensory perception of sound
+http://purl.obolibrary.org/obo/GO_0051646	mitochondrion localization
+http://purl.obolibrary.org/obo/GO_0043590	bacterial nucleoid
+http://purl.obolibrary.org/obo/GO_0007608	sensory perception of smell
+http://purl.obolibrary.org/obo/GO_0097327	response to antineoplastic agent
+http://purl.obolibrary.org/obo/GO_0002445	type II hypersensitivity
+http://purl.obolibrary.org/obo/GO_0050794	regulation of cellular process
+http://purl.obolibrary.org/obo/GO_0097328	response to carboplatin
+http://purl.obolibrary.org/obo/GO_0097329	response to antimetabolite
+http://purl.obolibrary.org/obo/GO_0051641	cellular localization
+http://purl.obolibrary.org/obo/GO_0044444	cytoplasmic part
+http://purl.obolibrary.org/obo/GO_0044446	intracellular organelle part
+http://purl.obolibrary.org/obo/GO_0042025	host cell nucleus
+http://purl.obolibrary.org/obo/GO_0043232	intracellular non-membrane-bounded organelle
+http://purl.obolibrary.org/obo/GO_0051649	establishment of localization in cell
+http://purl.obolibrary.org/obo/GO_0043231	intracellular membrane-bounded organelle
+http://purl.obolibrary.org/obo/GO_0007052	mitotic spindle organization
+http://purl.obolibrary.org/obo/GO_0043230	extracellular organelle
+http://purl.obolibrary.org/obo/GO_0007051	spindle organization
+http://purl.obolibrary.org/obo/GO_0005790	smooth endoplasmic reticulum
+http://purl.obolibrary.org/obo/GO_0030075	bacterial thylakoid
+http://purl.obolibrary.org/obo/GO_0005791	rough endoplasmic reticulum
+http://purl.obolibrary.org/obo/GO_0009116	nucleoside metabolic process
+http://purl.obolibrary.org/obo/GO_0009117	nucleotide metabolic process
+http://purl.obolibrary.org/obo/GO_0009235	cobalamin metabolic process
+http://purl.obolibrary.org/obo/GO_0005794	Golgi apparatus
+http://purl.obolibrary.org/obo/GO_0007610	behavior
+http://purl.obolibrary.org/obo/GO_0031960	response to corticosteroid
+http://purl.obolibrary.org/obo/GO_0044238	primary metabolic process
+http://purl.obolibrary.org/obo/GO_0009119	ribonucleoside metabolic process
+http://purl.obolibrary.org/obo/GO_0006766	vitamin metabolic process
+http://purl.obolibrary.org/obo/GO_0006768	biotin metabolic process
+http://purl.obolibrary.org/obo/GO_0045321	leukocyte activation
+http://purl.obolibrary.org/obo/GO_0042170	plastid membrane
+http://purl.obolibrary.org/obo/GO_0046655	folic acid metabolic process
+http://purl.obolibrary.org/obo/GO_0045202	synapse
+http://purl.obolibrary.org/obo/GO_0044237	cellular metabolic process
+http://purl.obolibrary.org/obo/GO_0010468	regulation of gene expression
+http://purl.obolibrary.org/obo/GO_0008150	biological process
+http://purl.obolibrary.org/obo/GO_0010226	response to lithium ion
+http://purl.obolibrary.org/obo/GO_0031967	organelle envelope
+http://purl.obolibrary.org/obo/GO_0072718	response to cisplatin
+http://purl.obolibrary.org/obo/GO_0008152	metabolic process
+http://purl.obolibrary.org/obo/GO_0031969	chloroplast membrane
+http://purl.obolibrary.org/obo/GO_0009123	nucleoside monophosphate metabolic process
+http://purl.obolibrary.org/obo/GO_0009124	nucleoside monophosphate biosynthetic process
+http://purl.obolibrary.org/obo/GO_0036288	response to ximelagatran
+http://purl.obolibrary.org/obo/GO_0009127	purine nucleoside monophosphate biosynthetic process
+http://purl.obolibrary.org/obo/GO_0006772	thiamine metabolic process
+http://purl.obolibrary.org/obo/GO_0033577	protein glycosylation in endoplasmic reticulum
+http://purl.obolibrary.org/obo/GO_0009126	purine nucleoside monophosphate metabolic process
+http://purl.obolibrary.org/obo/GO_0006776	vitamin A metabolic process
+http://purl.obolibrary.org/obo/GO_0036287	response to iloperidone
+http://purl.obolibrary.org/obo/GO_0070085	glycosylation
+http://purl.obolibrary.org/obo/GO_0044462	external encapsulating structure part
+http://purl.obolibrary.org/obo/GO_0000003	reproductive process
+http://purl.obolibrary.org/obo/GO_0044464	cell part
+http://purl.obolibrary.org/obo/GO_0070527	platelet aggregation
+http://purl.obolibrary.org/obo/GO_0008283	cell proliferation
+http://purl.obolibrary.org/obo/GO_0061478	response to platelet aggregation inhibitor
+http://purl.obolibrary.org/obo/GO_0061477	response to aromatase inhibitor
+http://purl.obolibrary.org/obo/GO_0061476	response to anticoagulant
+http://purl.obolibrary.org/obo/GO_0009259	ribonucleotide metabolic process
+http://purl.obolibrary.org/obo/GO_0031981	nuclear lumen
+http://purl.obolibrary.org/obo/GO_0061479	response to reverse transcriptase inhibitor
+http://purl.obolibrary.org/obo/GO_0005575	cellular component
+http://purl.obolibrary.org/obo/GO_0006306	DNA methylation
+http://purl.obolibrary.org/obo/GO_0048731	system development
+http://purl.obolibrary.org/obo/GO_0046677	response to antibiotic
+http://purl.obolibrary.org/obo/GO_0042630	behavioral response to water deprivation
+http://purl.obolibrary.org/obo/GO_0015939	pantothenate metabolic process
+http://purl.obolibrary.org/obo/GO_0009141	nucleoside triphosphate metabolic process
+http://purl.obolibrary.org/obo/GO_0009142	nucleoside triphosphate biosynthetic process
+http://purl.obolibrary.org/obo/GO_0030658	transport vesicle membrane
+http://purl.obolibrary.org/obo/GO_0009260	ribonucleotide biosynthetic process
+http://purl.obolibrary.org/obo/GO_0030659	cytoplasmic vesicle membrane
+http://purl.obolibrary.org/obo/GO_0009145	purine nucleoside triphosphate biosynthetic process
+http://purl.obolibrary.org/obo/GO_0016119	carotene metabolic process
+http://purl.obolibrary.org/obo/GO_0009144	purine nucleoside triphosphate metabolic process
+http://purl.obolibrary.org/obo/GO_1901135	carbohydrate derivative metabolic process
+http://purl.obolibrary.org/obo/GO_0050909	sensory perception of taste
+http://purl.obolibrary.org/obo/GO_0031970	organelle envelope lumen
+http://purl.obolibrary.org/obo/GO_0009941	chloroplast envelope
+http://purl.obolibrary.org/obo/GO_1901137	carbohydrate derivative biosynthetic process
+http://purl.obolibrary.org/obo/GO_0006793	phosphorus metabolic process
+http://purl.obolibrary.org/obo/GO_0006796	phosphate-containing compound metabolic process
+http://purl.obolibrary.org/obo/GO_0032940	secretion by cell
+http://purl.obolibrary.org/obo/GO_0044249	cellular biosynthetic process
+http://purl.obolibrary.org/obo/GO_0070062	extracellular vesicular exosome
+http://purl.obolibrary.org/obo/GO_0002526	acute inflammatory response
+http://purl.obolibrary.org/obo/GO_0000226	microtubule cytoskeleton organization
+http://purl.obolibrary.org/obo/GO_0042060	wound healing
+http://purl.obolibrary.org/obo/GO_1990054	response to temozolomide
+http://purl.obolibrary.org/obo/GO_0031974	membrane-enclosed lumen
+http://purl.obolibrary.org/obo/GO_0019867	outer membrane
+http://purl.obolibrary.org/obo/GO_0043278	response to morphine
+http://purl.obolibrary.org/obo/GO_0009152	purine ribonucleotide biosynthetic process
+http://purl.obolibrary.org/obo/GO_0050913	sensory perception of bitter taste
+http://purl.obolibrary.org/obo/GO_0048046	apoplast
+http://purl.obolibrary.org/obo/GO_0009150	purine ribonucleotide metabolic process

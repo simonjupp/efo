@@ -1,0 +1,60 @@
+http://purl.obolibrary.org/obo/OBI_0200000	data transformation
+http://purl.obolibrary.org/obo/OBI_0000869	polyA RNA
+http://purl.obolibrary.org/obo/OBI_0000747	material sample
+http://purl.obolibrary.org/obo/OBI_0000427	enzyme
+http://purl.obolibrary.org/obo/OBI_0200169	normalization data transformation
+http://purl.obolibrary.org/obo/OBI_0200006	biexponential transformation
+http://purl.obolibrary.org/obo/OBI_0001442	p-value
+http://purl.obolibrary.org/obo/OBI_0000275	analyte role
+http://purl.obolibrary.org/obo/OBI_0000272	protocol
+http://purl.obolibrary.org/obo/OBI_0000071	quantitative confidence value
+http://purl.obolibrary.org/obo/OBI_0000070	assay
+http://purl.obolibrary.org/obo/OBI_0000118	gene list
+http://purl.obolibrary.org/obo/OBI_0001162	validation by reverse transcription PCR design
+http://purl.obolibrary.org/obo/OBI_0000950	paraffin specimen
+http://purl.obolibrary.org/obo/OBI_0000552	reverse transcription PCR
+http://purl.obolibrary.org/obo/OBI_0000750	independent variable specification
+http://purl.obolibrary.org/obo/OBI_0001166	validation by real time PCR design
+http://purl.obolibrary.org/obo/OBI_0400106	centrifuge
+http://purl.obolibrary.org/obo/OBI_0400107	computer
+http://purl.obolibrary.org/obo/OBI_0400104	array scanner
+http://purl.obolibrary.org/obo/OBI_0400105	arrayer
+http://purl.obolibrary.org/obo/OBI_0400108	heating block
+http://purl.obolibrary.org/obo/OBI_0100026	organism
+http://purl.obolibrary.org/obo/OBI_0400109	homogenizer
+http://purl.obolibrary.org/obo/OBI_1110122	pathological process
+http://purl.obolibrary.org/obo/OBI_0400103	DNA sequencer
+http://purl.obolibrary.org/obo/OBI_0600002	tumor grading
+http://purl.obolibrary.org/obo/OBI_0302903	nucleic acid hybridization
+http://purl.obolibrary.org/obo/OBI_0000049	mass spectrometer
+http://purl.obolibrary.org/obo/OBI_0000245	organization
+http://purl.obolibrary.org/obo/OBI_0200071	loess transformation
+http://purl.obolibrary.org/obo/OBI_0400117	vacuum dryer
+http://purl.obolibrary.org/obo/OBI_0400118	vortexer
+http://purl.obolibrary.org/obo/OBI_0400115	spectrophotometer
+http://purl.obolibrary.org/obo/OBI_0400116	thermal cycler
+http://purl.obolibrary.org/obo/OBI_0000924	labeled specimen
+http://purl.obolibrary.org/obo/OBI_0000724	Illumina sequencing
+http://purl.obolibrary.org/obo/OBI_0000922	frozen specimen
+http://purl.obolibrary.org/obo/OBI_0400110	hybridization chamber
+http://purl.obolibrary.org/obo/OBI_0400113	oligonucleotide synthesizer
+http://purl.obolibrary.org/obo/OBI_0400114	sonicator
+http://purl.obolibrary.org/obo/OBI_0400111	hybridization station
+http://purl.obolibrary.org/obo/OBI_0400155	water bath
+http://purl.obolibrary.org/obo/OBI_0100051	specimen
+http://purl.obolibrary.org/obo/OBI_0400112	liquid handler
+http://purl.obolibrary.org/obo/OBI_0600015	group assignment
+http://purl.obolibrary.org/obo/OBI_0001620	latitude
+http://purl.obolibrary.org/obo/OBI_0001621	longitude
+http://purl.obolibrary.org/obo/OBI_0000415	PCR
+http://purl.obolibrary.org/obo/OBI_0000018	material supplier role
+http://purl.obolibrary.org/obo/OBI_0001140	spike-in quality control role
+http://purl.obolibrary.org/obo/OBI_0000697	Helicos sequencing
+http://purl.obolibrary.org/obo/OBI_0001142	dye swap quality control role
+http://purl.obolibrary.org/obo/OBI_0000971	fresh specimen
+http://purl.obolibrary.org/obo/OBI_0000650	differential expression analysis data transformation
+http://purl.obolibrary.org/obo/OBI_1110021	infect
+http://purl.obolibrary.org/obo/OBI_0000181	population
+http://purl.obolibrary.org/obo/OBI_0000785	controlled variable specification
+http://purl.obolibrary.org/obo/OBI_0001472	specimen with known storage state
+http://purl.obolibrary.org/obo/OBI_0000981	agar stab specimen

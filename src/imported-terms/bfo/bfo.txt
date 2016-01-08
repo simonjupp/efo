@@ -1,0 +1,8 @@
+http://www.ifomis.org/bfo/1.1/snap#MaterialEntity
+http://www.ifomis.org/bfo/1.1/snap#Function
+http://www.ifomis.org/bfo/1.1/snap#Role
+http://www.ifomis.org/bfo/1.1/snap#Site
+http://www.ifomis.org/bfo/1.1/snap#Quality
+http://www.ifomis.org/bfo/1.1/span#ProcessualEntity
+http://www.ifomis.org/bfo/1.1/snap#Disposition
+http://www.ifomis.org/bfo/1.1/snap#SpecificallyDependentContinuant

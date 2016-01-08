@@ -1,0 +1,1607 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.ebi.ac.uk/efo/bto#"
+     xml:base="http://www.ebi.ac.uk/efo/bto"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/">
+    <owl:Ontology rdf:about="http://www.ebi.ac.uk/efo/bto"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000000">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tissues, cell types and enzyme sources</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A structured controlled vocabulary for the source of an enzyme. It comprises terms of tissues, cell lines, cell types and cell cultures from uni- and multicellular organisms.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000000</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000003">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intestinal cell line</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000003</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000007">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEK-293 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000067"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0002733"/>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">293 cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A-293 cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A293 cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000007</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Established from a human primary embryonal kidney transformed by adenovirus type 5.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEK cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEK293 cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human embryonal kidney cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human embryonic kidney cell</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000018">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A-549 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0004078"/>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A549 cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000018</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human lung carcinoma established from an explanted lung tumor which was removed from a 58-year-old Caucasian man in 1972; cells were described to induce tumors in athymic mice and to synthesize lecithin.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI-A549 cell</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000067 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000067">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kidney cell line</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000067</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">renal cell line</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000089 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000089">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1: The fluid that circulates in the heart, arteries, capillaries, and veins of a vertebrate animal carrying nourishment and oxygen to and bringing away waste products from all parts of the body. 2: A comparable fluid of an invertebrate.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000089</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">whole blood</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000104 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000104">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymphoma cell line</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000104</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lymphoma means any neoplastic disorder of the lymphoid tissue.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymphadenoma cell line</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000133 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000133">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood serum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0001239"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000133</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The cell-free portion of the blood from which the fibrinogen has been separated in the process of clotting.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000150 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000150">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">breast cancer cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000604"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000150</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Breast cancer is an uncontrolled growth of malignant breast tissue. Most breast cancers begin in the milk ducts: these are called intraductal cancers. A few, like lobular cancer, start in the milk sacs or lobes.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">breast adenocarcinoma cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">breast carcinoma cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">breast epithelial cancer cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">breast tumor cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mammary adenocarcinoma cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mammary cancer cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mammary carcinoma cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mammary tumor cell</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000152 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000152">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infected cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000214"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000152</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000164 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000164">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Burkitt lymphoma cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000785"/>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">African lymphoma cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000164</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Burkitt&apos;s lymphoma cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Burkitts lymphoma cell</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malignant tumour cell of lymphoblasts derived from B-lymphocytes. Most commonly affects children in tropical Africa: both Epstein-Barr virus and immunosuppression due to malarial infection are involved.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000176 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000176">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carcinoma cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000415"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cell of malignant new growth made up of epithelial cells tending to infiltrate the surrounding tissues and give rise to metastases.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000176</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">basal cell epithelioma cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epithelial cancer cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epithelial carcinoma cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">malignant epithelioma cell</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000188 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000188">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colonic cell line</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000003"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000188</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000214 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000214">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell culture</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0001490"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000214</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cells taken from a living organism and grown under controlled conditions (in culture). Methods used to maintain cell lines or strains.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000216 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000216">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">culture condition</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000216</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000221 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000221">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell suspension culture</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000214"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000221</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Particles floating in (not necessarily on) a liquid medium, or the mix of particles and liquid itself.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000238 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000238">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cerebrovascular endothelial cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0001854"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000238</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Endothelial cell of or involving the cerebrum and the blood vessels supplying it.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000255 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000255">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brain cell line</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000255</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000281 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000281">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">conidiophore</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000612"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A specialized fungal hypha that produces conidia.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000281</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000284 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000284">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organism form</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000000"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000284</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gestalt</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000297 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000297">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carcinoma cell line</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0001120"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000297</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000332 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000332">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">culture condition:dark-grown cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0001479"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000332</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000353 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000353">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung cell line</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000353</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000374 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000374">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bone cell line</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000374</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000377 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000377">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">elementary body</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000284"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000377</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The infectious form of chlamydiaceae. Infection occurs when the small, rigid-walled extracellular form (elementary body) enters the cell and changes into a larger, thin-walled form (initial body) that divides by fission. The daughter cells thus formed reorganize and condense to become elementary bodies that then infect other cells. The organisms are parasites of humans and other vertebrates, capable of producing a variety of diseases. They have also been found in arthropods. The family contains the genus Chlamydia.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000381 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000381">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">embryonic blood</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000089"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000381</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000383 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000383">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">renal cell carcinoma cell line</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0003192"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000383</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RCC cell line</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hypernephroma cell line</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kidney adenocarcinoma cell line</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">renal cell adenocarcinoma cell line</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000385 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000385">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bone cancer cell line</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000374"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000385</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000400 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000400">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sarcoma cell line</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000400</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000407 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000407">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">osteosarcoma cell line</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000385"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000407</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell line of a malignant neoplasm of the bone-forming tissues.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">osteoblastic sarcoma cell line</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">osteogenic sarcoma cell line</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000415 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000415">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epithelioma cell</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A neoplasm cell of epithelial origin, ranging from benign (adenoma and papilloma) to malignant (carcinoma).</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000415</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000426 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000426">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">erythroleukemia cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000583"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0001271"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000426</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cancer cell of the blood-forming tissues in which large numbers of immature, abnormal red blood cells are found in the blood and bone marrow.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000488 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000488">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lower epidermis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000718"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000488</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The epidermal layer directed away or outwards from the axis.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abaxial epidermis</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000522 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000522">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gland</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cell, group of cells, or organ of endothelial origin that selectively removes materials from the blood, concentrates or alters them, and secretes them for further use in the body or for elimination from the body.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000522</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Druese</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glandula</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000574 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000574">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hematopoietic cell</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A blood cell.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000574</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haematopoietic cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haemopoietic cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hemopoietic cell</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000580 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000580">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood cancer cell</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000580</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The major forms of blood cancer are lymphoma, leukemia and multiple myeloma. They affect the way a body makes blood and provides immunity from other diseases.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000583 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000583">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bone marrow cancer cell</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000583</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000594 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000594">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liver cancer cell</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000594</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malignant (cancer) cells are found in the tissues of the liver.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000604 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000604">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adenocarcinoma cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000176"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cell of a cancer that begins in cells that line certain internal organs and that have glandular (secretory) properties.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000604</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000608 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000608">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hepatoma cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000594"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000604"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000608</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HCC cell</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Primary carcinoma of the liver cells. It ranges from a well-differentiated tumour difficult to distinguish from normal hepatocytes to a poorly differentiated neoplasm. The cells may be uniform or markedly pleomorphic or may form giant cells. Several classification schemes have been suggested. Hepatocellular carcinoma is very rare in the united states and western europe, but it is one of the most common cancers in eastern asia and sub-saharan africa. The cases are preponderantly male and, racially, whites have the lowest rates.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hepatic cancer cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hepatic carcinoma cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hepatocarcinoma cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hepatocellular adenocarcinoma cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hepatocellular carcinoma cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liver adenocarcinoma cell</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000612 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000612">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hypha</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1: One of the filaments or threads composing the mycelium of a fungus. 2: Branching filamentous outgrowths produced by certain bacteria (e.g., Actinomyces, Hyphomicrobium), sometimes forming a mycelium.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000612</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000664 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000664">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K-562 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0002580"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000664</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human chronic myeloid leukemia in blast crisis established from the pleural effusion of a 53-year-old woman with chronic myeloid leukemia (CML) in blast crisis in 1970.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K562 cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K562wt cell</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000669 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000669">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">embryonic cell line</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000669</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000690 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000690">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brain cancer cell line</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000255"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000690</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brain tumor cell line</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000713 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000713">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leaf</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A lateral outgrowth from a plant stem that is typically a flattened expanded variably shaped greenish organ, constitutes a unit of the foliage, and functions primarily in food manufacture by photosynthesis.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000713</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000718 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000718">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leaf epidermis</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000718</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The blade consists of an upper and a lower layer of closely fitted epidermal cells, including specialized paired guard cells that control the size of tiny pores, or stomata, for gaseous exchange and the release of water vapor (see transpiration). The upper epidermis is usually coated with a waterproof cuticle and contains fewer stomata than the underside, if any at all.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000737 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000737">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leukemia cell line</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0001035"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000737</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000740 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000740">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myeloid leukemia cell line</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000737"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cell line of leukemia characterized by proliferation of myeloid tissue (as of the bone marrow and spleen) and an abnormal increase in the number of granulocytes, myelocytes, and myeloblasts in the circulating blood.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000740</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">granulocytic leukemia cell line</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myelocytic leukemia cell line</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myelogenous leukemia cell line</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000743 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000743">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pre-B-lymphocyte cell line</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000743</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pre-B-cell line</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000751 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000751">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leukocyte</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000574"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any of the blood cells that are colorless, lack hemoglobin, contain a nucleus, and include the lymphocytes, monocytes, neutrophils, eosinophils, and basophils.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000751</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMN cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMNC</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immune cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leucocyte</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polymorphonuclear cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">white blood cell</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000753 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000753">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymphoid tissue</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000753</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tissue that is particularly rich in lymphocytes (and accessory cells such as macrophages and reticular cells), particularly the lymph nodes, spleen, thymus, Peyer&apos;s patches, pharyngeal tonsils, adenoids, and (in birds) the Bursa of Fabricius.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymphoid organ</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymphoid system</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000762 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000762">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung cancer cell line</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000297"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000353"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000762</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung carcinoma cell line</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000765 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000765">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">exocrine gland</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000522"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An externally secreting gland, such as a salivary gland or sweat gland that releases its secretions directly or through a duct.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000765</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000775 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000775">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymphocyte</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000751"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0001096"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any of the colorless weakly motile cells originating from stem cells and differentiating in lymphoid tissue (as of the thymus or bone marrow) that are the typical cellular elements of lymph, include the cellular mediators of immunity, and constitute 20 to 30 percent of the white blood cells of normal human blood.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000775</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000782 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000782">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T-lymphocyte</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000775"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any of several lymphocytes (as a helper T cell) that differentiate in the thymus, possess highly specific cell-surface antigen receptors, and include some that control the initiation or suppression of cell-mediated and humoral immunity (as by the regulation of T and B cell maturation and proliferation) and others that lyse antigen-bearing cells.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000782</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T lymphocyte</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T-cell</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000785 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000785">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymphoma cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000580"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tumor cell of lymphoid tissue.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000785</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymph node cancer cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymph node carcinoma cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymphadenoma cell</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000797 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000797">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colonic cancer cell line</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000188"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000797</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colon cancer cell line</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colon carcinoma cell line</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colonic carcinoma cell line</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000816 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000816">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">breast cell line</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000816</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000849 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000849">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">melanoma cell line</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000849</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000872 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000872">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oligodendrocytic cell line</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000872</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oligondendrocyte cell line</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0001019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0001019">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prostate gland cell line</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001019</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prostate cell line</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0001030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0001030">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J774.2 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0002279"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001030</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mouse, BALB/c, blood, not defined tumor cell line. Recloned from J774.1 original ascites and solid tumour. Produces IL-1.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0001033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0001033">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prostate cancer cell line</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0001019"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001033</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CaP cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CaP cell line</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PCa cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PCa cell line</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prostate carcinoma cell line</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prostate gland cancer cell line</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prostate tumor cell line</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0001035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0001035">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hematopoietic cell line</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001035</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0001093 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0001093">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WEHI-231 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0001518"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001093</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mouse, BALB/cxNZB F1, lymphoblastic lymphoma cell line. Morphology: Lymphoblast Mouse B cell lymphoma.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0001096 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0001096">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymphoid cell</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any of the cells responsible for the production of immunity mediated by cells or antibodies and including lymphocytes, lymphoblasts, and plasma cells. Cells derived from stem cells of the lymphoid lineage: large and small lymphocytes, plasma cells.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001096</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0001120 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0001120">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epithelial cell line</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001120</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0001176 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0001176">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endothelial cell</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001176</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The main type of cell found in the inside lining of blood vessels, lymph vessels, and the heart.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0001205 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0001205">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RT4-D6P2T cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000872"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0001216"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001205</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D6P2T cell</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rat, nervous system, immature, Schwann cell derived cell line.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0001216 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0001216">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schwann cell line</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001216</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0001239 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0001239">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">serum</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1: The watery portion of an animal fluid remaining after coagulation: a (1): blood serum (2): antiserum b: whey c: a normal or pathological serous fluid (as in a blister). 2: The watery part of a plant fluid.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001239</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0001250 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0001250">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">silk gland</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000765"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any of the glands in silk-spinning insects and spiders that secrete a protein liquid that hardens into silk on exposure to air.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001250</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0001271 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0001271">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leukemia cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000580"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cancer cell of the white blood cells. Leukaemias are grouped by how quickly the disease develops (acute or chronic) as well as by the type of blood cell that is affected.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001271</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0001384 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0001384">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tissue culture</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000214"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001384</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Growing plant or animal tissues outside of the body, as in a nutrient medium in a laboratory; similar to cell culture, but cells are maintained in their structured, tissue form.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0001434 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0001434">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vegetative cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0002322"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1: Growing or having the power of growing. 2: Of, relating to, or engaged in nutritive and growth functions as contrasted with reproductive functions.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001434</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vegetative</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0001436 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0001436">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mycelium</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0001434"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1: The vegetative part of a fungus, consisting of a mass of branching, threadlike hyphae. 2: A similar mass of fibers formed by certain bacteria.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001436</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0001440 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0001440">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">venom gland</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000765"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001440</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The venom gland of snakes is in actual fact a modified salivary gland and is linked to the groove in the fangs by a duct; A bee has a poison gland in her abdomen.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poison gland</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0001479 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0001479">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">culture condition:-grown cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000216"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001479</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0001490 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0001490">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other source</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000000"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001490</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other sources of an enzyme as cell culture or commercial preparation, not related to a specific tissue.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0001510 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0001510">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rectal cell line</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001510</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0001516 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0001516">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BA/F3 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000743"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001516</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mouse pro B cell line. IL-3 dependent murine pro B cell line established from peripheral blood; apparently derived from BALB/c mouse.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0001518 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0001518">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-lymphoma cell line</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000104"/>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-cell lymphoma cell line</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001518</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0001522 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0001522">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-lymphocyte cell line</rdfs:label>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-cell line</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001522</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0001531 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0001531">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glial cell line</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000255"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001531</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0001532 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0001532">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rectal cancer cell line</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0001510"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001532</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rectal tumor cell line</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0001581 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0001581">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">embryonic stem cell line</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000669"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001581</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ES cell line</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0001614 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0001614">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colorectal cell line</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001614</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0001616 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0001616">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colorectal cancer cell line</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000797"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0001532"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0001614"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001616</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CRC cell line</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0001678 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0001678">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Th1 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0002417"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001678</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Subset of helper-inducer T-lymphocytes which synthesize and secrete interleukin-2, gamma-interferon, and interleukin-12. Due to their ability to kill antigen-presenting cells and their lymphokine-mediated effector activity, Th1 cells are associated with vigorous delayed-type hypersensitivity reactions.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Th1-cell</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0001679 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0001679">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Th2 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0002417"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001679</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Subset of helper-inducer T-lymphocytes which synthesize and secrete the interleukins IL-4, IL-5, IL-6, and IL-10. These cytokines influence B-cell development and antibody production as well as augmenting humoral responses.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Th2-cell</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0001699 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0001699">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bursa of Fabricius</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000753"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A lymphoid organ that opens into the cloaca of birds and functions in B-cell production.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001699</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0001795 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0001795">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anterior silk gland</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0001250"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001795</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0001854 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0001854">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vascular endothelial cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0001176"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001854</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0001899 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0001899">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stationary phase culture</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0001900"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cell culture at the plateau of the growth curve after log growth in a culture, during which cell number remains constant. New cells are produced at the same rate as older cells die.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001899</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0001900 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0001900">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">growth phase culture</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000214"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001900</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The characteristic periods in the growth of a bacterial culture, as indicated by the shape of a graph of viable cell number versus time.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0001903 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0001903">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logarithmic phase culture</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0001900"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cell culture at the steepest slope of the growth curve of a culture-- at the phase of vigorous growth during which cell number doubles every 20-30 minutes.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001903</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">exponential growth phase culture</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">log phase culture</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0001966 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0001966">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cervical cell line</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001966</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0001967 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0001967">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cervical cancer cell line</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0001966"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001967</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cervical carcinoma cell line</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cervix cancer cell</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0002178 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0002178">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HMEpC cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0002768"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0002178</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HMEC cell</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Mammary Epithelial Cells (HMEpC) are derived from normal adult mammary glands.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human mammary epithelial cell</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0002278 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0002278">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">macrophage cell line</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0001035"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0002278</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0002279 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0002279">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J-774 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0002278"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0002279</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J774 cell</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mouse macrophage cell line.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0002322 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0002322">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell property</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000284"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0002322</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0002417 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0002417">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">helper T-lymphocyte</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000782"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-01-28T08:36:32Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A T-cell that participates in an immune response by recognizing a foreign antigen and secreting lymphokines to activate T cell and B cell proliferation, that usually carries CD4 molecular markers on its cell surface, and that is reduced to 20 percent or less of normal numbers in AIDS.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0002417</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD4 cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marion</oboInOwl:created_by>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T helper cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T4 cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">helper T cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">helper T lymphocyte</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">helper T-cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">helper cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">helper lymphocyte</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0002488 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0002488">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uterine leiomyosarcoma cell line</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0002595"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0002488</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0002553 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0002553">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non-small cell lung cancer cell line</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000762"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0002553</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NSCLC cell line</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non small cell lung cancer cell line</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0002580 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0002580">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chronic myeloid leukemia cell line</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000740"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0002580</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chronic myelogenous leukemia cell line</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0002595 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0002595">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leiomyosarcoma cell line</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000400"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0002595</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0002599 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0002599">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RBA-2 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0002600"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0002599</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rat brain-derived type-2 astrocyte cell line.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0002600 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0002600">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">astrocyte cell line</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0001531"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0002600</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0002690 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0002690">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biofilm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000284"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A thin usually resistant layer of microorganisms (as bacteria) that form on and coat various surfaces (as of water pipes and catheters).</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0002690</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0002733 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0002733">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">embryonic kidney cell line</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000669"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0002733</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0002768 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0002768">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mammary epithelial cell line</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000816"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0002768</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0002842 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0002842">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cholangioma cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000608"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A rare type of hepatocellular carcinoma arising from the cholangioles, composed of tumor cells resembling the epithelial cells of the cholangioles arranged in cords consisting of two layers of cells surrounding a minute lumen.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0002842</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bile duct carcinoma cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cholangiocellular carcinoma cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">extrahepatic bile duct carcinoma cell</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0002844 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0002844">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">breast invasive ductal carcinoma cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000150"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0004851"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0002844</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IDC cell</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infiltrating ductal carcinoma is one of several recognized specific patterns of cancer of the breast. It is so named because it begins in the cells forming the ducts of the breast. It is the most common form of breast cancer, comprising 65-85% of all cases.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">breast infiltrating ductal carcinoma cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">invasive ductal carcinoma cell</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0003147 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0003147">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">juvenile leaf</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000713"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0003147</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Distinct from adult leaves, being characterized by particular anatomical traits namely, wax and trichome distribution, presence or absence of epidermal cell types, cell wall shape and biochemistry. The first juvenile leaves are e.g. the embryonic leaves found in the grass kernel (caryopsis).</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0003192 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0003192">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">renal cancer cell line</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0003192</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kidney cancer cell line</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0003264 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0003264">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL-1 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0003265"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cardiac muscle cell line from the AT-1 mouse atrial cardiomyocyte tumor lineage; established from an adult female Jackson Laboratory-inbred C57BLy6J mouse.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0003264</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HL1 cell</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0003265 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0003265">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cardiac muscle cell line</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0003265</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heart muscle cell line</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0003699 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0003699">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1R cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0001522"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0003699</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The HLA-A,B negative mutant cell line C1R is widely used as a transfection recipient in functional studies of class I MHC genes. It was derived from a normal B cell line.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0004059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0004059">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CCD-18Co cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000188"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0004059</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human normal colon fibroblast cell line established from a black 2.5-months-old human female.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0004078 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0004078">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non-small cell lung adenocarcinoma cell line</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0002553"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0004078</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0004851 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0004851">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mammary ductal carcinoma cell</rdfs:label>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-10-08T12:50:02Z</oboInOwl:creation_date>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0004851</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The most common type of breast cancer in women. It comes in two forms: invasive ductal carcinoma (IDC), an infiltrating, malignant and abnormal proliferation of neoplastic cells in the breast tissue, or ductal carcinoma in situ (DCIS), a noninvasive, possibly malignant, neoplasm that is still confined to the milk ducts (lactiferous ducts), where breast cancer most often originates.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mgr</oboInOwl:created_by>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0005136 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0005136">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ES-E14 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0001581"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011-05-11T10:03:05Z</oboInOwl:creation_date>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0005136</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E-14 cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E14 cell</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mouse embryonic stem cell line.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XPMUser</oboInOwl:created_by>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0005339 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0005339">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ma-Mel-11 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000849"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012-03-23T09:11:06Z</oboInOwl:creation_date>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0005339</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Established melanoma cell line from the Skin Cancer Unit at the German Cancer Research Center, Heidelberg.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MaMel11 cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XPMUser</oboInOwl:created_by>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.10-SNAPSHOT) http://owlapi.sourceforge.net -->
+

@@ -1,0 +1,3 @@
+http://purl.obolibrary.org/obo/MPATH_0	pathological entity
+http://purl.obolibrary.org/obo/MPATH_212	inflammation (MPATH)
+http://purl.obolibrary.org/obo/MPATH_579	ulcer

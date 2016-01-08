@@ -1,0 +1,3 @@
+http://purl.obolibrary.org/obo/EO_0001001	plant treatment
+http://purl.obolibrary.org/obo/EO_0007048	sodium chloride regimen
+http://purl.obolibrary.org/obo/EO_0007269	growth chamber study

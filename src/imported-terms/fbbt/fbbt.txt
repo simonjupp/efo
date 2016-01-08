@@ -1,0 +1,4 @@
+http://purl.obolibrary.org/obo/FBbt_00001766	eye-antennal disc
+http://purl.obolibrary.org/obo/FBbt_00001781	prothoracic leg disc
+http://purl.obolibrary.org/obo/FBbt_00001761	imaginal disc
+http://purl.obolibrary.org/obo/FBbt_00001685	plasmatocyte

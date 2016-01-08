@@ -1,0 +1,77 @@
+http://purl.obolibrary.org/obo/BTO_0000849	melanoma cell line
+http://purl.obolibrary.org/obo/BTO_0000407	osteosarcoma cell line
+http://purl.obolibrary.org/obo/BTO_0001616	colorectal cancer cell line
+http://purl.obolibrary.org/obo/BTO_0001615	colorectal cancer cell
+http://purl.obolibrary.org/obo/BTO_0000007	HEK-293 cell
+http://purl.obolibrary.org/obo/BTO_0001899	stationary phase culture
+http://purl.obolibrary.org/obo/BTO_0004298	corneal epithelial cell
+http://purl.obolibrary.org/obo/BTO_0001699	bursa of Fabricius
+http://purl.obolibrary.org/obo/BTO_0000488	lower epidermis
+http://purl.obolibrary.org/obo/BTO_0004059	CCD-18Co cell
+http://purl.obolibrary.org/obo/BTO_0002278	macrophage cell line
+http://purl.obolibrary.org/obo/BTO_0000133	blood serum
+http://purl.obolibrary.org/obo/BTO_0005339	Ma-Mel-11 cell
+http://purl.obolibrary.org/obo/BTO_0001384	tissue culture
+http://purl.obolibrary.org/obo/BTO_0001383	alveolar bone
+http://purl.obolibrary.org/obo/BTO_0000690	brain cancer cell line
+http://purl.obolibrary.org/obo/BTO_0000515	haustorium
+http://purl.obolibrary.org/obo/BTO_0001967	cervical cancer cell line
+http://purl.obolibrary.org/obo/BTO_0000238	cerebrovascular endothelial cell
+http://purl.obolibrary.org/obo/BTO_0002217	culture supernatant
+http://purl.obolibrary.org/obo/BTO_0001205	RT4-D6P2T cell
+http://purl.obolibrary.org/obo/BTO_0005136	ES-E14 cell
+http://purl.obolibrary.org/obo/BTO_0000797	colonic cancer cell line
+http://purl.obolibrary.org/obo/BTO_0001202	saliva
+http://purl.obolibrary.org/obo/BTO_0004687	orbit
+http://purl.obolibrary.org/obo/BTO_0000164	Burkitt lymphoma cell
+http://purl.obolibrary.org/obo/BTO_0001130	prostate gland cancer cell
+http://purl.obolibrary.org/obo/BTO_0000281	conidiophore
+http://purl.obolibrary.org/obo/BTO_0001093	WEHI-231 cell
+http://purl.obolibrary.org/obo/BTO_0002180	184B5 cell
+http://purl.obolibrary.org/obo/BTO_0001518	B-lymphoma cell line
+http://purl.obolibrary.org/obo/BTO_0001516	BA/F3 cell
+http://purl.obolibrary.org/obo/BTO_0002690	biofilm
+http://purl.obolibrary.org/obo/BTO_0000426	erythroleukemia cell
+http://purl.obolibrary.org/obo/BTO_0000305	crypt
+http://purl.obolibrary.org/obo/BTO_0001679	obsolete_Th2-cell
+http://purl.obolibrary.org/obo/BTO_0003264	HL-1 cell
+http://purl.obolibrary.org/obo/BTO_0001436	mycelium
+http://purl.obolibrary.org/obo/BTO_0001678	obsolete_Th1-cell
+http://purl.obolibrary.org/obo/BTO_0001038	peritrophic membrane
+http://purl.obolibrary.org/obo/BTO_0000664	obsolete_K-562 cell
+http://purl.obolibrary.org/obo/BTO_0000740	myeloid leukemia cell line
+http://purl.obolibrary.org/obo/BTO_0003147	juvenile leaf
+http://purl.obolibrary.org/obo/BTO_0002488	uterine leiomyosarcoma cell line
+http://purl.obolibrary.org/obo/BTO_0001795	anterior silk gland
+http://purl.obolibrary.org/obo/BTO_0001630	right ventricle
+http://purl.obolibrary.org/obo/BTO_0002179	184A1N4 cell
+http://purl.obolibrary.org/obo/BTO_0000155	bronchoalveolar lavage
+http://purl.obolibrary.org/obo/BTO_0000551	lung cancer cell
+http://purl.obolibrary.org/obo/BTO_0002178	HMEpC cell
+http://purl.obolibrary.org/obo/BTO_0003699	C1R cell
+http://purl.obolibrary.org/obo/BTO_0001440	venom gland
+http://purl.obolibrary.org/obo/BTO_0002842	cholangioma cell
+http://purl.obolibrary.org/obo/BTO_0000152	infected cell
+http://purl.obolibrary.org/obo/BTO_0002844	breast invasive ductal carcinoma cell
+http://purl.obolibrary.org/obo/BTO_0001708	coelomic fluid
+http://purl.obolibrary.org/obo/BTO_0001629	left ventricle
+http://purl.obolibrary.org/obo/BTO_0001948	JURKAT E-6.1 cell
+http://purl.obolibrary.org/obo/BTO_0001903	logarithmic phase culture
+http://purl.obolibrary.org/obo/BTO_0003250	colonic epithelium cell line
+http://purl.obolibrary.org/obo/BTO_0004263	COM-3 cell
+http://purl.obolibrary.org/obo/BTO_0001900	growth phase culture
+http://purl.obolibrary.org/obo/BTO_0004264	INC-2 cell
+http://purl.obolibrary.org/obo/BTO_0000018	A-549 cell
+http://purl.obolibrary.org/obo/BTO_0000214	cell culture
+http://purl.obolibrary.org/obo/BTO_0000256	myoblast cell line
+http://purl.obolibrary.org/obo/BTO_0000377	elementary body
+http://purl.obolibrary.org/obo/BTO_0002279	J-774 cell
+http://purl.obolibrary.org/obo/BTO_0000332	culture condition:dark-grown cell
+http://purl.obolibrary.org/obo/BTO_0004578	vascular smooth muscle cell
+http://purl.obolibrary.org/obo/BTO_0000221	cell suspension culture
+http://purl.obolibrary.org/obo/BTO_0002599	RBA-2 cell
+http://purl.obolibrary.org/obo/BTO_0000583	bone marrow cancer cell
+http://purl.obolibrary.org/obo/BTO_0001033	prostate cancer cell line
+http://purl.obolibrary.org/obo/BTO_0000383	renal cell carcinoma cell line
+http://purl.obolibrary.org/obo/BTO_0001030	J774.2 cell
+http://purl.obolibrary.org/obo/BTO_0000381	embryonic blood

@@ -1,0 +1,3 @@
+http://purl.obolibrary.org/obo/MP_0001914	hemorrhage
+http://purl.obolibrary.org/obo/MP_0001845	inflammation
+http://purl.obolibrary.org/obo/MP_0003254	bile duct inflammation
