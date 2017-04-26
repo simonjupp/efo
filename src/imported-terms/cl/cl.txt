@@ -18,6 +18,7 @@ http://purl.obolibrary.org/obo/CL_0002052	Fraction D precursor B cell
 http://purl.obolibrary.org/obo/CL_0002053	CD22-positive, CD38-low small pre-B cell
 http://purl.obolibrary.org/obo/CL_0002054	Fraction E immature B cell
 http://purl.obolibrary.org/obo/CL_0002050	Fraction C' precursor B cell
+http://purl.obolibrary.org/obo/CL_2000058	calvarial osteoblast
 http://purl.obolibrary.org/obo/CL_0002060	melanophage
 http://purl.obolibrary.org/obo/CL_0002061	T-helper 9 cell
 http://purl.obolibrary.org/obo/CL_0002194	monopoietic cell
@@ -36,6 +37,8 @@ http://purl.obolibrary.org/obo/CL_0000904	central memory CD4-positive, alpha-bet
 http://purl.obolibrary.org/obo/CL_0000903	natural T-regulatory cell
 http://purl.obolibrary.org/obo/CL_0000902	induced T-regulatory cell
 http://purl.obolibrary.org/obo/CL_0000901	Tr1 cell
+http://purl.obolibrary.org/obo/CL_2000018	endothelial cell of coronary artery
+http://purl.obolibrary.org/obo/CL_0002092	bone marrow cell
 http://purl.obolibrary.org/obo/CL_0000919	CD8-positive, CD25-positive, alpha-beta regulatory T cell
 http://purl.obolibrary.org/obo/CL_0000918	Tc2 cell
 http://purl.obolibrary.org/obo/CL_0000917	Tc1 cell
@@ -144,7 +147,7 @@ http://purl.obolibrary.org/obo/CL_0000969	regulatory B cell
 http://purl.obolibrary.org/obo/CL_0000968	Be cell
 http://purl.obolibrary.org/obo/CL_0000967	Bm5 B cell
 http://purl.obolibrary.org/obo/CL_0000973	IgA memory B cell
-http://purl.obolibrary.org/obo/CL_0000610	plant cell
+http://purl.obolibrary.org/obo/CL_0000610	obsolete_plant cell
 http://purl.obolibrary.org/obo/CL_0000972	class switched memory B cell
 http://purl.obolibrary.org/obo/CL_0000971	IgM memory B cell
 http://purl.obolibrary.org/obo/CL_0000970	unswitched memory B cell
@@ -169,7 +172,7 @@ http://purl.obolibrary.org/obo/CL_0000861	elicited macrophage
 http://purl.obolibrary.org/obo/CL_0000982	IgG plasmablast
 http://purl.obolibrary.org/obo/CL_0000860	classical monocyte
 http://purl.obolibrary.org/obo/CL_0000981	double negative memory B cell
-http://purl.obolibrary.org/obo/CL_0000746	cardiac myocyte
+http://purl.obolibrary.org/obo/CL_0000746	cardiac muscle cell
 http://purl.obolibrary.org/obo/CL_0000867	secondary lymphoid organ macrophage
 http://purl.obolibrary.org/obo/CL_0000988	hematopoietic cell
 http://purl.obolibrary.org/obo/CL_0000625	CD8-positive, alpha-beta T cell
@@ -233,6 +236,7 @@ http://purl.obolibrary.org/obo/CL_0000766	myeloid leukocyte
 http://purl.obolibrary.org/obo/CL_0000887	lymph node subcapsular sinus macrophage
 http://purl.obolibrary.org/obo/CL_0000765	erythroblast
 http://purl.obolibrary.org/obo/CL_0000886	nasal and broncial associated lymphoid tissue macrophage
+http://purl.obolibrary.org/obo/CL_0000644	Bergmann glial cell
 http://purl.obolibrary.org/obo/CL_0000769	basophilic metamyelocyte
 http://purl.obolibrary.org/obo/CL_0000771	eosinophil
 http://purl.obolibrary.org/obo/CL_0000770	band form basophil
@@ -290,8 +294,10 @@ http://purl.obolibrary.org/obo/CL_0000559	promonocyte
 http://purl.obolibrary.org/obo/CL_0002617	adipocyte of breast
 http://purl.obolibrary.org/obo/CL_0000558	reticulocyte
 http://purl.obolibrary.org/obo/CL_0000679	glutamatergic neuron
+http://purl.obolibrary.org/obo/CL_0002618	endothelial cell of umbilical vein
 http://purl.obolibrary.org/obo/CL_0000799	immature gamma-delta T cell
 http://purl.obolibrary.org/obo/CL_0000557	granulocyte monocyte progenitor cell
+http://purl.obolibrary.org/obo/CL_0002619	adult endothelial progenitor cell
 http://purl.obolibrary.org/obo/CL_0000798	gamma-delta T cell
 http://purl.obolibrary.org/obo/CL_0000556	megakaryocyte
 http://purl.obolibrary.org/obo/CL_0000562	nucleate erythrocyte
@@ -310,6 +316,7 @@ http://purl.obolibrary.org/obo/CL_0002510	CD103-negative, langerin-positive lymp
 http://purl.obolibrary.org/obo/CL_0000451	dendritic cell
 http://purl.obolibrary.org/obo/CL_0002511	CD11b-low, CD103-negative, langerin-negative lymph node dendritic cell
 http://purl.obolibrary.org/obo/CL_0002512	CD11b-high, CD103-negative, langerin-negative lymph node dendritic cell
+http://purl.obolibrary.org/obo/CL_0002633	repiratory basal cell
 http://purl.obolibrary.org/obo/CL_0002513	Vgamma5-positive CD8alpha alpha positive gamma-delta intraepithelial T cell
 http://purl.obolibrary.org/obo/CL_0000576	monocyte
 http://purl.obolibrary.org/obo/CL_0000333	neural crest cell
@@ -379,6 +386,7 @@ http://purl.obolibrary.org/obo/CL_0002423	DN2a thymocyte
 http://purl.obolibrary.org/obo/CL_0000362	epidermal cell
 http://purl.obolibrary.org/obo/CL_0002424	DN2b thymocyte
 http://purl.obolibrary.org/obo/CL_0002425	early T lineage precursor
+http://purl.obolibrary.org/obo/CL_0002540	mesenchymal stem cell of the bone marrow
 http://purl.obolibrary.org/obo/CL_0000125	glial cell
 http://purl.obolibrary.org/obo/CL_0002420	immature T cell
 http://purl.obolibrary.org/obo/CL_0000365	zygote
@@ -400,6 +408,7 @@ http://purl.obolibrary.org/obo/CL_0000252	microspore
 http://purl.obolibrary.org/obo/CL_0002435	CD69-positive, CD8-positive single-positive thymocyte
 http://purl.obolibrary.org/obo/CL_0002436	mature CD4 single-positive thymocyte
 http://purl.obolibrary.org/obo/CL_0000499	stromal cell
+http://purl.obolibrary.org/obo/CL_0002551	fibroblast of dermis
 http://purl.obolibrary.org/obo/CL_0000015	male germ cell
 http://purl.obolibrary.org/obo/CL_0000136	fat cell
 http://purl.obolibrary.org/obo/CL_0002430	CD4-intermediate, CD8-positive double-positive thymocyte
@@ -413,6 +422,7 @@ http://purl.obolibrary.org/obo/CL_0000019	sperm
 http://purl.obolibrary.org/obo/CL_0000138	chondrocyte
 http://purl.obolibrary.org/obo/CL_0002437	mature CD8 single-positive thymocyte
 http://purl.obolibrary.org/obo/CL_0002438	NK1.1-positive natural killer cell
+http://purl.obolibrary.org/obo/CL_1000488	cholangiocyte
 http://purl.obolibrary.org/obo/CL_0002318	periperhal blood mesothelial cell
 http://purl.obolibrary.org/obo/CL_0002439	NKGA2-positive natural killer cell
 http://purl.obolibrary.org/obo/CL_0002319	neural cell
@@ -427,6 +437,7 @@ http://purl.obolibrary.org/obo/CL_0000148	melanocyte
 http://purl.obolibrary.org/obo/CL_0002440	Ly49D-positive natural killer cell
 http://purl.obolibrary.org/obo/CL_0002441	CD94-positive natural killer cell
 http://purl.obolibrary.org/obo/CL_0000388	connective tissue
+http://purl.obolibrary.org/obo/CL_0002563	intestinal epithelial cell
 http://purl.obolibrary.org/obo/CL_0000025	plant egg
 http://purl.obolibrary.org/obo/CL_0002321	embryonic cell
 http://purl.obolibrary.org/obo/CL_0002442	CD94-negative, Ly49CI-negative natural killer cell
@@ -447,6 +458,7 @@ http://purl.obolibrary.org/obo/CL_0002457	epidermal Langerhans cell
 http://purl.obolibrary.org/obo/CL_0002458	langerin-positive dermal dendritic cell
 http://purl.obolibrary.org/obo/CL_0000038	erythroid progenitor cell
 http://purl.obolibrary.org/obo/CL_0001006	dermal dendritic cell
+http://purl.obolibrary.org/obo/CL_0002451	mammary stem cell
 http://purl.obolibrary.org/obo/CL_0000037	hematopoietic stem cell
 http://purl.obolibrary.org/obo/CL_0001005	mature CD8_alpha-positive CD11b-negative dendritic cell
 http://purl.obolibrary.org/obo/CL_0001004	immature CD8_alpha-positive CD11b-negative dendritic cell
@@ -570,15 +582,18 @@ http://purl.obolibrary.org/obo/CL_0002247	pleural macrophage
 http://purl.obolibrary.org/obo/CL_0002368	respiratory epithelial cell
 http://purl.obolibrary.org/obo/CL_0002489	double negative thymocyte
 http://purl.obolibrary.org/obo/CL_0002005	CD34-positive, CD38-positive megakaryocyte erythroid progenitor cell
+http://purl.obolibrary.org/obo/CL_0000065	ependymal cell
 http://purl.obolibrary.org/obo/CL_0002127	innate effector T cell
 http://purl.obolibrary.org/obo/CL_0002248	pluripotent stem cell
 http://purl.obolibrary.org/obo/CL_0002006	Kit-positive, CD34-negative megakaryocyte erythroid progenitor cell
+http://purl.obolibrary.org/obo/CL_0000185	myoepithelial cell
 http://purl.obolibrary.org/obo/CL_0002128	Tc17 cell
 http://purl.obolibrary.org/obo/CL_0002007	Kit-low, CD34-positive eosinophil progenitor cell
 http://purl.obolibrary.org/obo/CL_0002121	CD24-negative CD38-negative IgG-negative class switched memory B cell
 http://purl.obolibrary.org/obo/CL_0002363	keratocyte
 http://purl.obolibrary.org/obo/CL_0002000	Kit-positive erythroid progenitor cell
 http://purl.obolibrary.org/obo/CL_0002122	B220-positive CD38-positive IgG-negative class switched memory B cell
+http://purl.obolibrary.org/obo/CL_0002364	cortical thymic epithelial cell
 http://purl.obolibrary.org/obo/CL_0002001	CD34-positive, CD38-positive granulocyte monocyte progenitor
 http://purl.obolibrary.org/obo/CL_0002123	B220-low CD38-positive IgG-negative class switched memory B cell
 http://purl.obolibrary.org/obo/CL_0002365	medullary thymic epithelial cell
@@ -652,3 +667,4 @@ http://purl.obolibrary.org/obo/CL_0002395	Gr1-high classical monocyte
 http://purl.obolibrary.org/obo/CL_0002032	hematopoietic oligopotent progenitor cell
 http://purl.obolibrary.org/obo/CL_0000096	mature neutrophil
 http://purl.obolibrary.org/obo/CL_0000094	granulocyte
+http://purl.obolibrary.org/obo/CL_2000074	splenocyte

@@ -1,3 +1,43 @@
 http://purl.obolibrary.org/obo/EO_0001001	plant treatment
+http://purl.obolibrary.org/obo/EO_0007129	UV-C light regimen
+http://purl.obolibrary.org/obo/EO_0007404	drought environment
+http://purl.obolibrary.org/obo/EO_0007207	red light regimen
+http://purl.obolibrary.org/obo/EO_0001020	carbon dioxide treatment
+http://purl.obolibrary.org/obo/EO_0007105	abscisic acid treatment
+http://purl.obolibrary.org/obo/EO_0007248	green house study
+http://purl.obolibrary.org/obo/EO_0001004	inorganic chemical treatment
 http://purl.obolibrary.org/obo/EO_0007048	sodium chloride regimen
+http://purl.obolibrary.org/obo/EO_0001047	limited iron regimen
+http://purl.obolibrary.org/obo/EO_0007049	soil environment
 http://purl.obolibrary.org/obo/EO_0007269	growth chamber study
+http://purl.obolibrary.org/obo/EO_0007203	far red light regimen
+http://purl.obolibrary.org/obo/EO_0001046	limited phosphate treatment
+http://purl.obolibrary.org/obo/EO_0007068	ethylene treatment
+http://purl.obolibrary.org/obo/EO_0007189	chemical treatment
+http://purl.obolibrary.org/obo/EO_0007222	UV light regimen
+http://purl.obolibrary.org/obo/EO_0007200	short day length regimen
+http://purl.obolibrary.org/obo/EO_0007165	growth hormone treatment
+http://purl.obolibrary.org/obo/EO_0007067	hydroponic plant culture media
+http://purl.obolibrary.org/obo/EO_0007185	salt treatment
+http://purl.obolibrary.org/obo/EO_0007241	plant nutrient treatment
+http://purl.obolibrary.org/obo/EO_0007162	continuous light regimen
+http://purl.obolibrary.org/obo/EO_0007171	pH regimen
+http://purl.obolibrary.org/obo/EO_0007270	continuous dark (no light) regimen
+http://purl.obolibrary.org/obo/EO_0007191	abiotic plant treatment
+http://purl.obolibrary.org/obo/EO_0001056	elevated carbon dioxide treatment
+http://purl.obolibrary.org/obo/EO_0007319	warm/hot air temperature regimen
+http://purl.obolibrary.org/obo/EO_0001055	inorganic gas treatment
+http://purl.obolibrary.org/obo/EO_0001054	limited nitrate regimen
+http://purl.obolibrary.org/obo/EO_0007317	Nilaparvata lugens
+http://purl.obolibrary.org/obo/EO_0001038	osmotic stress treatment
+http://purl.obolibrary.org/obo/EO_0007337	Nematoda
+http://purl.obolibrary.org/obo/EO_0007357	biotic plant treatment
+http://purl.obolibrary.org/obo/EO_0007256	field study
+http://purl.obolibrary.org/obo/EO_0007154	radiation quality treatment
+http://purl.obolibrary.org/obo/EO_0007231	study type (plant)
+http://purl.obolibrary.org/obo/EO_0007078	light quantity regimen
+http://purl.obolibrary.org/obo/EO_0007199	long day length regimen
+http://purl.obolibrary.org/obo/EO_0007174	cold temperature regimen
+http://purl.obolibrary.org/obo/EO_0007196	light regimen
+http://purl.obolibrary.org/obo/EO_0007153	radiation quantity regimen
+http://purl.obolibrary.org/obo/EO_0007173	warm/hot temperature regimen

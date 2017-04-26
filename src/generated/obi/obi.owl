@@ -1346,6 +1346,20 @@ http://svitsrv25.epfl.ch/R-doc/library/qvalue.html</obo:IAO_0000119>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0001468 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001468">
+        <rdfs:label xml:lang="en">cell specimen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A specimen primarily composed of cells collected from a multicellular organism or a cell culture</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MO_612 cell</obo:IAO_0000119>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">cell specimen</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0001472 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001472">
@@ -1404,6 +1418,24 @@ http://svitsrv25.epfl.ch/R-doc/library/qvalue.html</obo:IAO_0000119>
         <obo:IAO_0000119>OBI developer call, 3-12-12</obo:IAO_0000119>
         <obo:IAO_0000111>molecular-labeled material</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002089 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002089">
+        <rdfs:label xml:lang="en">physical store</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000967"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001034"/>
+        <obo:IAO_0000115 xml:lang="en">A container with an environmental control function.</obo:IAO_0000115>
+        <dc:source xml:lang="en">Biobank</dc:source>
+        <obo:IAO_0000117 xml:lang="en">Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Duke Biobank, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000116 xml:lang="en">For details see tracker item: http://sourceforge.net/p/obi/obi-terms/793/</obo:IAO_0000116>
+        <obo:IAO_0000112 xml:lang="en">a freezer. a humidity controlled box.</obo:IAO_0000112>
+        <obo:IAO_0000111 xml:lang="en">physical store</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
     </owl:Class>
     
 
@@ -1665,8 +1697,7 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0400110">
         <rdfs:label xml:lang="en">hybridization chamber</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000967"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001034"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002089"/>
         <obo:IAO_0000115 xml:lang="en">A device which is used to maintain constant contact of a liquid on an array.  This can be either a glass vial or slide.</obo:IAO_0000115>
         <obo:IAO_0000112 xml:lang="en">Glass Array Hybridization Cassette</obo:IAO_0000112>
         <obo:IAO_0000119 xml:lang="en">MO_563 hybridization_chamber</obo:IAO_0000119>
@@ -1681,7 +1712,7 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0400111">
         <rdfs:label xml:lang="en">hybridization station</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001034"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002089"/>
         <obo:IAO_0000115 xml:lang="en">A device which is used to maintain the temperature of one or more hybridization_chamber(s) at a defined, constant temperature.</obo:IAO_0000115>
         <obo:IAO_0000112 xml:lang="en">Labnet Problot12</obo:IAO_0000112>
         <obo:IAO_0000119 xml:lang="en">MO_497 hybridization station</obo:IAO_0000119>
@@ -1719,7 +1750,7 @@ FG: Or as function.</obo:IAO_0000232>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0400113">
         <rdfs:label xml:lang="en">oligonucleotide synthesizer</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001034"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002089"/>
         <obo:IAO_0000115 xml:lang="en">An instrument used to chemically synthesize oligonucleotides.</obo:IAO_0000115>
         <obo:IAO_0000112 xml:lang="en">Automated Multiplex Oligonucleotide Synthesizer</obo:IAO_0000112>
         <obo:IAO_0000119 xml:lang="en">MO</obo:IAO_0000119>
@@ -1765,8 +1796,7 @@ FG: Or as function.</obo:IAO_0000232>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0400116">
         <rdfs:label xml:lang="en">thermal cycler</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000967"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001034"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002089"/>
         <obo:IAO_0000115 xml:lang="en">An instrument that is capable of repeatedly altering and maintaining specific temperatures for defined periods of time.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">DNA_amplifier</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">MO</obo:IAO_0000119>
@@ -1786,8 +1816,7 @@ FG: Or as function.</obo:IAO_0000232>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0400117">
         <rdfs:label xml:lang="en">vacuum dryer</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000967"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001034"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002089"/>
         <obo:IAO_0000115 xml:lang="en">An instrument which removes liquid by the application of negative pressure,  i.e. vacuum.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">MO</obo:IAO_0000119>
         <obo:IAO_0000112 xml:lang="en">Model 777 Microarray Oven</obo:IAO_0000112>
@@ -1819,8 +1848,7 @@ FG: Or as function.</obo:IAO_0000232>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0400120">
         <rdfs:label xml:lang="en">temperature control bath</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000967"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001034"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002089"/>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alan Ruttenburg</obo:IAO_0000117>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Daniel Schober</obo:IAO_0000117>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frank Gibson</obo:IAO_0000117>

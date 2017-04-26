@@ -12,7 +12,7 @@
     "idPrefix" : "UBERON_"
   },
   {
-    "shortName" : "orphanet",
+    "shortName" : "ordo",
     "ontologyIri" : "http://www.orpha.net/ontology/orphanet.owl",
     "ontologyUrl" : "http://www.orphadata.org/data/ORDO/ordo_orphanet.owl" ,
     "idPrefix" : "Orphanet_"
@@ -56,7 +56,7 @@
   {
     "shortName" : "hp",
     "ontologyIri" : "http://purl.obolibrary.org/obo/hp.owl",
-    "ontologyUrl" : "file:///Users/jupp/dev/java/efo3-creator/ontologies/hp.owl" ,
+    "ontologyUrl" : "http://www.ebi.ac.uk/ols/ontologies/hp" ,
     "idPrefix" : "HP_"
   }
 ,
@@ -70,7 +70,7 @@
   {
     "shortName" : "bto",
     "ontologyIri" : "http://purl.obolibrary.org/obo/bto.owl",
-    "ontologyUrl" : "http://purl.obolibrary.org/obo/bto.owl" ,
+    "ontologyUrl" : "http://www.berkeleybop.org/ontologies/bto/bto.owl" ,
     "idPrefix" : "BTO_"
   }
 ,

@@ -1,4 +1,108 @@
-http://purl.obolibrary.org/obo/FBbt_00001766	eye-antennal disc
+http://purl.obolibrary.org/obo/FBbt_00000442	Malpighian tubule primordium
+http://purl.obolibrary.org/obo/FBbt_00005614	embryonic epipharynx
+http://purl.obolibrary.org/obo/FBbt_00000441	hindgut proper primordium
+http://purl.obolibrary.org/obo/FBbt_00005616	embryonic foregut sensory structure
+http://purl.obolibrary.org/obo/FBbt_00005610	embryonic proventriculus outer layer
+http://purl.obolibrary.org/obo/FBbt_00000444	anterior midgut primordium
+http://purl.obolibrary.org/obo/FBbt_00005612	embryonic esophagus
+http://purl.obolibrary.org/obo/FBbt_00005611	adult foregut precursor
+http://purl.obolibrary.org/obo/FBbt_00000447	posterior endoderm anlage
+http://purl.obolibrary.org/obo/FBbt_00005618	embryonic maxillary sensory complex
+http://purl.obolibrary.org/obo/FBbt_00005619	embryonic labial sensory complex
+http://purl.obolibrary.org/obo/FBbt_00015256	central brain anlage
+http://purl.obolibrary.org/obo/FBbt_00005067	fat body primordium
+http://purl.obolibrary.org/obo/FBbt_00004011	dorsomedial neurosecretory cell
+http://purl.obolibrary.org/obo/FBbt_00004891	pole plasm
+http://purl.obolibrary.org/obo/FBbt_00005746	embryonic leading edge cell
+http://purl.obolibrary.org/obo/FBbt_00005504	small intestine primordium
+http://purl.obolibrary.org/obo/FBbt_00005745	embryonic dorsal apodeme
+http://purl.obolibrary.org/obo/FBbt_00000210	anterior endoderm anlage
+http://purl.obolibrary.org/obo/FBbt_00005748	embryonic anal pad
+http://purl.obolibrary.org/obo/FBbt_00005506	rectum primordium
+http://purl.obolibrary.org/obo/FBbt_00005505	large intestine primordium
 http://purl.obolibrary.org/obo/FBbt_00001781	prothoracic leg disc
-http://purl.obolibrary.org/obo/FBbt_00001761	imaginal disc
+http://purl.obolibrary.org/obo/FBbt_00005466	pericardial cell primordium
+http://purl.obolibrary.org/obo/FBbt_00005744	embryonic dorsal epidermis
+http://purl.obolibrary.org/obo/FBbt_00005501	Malpighian tubule main body primordium
+http://purl.obolibrary.org/obo/FBbt_00016000	hypopharynx anlage in statu nascendi
+http://purl.obolibrary.org/obo/FBbt_00016001	hypopharyngeal sense organ primordium
+http://purl.obolibrary.org/obo/FBbt_00005508	embryonic central brain mushroom body
+http://purl.obolibrary.org/obo/FBbt_00005749	embryonic ventral apodeme
+http://purl.obolibrary.org/obo/FBbt_00005072	circular visceral muscle fibers
+http://purl.obolibrary.org/obo/FBbt_00005630	embryonic hindgut
+http://purl.obolibrary.org/obo/FBbt_00001433	embryonic ganglion mother cell
+http://purl.obolibrary.org/obo/FBbt_00000461	embryonic inner optic lobe primordium
+http://purl.obolibrary.org/obo/FBbt_00005516	adult muscle precursor primordium
+http://purl.obolibrary.org/obo/FBbt_00001315	ventral midline glia
+http://purl.obolibrary.org/obo/FBbt_00005511	pars intercerebralis primordium
+http://purl.obolibrary.org/obo/FBbt_00005510	antennal primordium
+http://purl.obolibrary.org/obo/FBbt_00004784	capitellum
+http://purl.obolibrary.org/obo/FBbt_00005512	salivary gland body primordium
+http://purl.obolibrary.org/obo/FBbt_00000109	mesectoderm anlage
+http://purl.obolibrary.org/obo/FBbt_00005519	visceral muscle primordium
+http://purl.obolibrary.org/obo/FBbt_00005518	somatic muscle primordium
+http://purl.obolibrary.org/obo/FBbt_00001956	optic nerve
+http://purl.obolibrary.org/obo/FBbt_00005646	adult hindgut precursor
+http://purl.obolibrary.org/obo/FBbt_00005528	midline primordium
+http://purl.obolibrary.org/obo/FBbt_00000197	posterior spiracle primordium
+http://purl.obolibrary.org/obo/FBbt_00005643	embryonic Malpighian tubule tip cell
 http://purl.obolibrary.org/obo/FBbt_00001685	plasmatocyte
+http://purl.obolibrary.org/obo/FBbt_00005523	inclusive hindgut primordium
+http://purl.obolibrary.org/obo/FBbt_00001724	prothoracic gland
+http://purl.obolibrary.org/obo/FBbt_00005498	dorsal pharyngeal muscle primordium
+http://purl.obolibrary.org/obo/FBbt_00005536	stomatogastric nervous system primordium
+http://purl.obolibrary.org/obo/FBbt_00004202	hindgut anlage
+http://purl.obolibrary.org/obo/FBbt_00000127	head mesoderm
+http://purl.obolibrary.org/obo/FBbt_00004204	ventral ectoderm anlage
+http://purl.obolibrary.org/obo/FBbt_00005535	foregut primordium
+http://purl.obolibrary.org/obo/FBbt_00005534	gnathal primordium
+http://purl.obolibrary.org/obo/FBbt_00017003	visceral branch primordium
+http://purl.obolibrary.org/obo/FBbt_00017000	amnioserosa primordium
+http://purl.obolibrary.org/obo/FBbt_00007049	head visceral muscle primordium
+http://purl.obolibrary.org/obo/FBbt_00005663	embryonic central brain glia
+http://purl.obolibrary.org/obo/FBbt_00005542	central brain primordium
+http://purl.obolibrary.org/obo/FBbt_00005662	embryonic central brain
+http://purl.obolibrary.org/obo/FBbt_00005669	embryonic hypocerebral ganglion
+http://purl.obolibrary.org/obo/FBbt_00005824	lateral cord surface glia
+http://purl.obolibrary.org/obo/FBbt_00005548	head mesoderm anlage
+http://purl.obolibrary.org/obo/FBbt_00005668	embryonic frontal ganglion
+http://purl.obolibrary.org/obo/FBbt_00005822	embryonic outer optic lobe primordium
+http://purl.obolibrary.org/obo/FBbt_00005665	embryonic central brain neuron
+http://purl.obolibrary.org/obo/FBbt_00005544	maxillary sensory complex primordium
+http://purl.obolibrary.org/obo/FBbt_10005249	adult eye primordium
+http://purl.obolibrary.org/obo/FBbt_00005664	embryonic central brain surface glia
+http://purl.obolibrary.org/obo/FBbt_00005422	amnioserosa anlage in statu nascendi
+http://purl.obolibrary.org/obo/FBbt_00005667	embryonic central brain pars intercerebralis
+http://purl.obolibrary.org/obo/FBbt_00005546	labral sensory complex primordium
+http://purl.obolibrary.org/obo/FBbt_00005545	labial sensory complex primordium
+http://purl.obolibrary.org/obo/FBbt_00005424	hindgut anlage in statu nascendi
+http://purl.obolibrary.org/obo/FBbt_00001069	embryonic stomatogastric nervous system
+http://purl.obolibrary.org/obo/FBbt_00017010	dorsal trunk specific anlage
+http://purl.obolibrary.org/obo/FBbt_00017011	primary segmental branch primordium
+http://purl.obolibrary.org/obo/FBbt_00017009	ring gland primordium
+http://purl.obolibrary.org/obo/FBbt_00017008	longitudinal visceral muscle primordium
+http://purl.obolibrary.org/obo/FBbt_00005551	sensory nervous system primordium
+http://purl.obolibrary.org/obo/FBbt_00005550	proventriculus primordium
+http://purl.obolibrary.org/obo/FBbt_00005673	lateral cord glia
+http://purl.obolibrary.org/obo/FBbt_00005552	ventral sensory complex primordium
+http://purl.obolibrary.org/obo/FBbt_00005431	foregut anlage
+http://purl.obolibrary.org/obo/FBbt_00005670	embryonic esophageal ganglion
+http://purl.obolibrary.org/obo/FBbt_00005834	ventral imaginal precursor
+http://purl.obolibrary.org/obo/FBbt_00005675	lateral cord neuron
+http://purl.obolibrary.org/obo/FBbt_00005554	ventral nerve cord primordium
+http://purl.obolibrary.org/obo/FBbt_00005556	apoptotic amnioserosa
+http://purl.obolibrary.org/obo/FBbt_00017020	oenocyte primordium
+http://purl.obolibrary.org/obo/FBbt_00017019	cibarium primordium
+http://purl.obolibrary.org/obo/FBbt_00005442	hypopharynx anlage
+http://purl.obolibrary.org/obo/FBbt_00001766	eye-antennal disc
+http://purl.obolibrary.org/obo/FBbt_00005566	ventral midline neuron
+http://purl.obolibrary.org/obo/FBbt_00005565	ventral midline neuroblast
+http://purl.obolibrary.org/obo/FBbt_00001761	imaginal disc
+http://purl.obolibrary.org/obo/FBbt_00005568	embryonic antennal sense organ
+http://purl.obolibrary.org/obo/FBbt_00004914	female accessory gland
+http://purl.obolibrary.org/obo/FBbt_00001768	eye disc
+http://purl.obolibrary.org/obo/FBbt_00005606	embryonic foregut
+http://purl.obolibrary.org/obo/FBbt_00005609	embryonic proventriculus intermediate layer
+http://purl.obolibrary.org/obo/FBbt_00005608	embryonic proventriculus inner layer
+http://purl.obolibrary.org/obo/FBbt_00017027	embryonic gastric caecum
+http://purl.obolibrary.org/obo/FBbt_00005571	embryonic tracheole

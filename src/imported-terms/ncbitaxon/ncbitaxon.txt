@@ -63,6 +63,7 @@ http://purl.obolibrary.org/obo/NCBITaxon_152480	Burkholderia ambifaria
 http://purl.obolibrary.org/obo/NCBITaxon_278028	Naumovozyma
 http://purl.obolibrary.org/obo/NCBITaxon_203908	Melampsora larici-populina
 http://purl.obolibrary.org/obo/NCBITaxon_203907	Candidatus Blochmannia floridanus
+http://purl.obolibrary.org/obo/NCBITaxon_50557	Insecta
 http://purl.obolibrary.org/obo/NCBITaxon_326425	Lactobacillus helveticus CNRZ32
 http://purl.obolibrary.org/obo/NCBITaxon_326424	Frankia alni ACN14a
 http://purl.obolibrary.org/obo/NCBITaxon_5057	Aspergillus clavatus
@@ -74,6 +75,7 @@ http://purl.obolibrary.org/obo/NCBITaxon_7230	Drosophila mojavensis
 http://purl.obolibrary.org/obo/NCBITaxon_85620	Candidatus Phytoplasma asteris
 http://purl.obolibrary.org/obo/NCBITaxon_10044	Phodopus sungorus
 http://purl.obolibrary.org/obo/NCBITaxon_61434	Dehalococcoides
+http://purl.obolibrary.org/obo/NCBITaxon_33154	Opisthokonta
 http://purl.obolibrary.org/obo/NCBITaxon_121759	Paracoccidioides brasiliensis
 http://purl.obolibrary.org/obo/NCBITaxon_7226	Drosophila mauritiana
 http://purl.obolibrary.org/obo/NCBITaxon_58031	Cycas rumphii
@@ -146,10 +148,12 @@ http://purl.obolibrary.org/obo/NCBITaxon_35305	California encephalitis virus
 http://purl.obolibrary.org/obo/NCBITaxon_35787	Lactobacillus pontis
 http://purl.obolibrary.org/obo/NCBITaxon_33125	Lepidium sativum
 http://purl.obolibrary.org/obo/NCBITaxon_10252	Vaccinia virus Lister
+http://purl.obolibrary.org/obo/NCBITaxon_11103	Hepatitis C virus
 http://purl.obolibrary.org/obo/NCBITaxon_216193	Sylvia communis
 http://purl.obolibrary.org/obo/NCBITaxon_382539	Strelkovimermis
 http://purl.obolibrary.org/obo/NCBITaxon_11588	Rift Valley fever virus
 http://purl.obolibrary.org/obo/NCBITaxon_8128	Oreochromis niloticus
+http://purl.obolibrary.org/obo/NCBITaxon_1480153	Marchantia polymorpha subsp. polymorpha
 http://purl.obolibrary.org/obo/NCBITaxon_146821	Streptomyces reticuliscabiei
 http://purl.obolibrary.org/obo/NCBITaxon_3917	Vigna unguiculata
 http://purl.obolibrary.org/obo/NCBITaxon_262728	Haemophilus influenzae R2866
@@ -167,6 +171,7 @@ http://purl.obolibrary.org/obo/NCBITaxon_199310	Escherichia coli CFT073
 http://purl.obolibrary.org/obo/NCBITaxon_195	Campylobacter coli
 http://purl.obolibrary.org/obo/NCBITaxon_50591	Lithognathus mormyrus
 http://purl.obolibrary.org/obo/NCBITaxon_7038	Bemisia tabaci
+http://purl.obolibrary.org/obo/NCBITaxon_152263	Xanthomonas translucens pv. cerealis
 http://purl.obolibrary.org/obo/NCBITaxon_8364	Xenopus (Silurana) tropicalis
 http://purl.obolibrary.org/obo/NCBITaxon_74547	Prochlorococcus marinus str. MIT 9313
 http://purl.obolibrary.org/obo/NCBITaxon_32025	Helicobacter hepaticus
@@ -180,6 +185,7 @@ http://purl.obolibrary.org/obo/NCBITaxon_63416	Trichophyton megninii
 http://purl.obolibrary.org/obo/NCBITaxon_63417	Trichophyton verrucosum
 http://purl.obolibrary.org/obo/NCBITaxon_11577	La Crosse virus
 http://purl.obolibrary.org/obo/NCBITaxon_121558	Senecio vulgaris subsp. vulgaris
+http://purl.obolibrary.org/obo/NCBITaxon_40559	Botrytis cinerea
 http://purl.obolibrary.org/obo/NCBITaxon_7029	Acyrthosiphon pisum
 http://purl.obolibrary.org/obo/NCBITaxon_1961	Streptomyces virginiae
 http://purl.obolibrary.org/obo/NCBITaxon_121555	Senecio squalidus subsp. squalidus
@@ -196,6 +202,7 @@ http://purl.obolibrary.org/obo/NCBITaxon_456999	Rhizoctonia solani
 http://purl.obolibrary.org/obo/NCBITaxon_5480	Candida parapsilosis
 http://purl.obolibrary.org/obo/NCBITaxon_15368	Brachypodium distachyon
 http://purl.obolibrary.org/obo/NCBITaxon_5478	Candida glabrata
+http://purl.obolibrary.org/obo/NCBITaxon_1324865	Brassica carinata x Brassica rapa
 http://purl.obolibrary.org/obo/NCBITaxon_67367	Streptomyces tanashiensis
 http://purl.obolibrary.org/obo/NCBITaxon_29760	Vitis vinifera
 http://purl.obolibrary.org/obo/NCBITaxon_44249	Paenibacillus
@@ -225,6 +232,7 @@ http://purl.obolibrary.org/obo/NCBITaxon_382	Sinorhizobium meliloti
 http://purl.obolibrary.org/obo/NCBITaxon_71647	Pinus pinaster
 http://purl.obolibrary.org/obo/NCBITaxon_73824	Populus balsamifera
 http://purl.obolibrary.org/obo/NCBITaxon_6551	Mytilus trossulus
+http://purl.obolibrary.org/obo/NCBITaxon_362338	Hirschmanniella oryzae
 http://purl.obolibrary.org/obo/NCBITaxon_8730	Crotalus atrox
 http://purl.obolibrary.org/obo/NCBITaxon_13164	Myzus persicae
 http://purl.obolibrary.org/obo/NCBITaxon_37733	Prunus necrotic ringspot virus
@@ -293,6 +301,7 @@ http://purl.obolibrary.org/obo/NCBITaxon_1916	Streptomyces lividans
 http://purl.obolibrary.org/obo/NCBITaxon_48886	Geospiza scandens
 http://purl.obolibrary.org/obo/NCBITaxon_48885	Geospiza magnirostris
 http://purl.obolibrary.org/obo/NCBITaxon_44294	Actinobacillus pleuropneumoniae serovar 5
+http://purl.obolibrary.org/obo/NCBITaxon_72740	Sporisorium reilianum f. sp. zeae
 http://purl.obolibrary.org/obo/NCBITaxon_5270	Ustilago maydis
 http://purl.obolibrary.org/obo/NCBITaxon_46472	Aspergillus versicolor
 http://purl.obolibrary.org/obo/NCBITaxon_106787	Pachycladon
@@ -394,6 +403,7 @@ http://purl.obolibrary.org/obo/NCBITaxon_5875	Theileria parva
 http://purl.obolibrary.org/obo/NCBITaxon_28150	Salmonella enterica subsp. enterica serovar Senftenberg
 http://purl.obolibrary.org/obo/NCBITaxon_183674	Miscanthus x giganteus
 http://purl.obolibrary.org/obo/NCBITaxon_446	Legionella pneumophila
+http://purl.obolibrary.org/obo/NCBITaxon_98039	Schrenkiella parvula
 http://purl.obolibrary.org/obo/NCBITaxon_191292	Rhodococcus aetherivorans
 http://purl.obolibrary.org/obo/NCBITaxon_342110	Ralstonia solanacearum UW551
 http://purl.obolibrary.org/obo/NCBITaxon_450	Legionella longbeachae
@@ -417,6 +427,7 @@ http://purl.obolibrary.org/obo/NCBITaxon_3689	Populus
 http://purl.obolibrary.org/obo/NCBITaxon_408172	marine metagenome
 http://purl.obolibrary.org/obo/NCBITaxon_1265	Ruminococcus flavefaciens
 http://purl.obolibrary.org/obo/NCBITaxon_47929	Macacine herpesvirus 3
+http://purl.obolibrary.org/obo/NCBITaxon_4537	Oryza punctata
 http://purl.obolibrary.org/obo/NCBITaxon_46838	Musa sp.
 http://purl.obolibrary.org/obo/NCBITaxon_29471	Pectobacterium atrosepticum
 http://purl.obolibrary.org/obo/NCBITaxon_27291	Saccharomyces paradoxus
@@ -446,6 +457,7 @@ http://purl.obolibrary.org/obo/NCBITaxon_137520	Hypomesus transpacificus
 http://purl.obolibrary.org/obo/NCBITaxon_1496	Clostridium difficile
 http://purl.obolibrary.org/obo/NCBITaxon_1254	Pediococcus acidilactici
 http://purl.obolibrary.org/obo/NCBITaxon_6945	Ixodes scapularis
+http://purl.obolibrary.org/obo/NCBITaxon_4762	Oomycetes
 http://purl.obolibrary.org/obo/NCBITaxon_6943	Amblyomma americanum
 http://purl.obolibrary.org/obo/NCBITaxon_86021	Leymus triticoides
 http://purl.obolibrary.org/obo/NCBITaxon_4522	Lolium perenne
@@ -476,6 +488,7 @@ http://purl.obolibrary.org/obo/NCBITaxon_4513	Hordeum vulgare
 http://purl.obolibrary.org/obo/NCBITaxon_2336	Thermotoga maritima
 http://purl.obolibrary.org/obo/NCBITaxon_2337	Thermotoga neapolitana
 http://purl.obolibrary.org/obo/NCBITaxon_352374	Populus fremontii x Populus angustifolia
+http://purl.obolibrary.org/obo/NCBITaxon_4751	Fungi
 http://purl.obolibrary.org/obo/NCBITaxon_88211	Petrolisthes cinctipes
 http://purl.obolibrary.org/obo/NCBITaxon_1247	Oenococcus oeni
 http://purl.obolibrary.org/obo/NCBITaxon_1488	Clostridium acetobutylicum
@@ -494,6 +507,7 @@ http://purl.obolibrary.org/obo/NCBITaxon_6526	Biomphalaria glabrata
 http://purl.obolibrary.org/obo/NCBITaxon_4108	Solanum chacoense
 http://purl.obolibrary.org/obo/NCBITaxon_4102	Petunia x hybrida
 http://purl.obolibrary.org/obo/NCBITaxon_10832	Tomato yellow leaf curl virus
+http://purl.obolibrary.org/obo/NCBITaxon_3258	Equisetum arvense
 http://purl.obolibrary.org/obo/NCBITaxon_79782	Cimex lectularius
 http://purl.obolibrary.org/obo/NCBITaxon_308872	Phalaenopsis aphrodite subsp. formosana
 http://purl.obolibrary.org/obo/NCBITaxon_47715	Lactobacillus rhamnosus
@@ -513,6 +527,7 @@ http://purl.obolibrary.org/obo/NCBITaxon_410289	Mycobacterium bovis BCG str. Pas
 http://purl.obolibrary.org/obo/NCBITaxon_1076	Rhodopseudomonas palustris
 http://purl.obolibrary.org/obo/NCBITaxon_2160	Methanobacterium
 http://purl.obolibrary.org/obo/NCBITaxon_6759	Carcinus maenas
+http://purl.obolibrary.org/obo/NCBITaxon_4579	Zea mays subsp. mexicana
 http://purl.obolibrary.org/obo/NCBITaxon_3486	Humulus lupulus
 http://purl.obolibrary.org/obo/NCBITaxon_5665	Leishmania mexicana
 http://purl.obolibrary.org/obo/NCBITaxon_55583	Dehalobacter restrictus
@@ -528,10 +543,13 @@ http://purl.obolibrary.org/obo/NCBITaxon_482957	Burkholderia lata
 http://purl.obolibrary.org/obo/NCBITaxon_316275	Aliivibrio salmonicida LFI1238
 http://purl.obolibrary.org/obo/NCBITaxon_81846	Arthroderma cajetani
 http://purl.obolibrary.org/obo/NCBITaxon_103349	Vitis rotundifolia
+http://purl.obolibrary.org/obo/NCBITaxon_4572	Triticum urartu
 http://purl.obolibrary.org/obo/NCBITaxon_5661	Leishmania donovani
 http://purl.obolibrary.org/obo/NCBITaxon_223283	Pseudomonas syringae pv. tomato str. DC3000
+http://purl.obolibrary.org/obo/NCBITaxon_31741	Wheat streak mosaic virus
 http://purl.obolibrary.org/obo/NCBITaxon_3483	Cannabis sativa
 http://purl.obolibrary.org/obo/NCBITaxon_5660	Leishmania braziliensis
+http://purl.obolibrary.org/obo/NCBITaxon_4573	Aegilops speltoides
 http://purl.obolibrary.org/obo/NCBITaxon_559292	Saccharomyces cerevisiae S288c
 http://purl.obolibrary.org/obo/NCBITaxon_79327	Schmidtea mediterranea
 http://purl.obolibrary.org/obo/NCBITaxon_240495	Pseudonocardia dioxanivorans
@@ -575,6 +593,7 @@ http://purl.obolibrary.org/obo/NCBITaxon_29655	Zostera marina
 http://purl.obolibrary.org/obo/NCBITaxon_633	Yersinia pseudotuberculosis
 http://purl.obolibrary.org/obo/NCBITaxon_44477	Apis mellifera mellifera
 http://purl.obolibrary.org/obo/NCBITaxon_632	Yersinia pestis
+http://purl.obolibrary.org/obo/NCBITaxon_51336	Cabbage leaf curl virus
 http://purl.obolibrary.org/obo/NCBITaxon_72036	Lepeophtheirus salmonis
 http://purl.obolibrary.org/obo/NCBITaxon_70095	Penicillium fellutanum
 http://purl.obolibrary.org/obo/NCBITaxon_35525	Daphnia magna
@@ -605,6 +624,7 @@ http://purl.obolibrary.org/obo/NCBITaxon_851	Fusobacterium nucleatum
 http://purl.obolibrary.org/obo/NCBITaxon_223926	Vibrio parahaemolyticus RIMD 2210633
 http://purl.obolibrary.org/obo/NCBITaxon_10228	Trichoplax adhaerens
 http://purl.obolibrary.org/obo/NCBITaxon_1428	Bacillus thuringiensis
+http://purl.obolibrary.org/obo/NCBITaxon_336722	Zymoseptoria tritici IPO323
 http://purl.obolibrary.org/obo/NCBITaxon_3605	Vitis aestivalis
 http://purl.obolibrary.org/obo/NCBITaxon_3847	Glycine max
 http://purl.obolibrary.org/obo/NCBITaxon_2759	Eukaryota
@@ -615,6 +635,7 @@ http://purl.obolibrary.org/obo/NCBITaxon_528351	Neisseria gonorrhoeae F62
 http://purl.obolibrary.org/obo/NCBITaxon_527021	Bacillus thuringiensis Bt407
 http://purl.obolibrary.org/obo/NCBITaxon_94289	Sterkiella histriomuscorum
 http://purl.obolibrary.org/obo/NCBITaxon_49274	Lycopersicon
+http://purl.obolibrary.org/obo/NCBITaxon_1292002	Echinochloa glabrescens
 http://purl.obolibrary.org/obo/NCBITaxon_377270	Anopheles gambiae S
 http://purl.obolibrary.org/obo/NCBITaxon_37296	Human herpesvirus 8
 http://purl.obolibrary.org/obo/NCBITaxon_282459	Staphylococcus aureus subsp. aureus MSSA476
@@ -831,9 +852,11 @@ http://purl.obolibrary.org/obo/NCBITaxon_220341	Salmonella enterica subsp. enter
 http://purl.obolibrary.org/obo/NCBITaxon_13427	Cichorium intybus
 http://purl.obolibrary.org/obo/NCBITaxon_272624	Legionella pneumophila subsp. pneumophila str. Philadelphia 1
 http://purl.obolibrary.org/obo/NCBITaxon_3818	Arachis hypogaea
+http://purl.obolibrary.org/obo/NCBITaxon_143451	Plasmopara viticola
 http://purl.obolibrary.org/obo/NCBITaxon_85558	Streptomyces turgidiscabies
 http://purl.obolibrary.org/obo/NCBITaxon_1639	Listeria monocytogenes
 http://purl.obolibrary.org/obo/NCBITaxon_23211	Pyrus communis
+http://purl.obolibrary.org/obo/NCBITaxon_49225	Triticum dicoccon
 http://purl.obolibrary.org/obo/NCBITaxon_9593	Gorilla gorilla
 http://purl.obolibrary.org/obo/NCBITaxon_7173	Anopheles arabiensis
 http://purl.obolibrary.org/obo/NCBITaxon_28901	Salmonella enterica
@@ -862,6 +885,7 @@ http://purl.obolibrary.org/obo/NCBITaxon_40410	Cryptococcus neoformans var. neof
 http://purl.obolibrary.org/obo/NCBITaxon_50225	Taraxacum officinale
 http://purl.obolibrary.org/obo/NCBITaxon_7160	Aedes albopictus
 http://purl.obolibrary.org/obo/NCBITaxon_477955	Symplocarpus renifolius
+http://purl.obolibrary.org/obo/NCBITaxon_199200	Pseudomonas syringae pv. japonica
 http://purl.obolibrary.org/obo/NCBITaxon_8017	Oncorhynchus gorbuscha
 http://purl.obolibrary.org/obo/NCBITaxon_8014	Osmerus mordax
 http://purl.obolibrary.org/obo/NCBITaxon_37495	Euphorbia pulcherrima
@@ -875,6 +899,7 @@ http://purl.obolibrary.org/obo/NCBITaxon_13642	Polysphondylium pallidum
 http://purl.obolibrary.org/obo/NCBITaxon_1612	Lactobacillus farciminis
 http://purl.obolibrary.org/obo/NCBITaxon_41759	Aspergillus multicolor
 http://purl.obolibrary.org/obo/NCBITaxon_221654	Palaemonetes pugio
+http://purl.obolibrary.org/obo/NCBITaxon_62690	Blumeria graminis f. sp. tritici
 http://purl.obolibrary.org/obo/NCBITaxon_2708	Citrus limon
 http://purl.obolibrary.org/obo/NCBITaxon_1614	Lactobacillus fructivorans
 http://purl.obolibrary.org/obo/NCBITaxon_61362	Acanthopleura
@@ -891,6 +916,7 @@ http://purl.obolibrary.org/obo/NCBITaxon_224911	Bradyrhizobium japonicum USDA 11
 http://purl.obolibrary.org/obo/NCBITaxon_12542	Omsk hemorrhagic fever virus
 http://purl.obolibrary.org/obo/NCBITaxon_12305	Cucumber mosaic virus
 http://purl.obolibrary.org/obo/NCBITaxon_41529	Salmonella enterica subsp. enterica serovar Typhisuis
+http://purl.obolibrary.org/obo/NCBITaxon_129394	Xanthomonas oryzae pv. oryzicola
 http://purl.obolibrary.org/obo/NCBITaxon_482058	Ralstonia phage RSL1
 http://purl.obolibrary.org/obo/NCBITaxon_15819	Saccharum sp.
 http://purl.obolibrary.org/obo/NCBITaxon_1604	Lactobacillus amylovorus
@@ -902,6 +928,7 @@ http://purl.obolibrary.org/obo/NCBITaxon_224914	Brucella melitensis bv. 1 str. 1
 http://purl.obolibrary.org/obo/NCBITaxon_272630	Methylobacterium extorquens AM1
 http://purl.obolibrary.org/obo/NCBITaxon_65952	Rorippa sylvestris
 http://purl.obolibrary.org/obo/NCBITaxon_364410	Granulibacter bethesdensis
+http://purl.obolibrary.org/obo/NCBITaxon_286	Pseudomonas
 http://purl.obolibrary.org/obo/NCBITaxon_33903	Streptomyces avermitilis
 http://purl.obolibrary.org/obo/NCBITaxon_2096	Mycoplasma gallisepticum
 http://purl.obolibrary.org/obo/NCBITaxon_57678	Leptospira interrogans serovar Lai
@@ -937,9 +964,11 @@ http://purl.obolibrary.org/obo/NCBITaxon_4498	Avena sativa
 http://purl.obolibrary.org/obo/NCBITaxon_79692	Human respiratory syncytial virus B1
 http://purl.obolibrary.org/obo/NCBITaxon_29875	Hypocrea virens
 http://purl.obolibrary.org/obo/NCBITaxon_197221	Thermosynechococcus elongatus BP-1
+http://purl.obolibrary.org/obo/NCBITaxon_431317	Triticum mosaic virus
 http://purl.obolibrary.org/obo/NCBITaxon_263	Francisella tularensis
 http://purl.obolibrary.org/obo/NCBITaxon_9940	Ovis aries
 http://purl.obolibrary.org/obo/NCBITaxon_373101	Picea engelmannii x Picea glauca
+http://purl.obolibrary.org/obo/NCBITaxon_200361	Aegilops tauschii subsp. strangulata
 http://purl.obolibrary.org/obo/NCBITaxon_6669	Daphnia pulex
 http://purl.obolibrary.org/obo/NCBITaxon_56364	Agrotis ipsilon
 http://purl.obolibrary.org/obo/NCBITaxon_7998	Ictalurus punctatus
@@ -961,6 +990,7 @@ http://purl.obolibrary.org/obo/NCBITaxon_37862	Heterorhabditis bacteriophora
 http://purl.obolibrary.org/obo/NCBITaxon_8839	Anas platyrhynchos
 http://purl.obolibrary.org/obo/NCBITaxon_9925	Capra hircus
 http://purl.obolibrary.org/obo/NCBITaxon_13037	Danaus plexippus
+http://purl.obolibrary.org/obo/NCBITaxon_6656	Arthropoda
 http://purl.obolibrary.org/obo/NCBITaxon_4236	Lactuca sativa
 http://purl.obolibrary.org/obo/NCBITaxon_45249	Arabidopsis suecica
 http://purl.obolibrary.org/obo/NCBITaxon_290402	Clostridium beijerinckii NCIMB 8052
@@ -1073,6 +1103,7 @@ http://purl.obolibrary.org/obo/NCBITaxon_3335	Picea mariana
 http://purl.obolibrary.org/obo/NCBITaxon_2246	Haloferax volcanii
 http://purl.obolibrary.org/obo/NCBITaxon_11604	Puumala virus
 http://purl.obolibrary.org/obo/NCBITaxon_446304	Rhabditis remanei
+http://purl.obolibrary.org/obo/NCBITaxon_323	Pseudomonas syringae pv. tomato
 http://purl.obolibrary.org/obo/NCBITaxon_379508	Lodderomyces elongisporus NRRL YB-4239
 http://purl.obolibrary.org/obo/NCBITaxon_238245	Stenocarpella maydis
 http://purl.obolibrary.org/obo/NCBITaxon_28035	Staphylococcus lugdunensis
@@ -1082,7 +1113,7 @@ http://purl.obolibrary.org/obo/NCBITaxon_562	Escherichia coli
 http://purl.obolibrary.org/obo/NCBITaxon_11608	Seoul virus
 http://purl.obolibrary.org/obo/NCBITaxon_28038	Lactobacillus curvatus
 http://purl.obolibrary.org/obo/NCBITaxon_10519	Human adenovirus 7
-http://purl.obolibrary.org/obo/NCBITaxon_5518	Gibberella zeae
+http://purl.obolibrary.org/obo/NCBITaxon_5518	Fusarium graminearum
 http://purl.obolibrary.org/obo/NCBITaxon_28037	Streptococcus mitis
 http://purl.obolibrary.org/obo/NCBITaxon_265606	Rhodopirellula baltica
 http://purl.obolibrary.org/obo/NCBITaxon_242507	Magnaporthe oryzae 70-15
@@ -1098,6 +1129,7 @@ http://purl.obolibrary.org/obo/NCBITaxon_1392	Bacillus anthracis
 http://purl.obolibrary.org/obo/NCBITaxon_379731	Pseudomonas stutzeri A1501
 http://purl.obolibrary.org/obo/NCBITaxon_3326	Larix laricina
 http://purl.obolibrary.org/obo/NCBITaxon_5503	Cochliobolus lunatus
+http://purl.obolibrary.org/obo/NCBITaxon_5506	Fusarium
 http://purl.obolibrary.org/obo/NCBITaxon_54571	Streptomyces venezuelae
 http://purl.obolibrary.org/obo/NCBITaxon_114525	Saccharomyces mikatae
 http://purl.obolibrary.org/obo/NCBITaxon_5741	Giardia intestinalis
@@ -1113,7 +1145,9 @@ http://purl.obolibrary.org/obo/NCBITaxon_43687	Metallosphaera sedula
 http://purl.obolibrary.org/obo/NCBITaxon_10506	Paramecium bursaria Chlorella virus 1
 http://purl.obolibrary.org/obo/NCBITaxon_573	Klebsiella pneumoniae
 http://purl.obolibrary.org/obo/NCBITaxon_3329	Picea abies
+http://purl.obolibrary.org/obo/NCBITaxon_338	Xanthomonas
 http://purl.obolibrary.org/obo/NCBITaxon_5507	Fusarium oxysporum
+http://purl.obolibrary.org/obo/NCBITaxon_337	Burkholderia glumae
 http://purl.obolibrary.org/obo/NCBITaxon_781	Rickettsia conorii
 http://purl.obolibrary.org/obo/NCBITaxon_495941	Falco chicquera
 http://purl.obolibrary.org/obo/NCBITaxon_172680	Chlamydotis undulata
@@ -1135,6 +1169,7 @@ http://purl.obolibrary.org/obo/NCBITaxon_782	Rickettsia prowazekii
 http://purl.obolibrary.org/obo/NCBITaxon_29341	Clostridium argentinense
 http://purl.obolibrary.org/obo/NCBITaxon_305	Ralstonia solanacearum
 http://purl.obolibrary.org/obo/NCBITaxon_186842	Mus musculus x Mus spretus
+http://purl.obolibrary.org/obo/NCBITaxon_755351	Vitis vinifera subsp. silvestris
 http://purl.obolibrary.org/obo/NCBITaxon_545	Citrobacter koseri
 http://purl.obolibrary.org/obo/NCBITaxon_303	Pseudomonas putida
 http://purl.obolibrary.org/obo/NCBITaxon_43696	Chara corallina
@@ -1183,11 +1218,12 @@ http://purl.obolibrary.org/obo/NCBITaxon_139649	Teleopsis dalmanni
 http://purl.obolibrary.org/obo/NCBITaxon_373153	Streptococcus pneumoniae D39
 http://purl.obolibrary.org/obo/NCBITaxon_5791	Physarum polycephalum
 http://purl.obolibrary.org/obo/NCBITaxon_321956	Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365
+http://purl.obolibrary.org/obo/NCBITaxon_31870	Colletotrichum graminicola
 http://purl.obolibrary.org/obo/NCBITaxon_5306	Phanerochaete chrysosporium
 http://purl.obolibrary.org/obo/NCBITaxon_139651	Teleopsis whitei
 http://purl.obolibrary.org/obo/NCBITaxon_5786	Dictyostelium purpureum
 http://purl.obolibrary.org/obo/NCBITaxon_529507	Proteus mirabilis HI4320
-http://purl.obolibrary.org/obo/NCBITaxon_5544	Hypocrea lixii
+http://purl.obolibrary.org/obo/NCBITaxon_5544	Trichoderma harzianum
 http://purl.obolibrary.org/obo/NCBITaxon_139650	Teleopsis quinqueguttata
 http://purl.obolibrary.org/obo/NCBITaxon_141969	Oscheius tipulae
 http://purl.obolibrary.org/obo/NCBITaxon_7963	Hypophthalmichthys
@@ -1222,6 +1258,7 @@ http://purl.obolibrary.org/obo/NCBITaxon_43256	Harpagifer antarcticus
 http://purl.obolibrary.org/obo/NCBITaxon_186801	Clostridia
 http://purl.obolibrary.org/obo/NCBITaxon_267608	Ralstonia solanacearum GMI1000
 http://purl.obolibrary.org/obo/NCBITaxon_128735	Rosa hybrid cultivar
+http://purl.obolibrary.org/obo/NCBITaxon_168172	Puccinia striiformis f. sp. tritici
 http://purl.obolibrary.org/obo/NCBITaxon_265669	Listeria monocytogenes serotype 4b str. F2365
 http://purl.obolibrary.org/obo/NCBITaxon_2261	Pyrococcus furiosus
 http://purl.obolibrary.org/obo/NCBITaxon_89462	Bubalus bubalis
@@ -1283,11 +1320,13 @@ http://purl.obolibrary.org/obo/NCBITaxon_1307	Streptococcus suis
 http://purl.obolibrary.org/obo/NCBITaxon_13616	Monodelphis domestica
 http://purl.obolibrary.org/obo/NCBITaxon_1305	Streptococcus sanguinis
 http://purl.obolibrary.org/obo/NCBITaxon_2879	Ectocarpus
+http://purl.obolibrary.org/obo/NCBITaxon_112509	Hordeum vulgare subsp. vulgare
 http://purl.obolibrary.org/obo/NCBITaxon_731	Histophilus somni
 http://purl.obolibrary.org/obo/NCBITaxon_1309	Streptococcus mutans
 http://purl.obolibrary.org/obo/NCBITaxon_9261	Tachyglossus aculeatus
 http://purl.obolibrary.org/obo/NCBITaxon_36080	Mucor circinelloides
 http://purl.obolibrary.org/obo/NCBITaxon_166361	Onthophagus taurus
+http://purl.obolibrary.org/obo/NCBITaxon_33208	Metazoa
 http://purl.obolibrary.org/obo/NCBITaxon_192452	Cocksfoot streak virus
 http://purl.obolibrary.org/obo/NCBITaxon_76772	Spermophilus lateralis
 http://purl.obolibrary.org/obo/NCBITaxon_8175	Sparus aurata
@@ -1307,6 +1346,7 @@ http://purl.obolibrary.org/obo/NCBITaxon_4808	Blastocladiella emersonii
 http://purl.obolibrary.org/obo/NCBITaxon_3719	Capsella bursa-pastoris
 http://purl.obolibrary.org/obo/NCBITaxon_272560	Burkholderia pseudomallei K96243
 http://purl.obolibrary.org/obo/NCBITaxon_295405	Bacteroides fragilis YCH46
+http://purl.obolibrary.org/obo/NCBITaxon_3714	Brassica oleracea var. alboglabra
 http://purl.obolibrary.org/obo/NCBITaxon_272562	Clostridium acetobutylicum ATCC 824
 http://purl.obolibrary.org/obo/NCBITaxon_237574	Citrus sunki
 http://purl.obolibrary.org/obo/NCBITaxon_146500	Watermelon mosaic virus
@@ -1318,6 +1358,7 @@ http://purl.obolibrary.org/obo/NCBITaxon_74109	Photobacterium profundum
 http://purl.obolibrary.org/obo/NCBITaxon_9014	Colinus virginianus
 http://purl.obolibrary.org/obo/NCBITaxon_8164	Lateolabrax japonicus
 http://purl.obolibrary.org/obo/NCBITaxon_103818	Lactobacillus kimchii
+http://purl.obolibrary.org/obo/NCBITaxon_189291	Meloidogyne graminicola
 http://purl.obolibrary.org/obo/NCBITaxon_1520	Clostridium beijerinckii
 http://purl.obolibrary.org/obo/NCBITaxon_28081	Bordetella sp.
 http://purl.obolibrary.org/obo/NCBITaxon_715	Actinobacillus pleuropneumoniae
@@ -1345,6 +1386,7 @@ http://purl.obolibrary.org/obo/NCBITaxon_38289	Corynebacterium jeikeium
 http://purl.obolibrary.org/obo/NCBITaxon_79824	Andropogon gerardii
 http://purl.obolibrary.org/obo/NCBITaxon_1360	Lactococcus lactis subsp. lactis
 http://purl.obolibrary.org/obo/NCBITaxon_9089	Chrysolophus pictus
+http://purl.obolibrary.org/obo/NCBITaxon_52586	Erysiphe necator
 http://purl.obolibrary.org/obo/NCBITaxon_9088	Chrysolophus amherstiae
 http://purl.obolibrary.org/obo/NCBITaxon_1597	Lactobacillus paracasei
 http://purl.obolibrary.org/obo/NCBITaxon_67606	Drechslera sp.
@@ -1385,6 +1427,7 @@ http://purl.obolibrary.org/obo/NCBITaxon_1584	Lactobacillus delbrueckii
 http://purl.obolibrary.org/obo/NCBITaxon_3767	Pyrus pyrifolia
 http://purl.obolibrary.org/obo/NCBITaxon_1583	Weissella confusa
 http://purl.obolibrary.org/obo/NCBITaxon_1589	Lactobacillus pentosus
+http://purl.obolibrary.org/obo/NCBITaxon_12721	Human immunodeficiency virus
 http://purl.obolibrary.org/obo/NCBITaxon_1588	Lactobacillus hilgardii
 http://purl.obolibrary.org/obo/NCBITaxon_3522	Casuarina glauca
 http://purl.obolibrary.org/obo/NCBITaxon_1587	Lactobacillus helveticus
@@ -1425,9 +1468,11 @@ http://purl.obolibrary.org/obo/NCBITaxon_4606	Festuca arundinacea
 http://purl.obolibrary.org/obo/NCBITaxon_11629	Mopeia virus
 http://purl.obolibrary.org/obo/NCBITaxon_3517	Alnus glutinosa
 http://purl.obolibrary.org/obo/NCBITaxon_29149	Protomelas similis
+http://purl.obolibrary.org/obo/NCBITaxon_1290391	Botrytis cinerea BcDW1
 http://purl.obolibrary.org/obo/NCBITaxon_167481	Lactobacillus mindensis
 http://purl.obolibrary.org/obo/NCBITaxon_510516	Aspergillus oryzae RIB40
 http://purl.obolibrary.org/obo/NCBITaxon_35814	Bordetella holmesii
+http://purl.obolibrary.org/obo/NCBITaxon_33634	Stramenopiles
 http://purl.obolibrary.org/obo/NCBITaxon_354242	Campylobacter jejuni subsp. jejuni 81-176
 http://purl.obolibrary.org/obo/NCBITaxon_171960	Vitis sp. cv. 'Norton'
 http://purl.obolibrary.org/obo/NCBITaxon_55887	Rhabditinae
@@ -1441,6 +1486,7 @@ http://purl.obolibrary.org/obo/NCBITaxon_3983	Manihot esculenta
 http://purl.obolibrary.org/obo/NCBITaxon_10524	Human adenovirus 41
 http://purl.obolibrary.org/obo/NCBITaxon_915	Nitrosomonas europaea
 http://purl.obolibrary.org/obo/NCBITaxon_65672	Piriformospora indica
+http://purl.obolibrary.org/obo/NCBITaxon_310453	Neofusicoccum parvum
 http://purl.obolibrary.org/obo/NCBITaxon_28285	Human adenovirus 5
 http://purl.obolibrary.org/obo/NCBITaxon_11619	Junin virus
 http://purl.obolibrary.org/obo/NCBITaxon_3505	Betula pendula

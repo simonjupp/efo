@@ -84,7 +84,7 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A temporal subdivision of a developmental process.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBdv:00005259</oboInOwl:id>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBdv:00007010</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase development CV</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase_development_CV</oboInOwl:hasOBONamespace>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">djs93</oboInOwl:created_by>
     </owl:Class>
     
@@ -97,7 +97,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBdv_00005259"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A collective term for stages 13-15.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBdv:00005331</oboInOwl:id>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase development CV</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase_development_CV</oboInOwl:hasOBONamespace>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Temporal ordering number - 330.</rdfs:comment>
     </owl:Class>
     
@@ -110,7 +110,7 @@
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009-10-01T05:56:28Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO:0000003</oboInOwl:hasDbXref>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBdv:00007008</oboInOwl:id>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase development CV</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase_development_CV</oboInOwl:hasOBONamespace>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">djs93</oboInOwl:created_by>
     </owl:Class>
 </rdf:RDF>

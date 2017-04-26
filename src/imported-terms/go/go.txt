@@ -26,10 +26,11 @@ http://purl.obolibrary.org/obo/GO_0009161	ribonucleoside monophosphate metabolic
 http://purl.obolibrary.org/obo/GO_0009167	purine ribonucleoside monophosphate metabolic process
 http://purl.obolibrary.org/obo/GO_0009168	purine ribonucleoside monophosphate biosynthetic process
 http://purl.obolibrary.org/obo/GO_0009165	nucleotide biosynthetic process
+http://purl.obolibrary.org/obo/GO_0055062	phosphate ion homeostasis
 http://purl.obolibrary.org/obo/GO_0007420	brain development
 http://purl.obolibrary.org/obo/GO_0030662	coated vesicle membrane
 http://purl.obolibrary.org/obo/GO_0044700	single organism signaling
-http://purl.obolibrary.org/obo/GO_0051384	response to glucocorticoid stimulus
+http://purl.obolibrary.org/obo/GO_0051384	response to glucocorticoid
 http://purl.obolibrary.org/obo/GO_0038023	signaling receptor activity
 http://purl.obolibrary.org/obo/GO_0055069	zinc ion homeostasis
 http://purl.obolibrary.org/obo/GO_0008517	folic acid transporter activity
@@ -49,6 +50,7 @@ http://purl.obolibrary.org/obo/GO_0009611	response to wounding
 http://purl.obolibrary.org/obo/GO_0006464	cellular protein modification process
 http://purl.obolibrary.org/obo/GO_0009615	response to virus
 http://purl.obolibrary.org/obo/GO_0016023	cytoplasmic membrane-bounded vesicle
+http://purl.obolibrary.org/obo/GO_0009856	pollination
 http://purl.obolibrary.org/obo/GO_0016020	membrane
 http://purl.obolibrary.org/obo/GO_0005819	spindle
 http://purl.obolibrary.org/obo/GO_0051234	establishment of localization
@@ -102,6 +104,7 @@ http://purl.obolibrary.org/obo/GO_1901555	response to paclitaxel
 http://purl.obolibrary.org/obo/GO_1901556	response to candesartan
 http://purl.obolibrary.org/obo/GO_0030101	natural killer cell activation
 http://purl.obolibrary.org/obo/GO_0007588	excretion
+http://purl.obolibrary.org/obo/GO_1905119	response to haloperidol
 http://purl.obolibrary.org/obo/GO_0015884	folic acid transport
 http://purl.obolibrary.org/obo/GO_1901557	response to fenofibrate
 http://purl.obolibrary.org/obo/GO_0043413	macromolecule glycosylation
@@ -114,6 +117,7 @@ http://purl.obolibrary.org/obo/GO_0043657	host cell
 http://purl.obolibrary.org/obo/GO_0006139	nucleobase-containing compound metabolic process
 http://purl.obolibrary.org/obo/GO_0009526	plastid envelope
 http://purl.obolibrary.org/obo/GO_0006810	transport
+http://purl.obolibrary.org/obo/GO_0005844	polysome
 http://purl.obolibrary.org/obo/GO_0009408	response to heat
 http://purl.obolibrary.org/obo/GO_0009409	response to cold
 http://purl.obolibrary.org/obo/GO_0071214	cellular response to abiotic stimulus
@@ -218,6 +222,7 @@ http://purl.obolibrary.org/obo/GO_0044217	other organism part
 http://purl.obolibrary.org/obo/GO_0036271	response to methylphenidate
 http://purl.obolibrary.org/obo/GO_0036270	response to diruetic
 http://purl.obolibrary.org/obo/GO_0052047	interaction with other organism via secreted substance involved in symbiotic interaction
+http://purl.obolibrary.org/obo/GO_0034097	response to cytokine
 http://purl.obolibrary.org/obo/GO_0036276	response to antidepressant
 http://purl.obolibrary.org/obo/GO_0036275	response to 5' fluorouracil
 http://purl.obolibrary.org/obo/GO_0036274	response to lapatinib
@@ -340,6 +345,7 @@ http://purl.obolibrary.org/obo/GO_0044249	cellular biosynthetic process
 http://purl.obolibrary.org/obo/GO_0070062	extracellular vesicular exosome
 http://purl.obolibrary.org/obo/GO_0002526	acute inflammatory response
 http://purl.obolibrary.org/obo/GO_0000226	microtubule cytoskeleton organization
+http://purl.obolibrary.org/obo/GO_0002524	GO_0002524
 http://purl.obolibrary.org/obo/GO_0042060	wound healing
 http://purl.obolibrary.org/obo/GO_1990054	response to temozolomide
 http://purl.obolibrary.org/obo/GO_0031974	membrane-enclosed lumen

@@ -105,9 +105,50 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_0000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000002">
+        <rdfs:label xml:lang="en">continuant</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000004">
+        <rdfs:label xml:lang="en">independent continuant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <obo:IAO_0000115 xml:lang="en">A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040">
+        <rdfs:label xml:lang="en">material entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <obo:IAO_0000115 xml:lang="en">An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CARO_0000003 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CARO_0000003"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CARO_0000003">
+        <rdfs:label xml:lang="en">anatomical structure</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000006"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0000006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CARO_0000006">
+        <rdfs:label xml:lang="en">material anatomical entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    </owl:Class>
     
 
 
@@ -115,6 +156,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000000">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</rdfs:label>
+        <rdfs:label xml:lang="en">cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005575"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A material entity of anatomical origin (part of or deriving from an organism) that has as its parts a maximally connected cell compartment surrounded by a plasma membrane.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CALOHA:TS-2035</oboInOwl:hasDbXref>
@@ -388,6 +431,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000040">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">monoblast</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000763"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002194"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A myeloid progenitor cell committed to the monocyte lineage. This cell is CD11b-positive, has basophilic cytoplasm, euchromatin, and the presence of a nucleolus.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CALOHA:TS-1195</oboInOwl:hasDbXref>
@@ -460,6 +504,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000047">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neuronal stem cell</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000048"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002319"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0002881</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CALOHA:TS-2360</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:86684</oboInOwl:hasDbXref>
@@ -642,6 +687,21 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CL_0000065 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000065">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ependymal cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000067"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000710"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A neurectoderm derived cell that lines the neural lumen.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001724</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:70550</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ependymocyte</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CL_0000066 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000066">
@@ -660,12 +720,35 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CL_0000067 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000067">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ciliated epithelial cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000064"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000075"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An epithelial cell that has a cillia.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:70605</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CL_0000068 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000068">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">duct epithelial cell</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000066"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002371"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000069 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000069">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">branched duct epithelial cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000068"/>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</oboInOwl:hasOBONamespace>
     </owl:Class>
     
@@ -1488,6 +1571,24 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CL_0000185 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000185">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myoepithelial cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000075"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000183"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002078"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0002309</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CALOHA:TS-2379</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Contractile cells resembling smooth muscle cells that are present in glands, notably the mammary gland, and aid in secretion. This cell has long weaving dendritic processes containing myofilament.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:67799</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">basket epithelial cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myoepitheliocyte</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CL_0000187 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000187">
@@ -1557,6 +1658,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000202">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">auditory hair cell</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000006"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000710"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002374"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002491"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanoreceptor cell located in the inner ear that is sensitive to auditory stimuli. The accessory sensory structures are arranged so that appropriate stimuli cause movement of the hair-like projections (stereocilia and kinocilia) which relay the information centrally in the nervous system.</obo:IAO_0000115>
@@ -1965,7 +2067,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000333">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">migratory neural crest cell</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000219"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002321"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0011012"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cell derived from the specialized ectoderm flanking each side of the embryonic neural plate, which after the closure of the neural tube, forms masses of cells that migrate out from the dorsal aspect of the neural tube to spread throughout the body.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:86667</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</oboInOwl:hasOBONamespace>
@@ -1977,9 +2079,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000336">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adrenal medulla chromaffin cell</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000150"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000166"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000457"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_1000426"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cell found within the adrenal medulla that secrete biogenic amine hormones upon stimulation.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:1000422</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:69262</oboInOwl:hasDbXref>
@@ -2360,6 +2461,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000453">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Langerhans cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000766"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000990"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000705</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CALOHA:TS-2375</oboInOwl:hasDbXref>
@@ -2377,7 +2479,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000457">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biogenic amine secreting cell</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000163"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000151"/>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</oboInOwl:hasOBONamespace>
     </owl:Class>
     
@@ -2504,6 +2606,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">paneth cell</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000150"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000323"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002563"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An epithelial cell found in the basal part of the intestinal glands (crypts of Lieberkuhn) including the appendix. Paneth cells synthesize and secrete lysozyme and cryptdins. Numerous in the deeper parts of the intestinal crypts, particularly in the duodenum, rich in zinc, contain large acidophilic granules, with irregular apical microvilli and prominent membrane-bound vacuoles containing matrix.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000993</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:62897</oboInOwl:hasDbXref>
@@ -2626,6 +2729,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000540">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neuron</rdfs:label>
+        <rdfs:label xml:lang="en">neuron</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000393"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000404"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002319"/>
@@ -2787,6 +2892,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000553">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">megakaryocyte progenitor cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000763"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000839"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001164</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CALOHA:TS-0610</oboInOwl:hasDbXref>
@@ -2866,6 +2972,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000559">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">promonocyte</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000763"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002194"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A precursor in the monocytic series, being a cell intermediate in development between the monoblast and monocyte. This cell is CD11b-positive and has fine azurophil granules.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0004657</oboInOwl:hasDbXref>
@@ -2923,15 +3030,29 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CL_0000566 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000566">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">angioblastic mesenchymal cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000134"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mesenchymal stem cell capable of developing into blood vessel endothelium.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">These cells are reportedly CD31-positive, CD34-positive, CD144-positive, CD309-positive, and TAL1-positive.</rdfs:comment>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">angioblast</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chondroplast</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CL_0000568 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000568">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APUD cell</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amine precursor uptake and decarboxylation cell</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000165"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cell that originates in the neural crest, that has certain cytochemical and ultrastructural characteristics and is found scattered throughout the body; types include melanocytes, the cells of the chromaffin system, and cells in the hypothalamus, hypophysis, thyroid, parathyroids, lungs, gastrointestinal tract, and pancreas. This cell type concentrates the amino acid precursors of certain amines and decarboxylate them, forming amines that function as regulators and neurotransmitters. This cell type produces substances such as epinephrine, norepinephrine, dopamine, serotonin, enkephalin, somatostatin, neurotensin, and substance P, the actions of which may affect contiguous cells, nearby groups of cells, or distant cells, thus functioning as local or systemic hormones. The name is an acronym for amine precursor uptake and decarboxylation cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APUD cell</oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0003866</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:83114</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amine precursor uptake and decarboxylation cell</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</oboInOwl:hasOBONamespace>
     </owl:Class>
     
@@ -2942,7 +3063,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000576">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">monocyte</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000766"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002087"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000842"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0011115"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000876</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CALOHA:TS-0638</oboInOwl:hasDbXref>
@@ -3138,6 +3259,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000611">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eosinophil progenitor cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000763"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002191"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CFU-Eo</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EoP</oboInOwl:hasExactSynonym>
@@ -3168,6 +3290,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000613">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">basophil progenitor cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000763"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002191"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A progenitor cell committed to the basophil lineage. This cell lacks hematopoietic lineage markers (lin-negative) and is CD34-positive, T1/ST2-low, CD117-negative, and FceRIa-high. This cell also expresses Gata-1, Gata-2 and C/EBPa.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BaP</oboInOwl:hasExactSynonym>
@@ -3315,6 +3438,20 @@
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lipocyte</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">perisinusoidal cell</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vitamin A-storing cells</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000644 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000644">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bergmann glial cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000127"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bergmann astrocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bergmann glial cell of cerebellum</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:54559</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Type of radial astrocyte in the cerebellar cortex that have their cell bodies in the Purkinje cell layer and processes that extend into the molecular layer, terminating with bulbous endfeet at the pial surface. Bergmann glia express high densities of glutamate transporters that limit diffusion of the neurotransmitter glutamate during its release from synaptic terminals. Besides their role in early development of the cerebellum, Bergmann glia are also required for the pruning or addition of synapses.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</oboInOwl:hasOBONamespace>
     </owl:Class>
     
 
@@ -3850,6 +3987,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000782">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myeloid dendritic cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000766"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000990"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A dendritic cell of the myeloid lineage.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0004721</oboInOwl:hasDbXref>
@@ -4268,6 +4406,7 @@
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</oboInOwl:hasOBONamespace>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">double negative 3</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preT.DN3.Th</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasBroadSynonym>early cortical thymocyte</oboInOwl:hasBroadSynonym>
     </owl:Class>
     
 
@@ -4287,6 +4426,7 @@
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T.DN4.th</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</oboInOwl:hasOBONamespace>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">double negative 4</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasBroadSynonym>early cortical thymocyte</oboInOwl:hasBroadSynonym>
     </owl:Class>
     
 
@@ -4303,6 +4443,7 @@
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thymocytes of this stage are undergoing positive and negative selection.</rdfs:comment>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</oboInOwl:hasOBONamespace>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">double-positive, alpha-beta immature T lymphocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasBroadSynonym>late cortical thymocyte</oboInOwl:hasBroadSynonym>
     </owl:Class>
     
 
@@ -4616,6 +4757,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000828">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thromboblast</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000226"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000763"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000839"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A progenitor cell of the thrombocyte, a nucleated blood cell involved in coagulation typically seen in birds and other non-mammalian vertebrates.</obo:IAO_0000115>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Note that this is a non-mammalian cell type.</rdfs:comment>
@@ -4651,6 +4793,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000831">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mast cell progenitor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000763"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000839"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A progenitor cell of the mast cell lineage. Markers for this cell are FceRIa-low, CD117-positive, CD9-positive, T1/ST2-positive, SCA1-negative, and lineage-negative.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CFU-MC</oboInOwl:hasRelatedSynonym>
@@ -4690,6 +4833,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000834">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neutrophil progenitor cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000763"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002191"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A progenitor cell of the neutrophil lineage.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</oboInOwl:hasOBONamespace>
@@ -4702,6 +4846,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000835">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myeloblast</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000763"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002191"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002242"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000187</oboInOwl:hasDbXref>
@@ -4716,6 +4861,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000836">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">promyelocyte</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000763"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002191"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002242"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A precursor in the granulocytic series, being a cell intermediate in development between a myeloblast and myelocyte, that has distinct nucleoli, a nuclear-to-cytoplasmic ratio of 5:1 to 3:1, and containing a few primary cytoplasmic granules. Markers for this cell are fucosyltransferase FUT4-positive, CD33-positive, integrin alpha-M-negative, low affinity immunoglobulin gamma Fc region receptor III-negative, and CD24-negative.</obo:IAO_0000115>
@@ -4780,6 +4926,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000840">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immature conventional dendritic cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000766"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000990"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An immature cell of the conventional dendritic cell lineage, characterized by high levels of antigen uptake via endocytosis, macropinocytosis, and phagocytosis, and typically found resident in the tissues. Markers for this cell are CD80-low, CD86-low, and MHC-II-low.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</oboInOwl:hasOBONamespace>
@@ -4792,6 +4939,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000841">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mature conventional dendritic cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000766"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000990"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mature cell of the conventional dendritic cell lineage, characterized by a high capacity for antigen presentation and typically found in a lymph node.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:83038</oboInOwl:hasDbXref>
@@ -4814,6 +4962,7 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:86713</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</oboInOwl:hasOBONamespace>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peripheral blood mononuclear cell</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasExactSynonym>mononuclear leukocyte</oboInOwl:hasExactSynonym>
     </owl:Class>
     
 
@@ -4859,6 +5008,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000845">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">marginal zone B cell</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000785"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_2000074"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mature B cell that is located in the marginal zone of the spleen with the phenotype CD23-negative and CD21-positive and expressing a B cell receptor usually reactive to bacterial cell wall components or senescent self components such as oxidized-LDL. This cell type is also described as being CD19-positive, B220-positive, IgM-high, AA4-negative, CD35-high.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MZ B cell</oboInOwl:hasExactSynonym>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MZ B cells are reportedly CD1-positive (mice), CD20-positive, CD48-positive, CD84-positive, CD150-positive, CD229-positive, and CD352-positive.</rdfs:comment>
@@ -5118,6 +5268,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000878">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">central nervous system macrophage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000864"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002319"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tissue-resident macrophage found in the central nervous system.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CNS macrophage</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</oboInOwl:hasOBONamespace>
@@ -6798,6 +6949,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000992">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immature CD11c-low plasmacytoid dendritic cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000766"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000989"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immature CD11c-low plasmacytoid dendritic cell is a CD11c-low plasmacytoid dendritic cell that is CD80-low and CD86-low.</obo:IAO_0000115>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Originally described in the dendritic cell ontology (DC_CL:0000006)(PMID:19243617).</rdfs:comment>
@@ -6810,6 +6962,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000993">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mature CD11c-low plasmacytoid dendritic cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000766"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000989"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mature CD11c-low plasmacytoid dendritic cell is a CD11c-low plasmacytoid dendritic cell that is CD83-high and is CD80-positive, CD86-positive, and MHCII-positive.</obo:IAO_0000115>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Originally described in the dendritic cell ontology (DC_CL:0000007)(PMID:19243617).</rdfs:comment>
@@ -6871,6 +7024,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000998">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD8_alpha-negative CD11b-negative dendritic cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000766"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000990"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD8_alpha-negative CD11b-negative dendritic cell is a conventional dendritic cell that is CD11b-negative, CD4-negative CD8_alpha-negative and is CD205-positive. This cell is able to cross- present antigen to CD8-alpha-positive T cells.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DC.8-4-11b-</oboInOwl:hasExactSynonym>
@@ -6885,6 +7039,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000999">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD4-positive CD11b-positive dendritic cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000766"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002465"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD8_alpha-negative CD11b-positive dendritic cell is a conventional dendritic cell that is CD11b-positive, CD4-positive and is CD205-negative and CD8_alpha-negative.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DC.4+</oboInOwl:hasExactSynonym>
@@ -6898,6 +7053,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0001000">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD8_alpha-positive CD11b-negative dendritic cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000766"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000990"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD8_alpha-positive CD11b-negative dendritic cell is a conventional dendritic cell that is CD11b-negative, CD4-negative and is CD205-positive and CD8_alpha-positive.</obo:IAO_0000115>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cells are defined as having a disposition to secreting inflammatory cytokines. Originally described in the dendritic cell ontology (DC_CL:0000013)(PMID:19243617).</rdfs:comment>
@@ -7282,6 +7438,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0001029">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">common dendritic progenitor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000763"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0001019"/>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDP</oboInOwl:hasExactSynonym>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Common dendritic precursor is a hematopoietic progenitor cell that is CD117-low, CD135-positive, CD115-positive and lacks plasma membrane parts for hematopoietic lineage markers.</obo:IAO_0000115>
@@ -7574,6 +7731,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002009">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">macrophage dendritic cell progenitor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000763"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002032"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0011115"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-01-19T02:51:58Z</oboInOwl:creation_date>
@@ -7589,6 +7747,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002010">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pre-conventional dendritic cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000763"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002031"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-01-19T03:39:30Z</oboInOwl:creation_date>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A lin-negative, MHC-II-negative, CD11c-positive, FLT3-positive cell with intermediate expression of SIRP-alpha.</obo:IAO_0000115>
@@ -7841,6 +8000,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002028">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">basophil mast progenitor cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000763"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002191"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-04-27T12:46:33Z</oboInOwl:creation_date>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cell type that can give rise to basophil and mast cells. This cell is CD34-positive, CD117-positive, CD125-positive, FceRIa-negative, and T1/ST2-negative, and expresses Gata-1, Gata-2, C/EBPa</obo:IAO_0000115>
@@ -8427,6 +8587,22 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CL_0002092 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002092">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bone marrow cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0001035"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-07-22T04:48:15Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cell found in the bone marrow. This can include fibroblasts, macrophages, adipocytes, osteoblasts, osteoclasts, endothelial cells and hematopoietic cells.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0004850</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:83621</oboInOwl:hasDbXref>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MH consider whether bone marrow cells are bone cells in the structural sense vs. being part of bone organ sense.</rdfs:comment>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</oboInOwl:hasOBONamespace>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tmeehan</oboInOwl:created_by>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CL_0002101 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002101">
@@ -8997,6 +9173,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002192">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metamyelocyte</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000763"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002191"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-08-30T01:08:15Z</oboInOwl:creation_date>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A eosinophil precursor in the granulocytic series, being a cell intermediate in development between a myelocyte and a band form cell. The nucleus becomes indented where the indentation is smaller than half the distance to the farthest nuclear margin; chromatin becomes coarse and clumped; specific granules predominate while primary granules are rare.</obo:IAO_0000115>
@@ -9011,6 +9188,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002193">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myelocyte</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000763"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002191"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-08-30T01:08:19Z</oboInOwl:creation_date>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cell type that is the first of the maturation stages of the granulocytic leukocytes normally found in the bone marrow. Granules are seen in the cytoplasm. The nuclear material of the myelocyte is denser than that of the myeloblast but lacks a definable membrane. The cell is flat and contains increasing numbers of granules as maturation progresses.</obo:IAO_0000115>
@@ -9628,6 +9806,21 @@
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</oboInOwl:hasOBONamespace>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">corneal fibroblast</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">corneal keratocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tmeehan</oboInOwl:created_by>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0002364 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002364">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cortical thymic epithelial cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002293"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-09-23T03:17:12Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An epithelial cell of the cortical portion of the thymus. Epithelial cells in this region are required for positive selection of CD8-positive T cells.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0004562</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cTEC</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</oboInOwl:hasOBONamespace>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tmeehan</oboInOwl:created_by>
     </owl:Class>
     
@@ -10524,6 +10717,19 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CL_0002451 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002451">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mammary stem cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000048"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-11-10T01:46:51Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A multi-fate stem cell that is the source of cells for growth of the mammary gland during puberty and gestation. This cell type gives rise to both the luminal and myoepithelial cell types of the gland, and have been shown to have the ability to regenerate the entire organ in mice. This cell type also plays an important role in carcinogenesis of the breast. This cell type is Lin-, CD24-positive, CD29-hi.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</oboInOwl:hasOBONamespace>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tmeehan</oboInOwl:created_by>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CL_0002454 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002454">
@@ -10626,6 +10832,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002461">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD103-positive dendritic cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000766"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000990"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-11-23T01:32:43Z</oboInOwl:creation_date>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A conventional dendritic cell that is CD103-positive. This cell type is usually found in non-lymphoid tissue.</obo:IAO_0000115>
@@ -10639,6 +10846,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002462">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adipose dendritic cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000766"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000990"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002320"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-11-23T01:38:21Z</oboInOwl:creation_date>
@@ -11201,6 +11409,50 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CL_0002540 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002540">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mesenchymal stem cell of the bone marrow</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000134"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002092"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011-02-28T01:47:47Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mesenchymal stem cell that is part of the bone marrow.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</oboInOwl:hasOBONamespace>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tmeehan</oboInOwl:created_by>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0002543 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002543">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vein endothelial cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000071"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011-02-28T03:48:11Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An endothelial cell that is part of the vein.</obo:IAO_0000115>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:1000393</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:62104</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KUPO:0001099</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endothelial cell of vein</oboInOwl:hasExactSynonym>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tmeehan</oboInOwl:created_by>
+        <oboInOwl:hasExactSynonym>venous endothelial cell</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0002551 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002551">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fibroblast of dermis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002620"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011-02-28T05:05:33Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</oboInOwl:hasOBONamespace>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tmeehan</oboInOwl:created_by>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CL_0002553 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002553">
@@ -11274,10 +11526,27 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002608">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hippocampal neuron</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000117"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002609"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011-03-06T07:31:49Z</oboInOwl:creation_date>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A neuron of the hippocampus.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</oboInOwl:hasOBONamespace>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tmeehan</oboInOwl:created_by>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0002609 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002609">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neuron of cerebral cortex</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0010012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0012001"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011-03-06T07:37:08Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A CNS neuron of the cerebral cortex.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0004102</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:84104</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cortical neuron</oboInOwl:hasExactSynonym>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tmeehan</oboInOwl:created_by>
     </owl:Class>
     
@@ -11300,6 +11569,49 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CL_0002618 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002618">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endothelial cell of umbilical vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002543"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011-03-14T11:36:51Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An endothelial cell of the umbilical vein.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0004296</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</oboInOwl:hasOBONamespace>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tmeehan</oboInOwl:created_by>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0002619 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002619">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adult endothelial progenitor cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000566"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011-03-14T12:11:18Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An adult angioblastic cell released from the bone marrow, capable of blood circulation and participation in angiogenesis by differentiating into blood vessel endothelial cells. Their existence is controversial.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPC</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</oboInOwl:hasOBONamespace>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tmeehan</oboInOwl:created_by>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0002620 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002620">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">skin fibroblast</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000057"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011-03-14T12:31:49Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fibroblast of skin.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001255</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CALOHA:TS-0935</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</oboInOwl:hasOBONamespace>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tmeehan</oboInOwl:created_by>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CL_0002625 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002625">
@@ -11308,6 +11620,22 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000077"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011-03-15T11:59:23Z</oboInOwl:creation_date>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cell of the seminiferous tubule epithelium.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</oboInOwl:hasOBONamespace>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tmeehan</oboInOwl:created_by>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0002633 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002633">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">respiratory basal cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000646"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002368"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011-06-21T03:11:10Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A basal cell in the respiratory tract.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">airway basal cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">airway basal stem cell</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</oboInOwl:hasOBONamespace>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tmeehan</oboInOwl:created_by>
     </owl:Class>
@@ -11375,10 +11703,52 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0009004">
         <rdfs:label>retinal cell</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002371"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002319"/>
         <oboInOwl:hasDbXref>GOC:pr</oboInOwl:hasDbXref>
         <obo:IAO_0000115>Any cell in the retina, the innermost layer or coating at the back of the eyeball, which is sensitive to light and in which the optic nerve terminates.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>PMID:10702418</oboInOwl:hasDbXref>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0010006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0010006">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cardiac blood vessel endothelial cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000071"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0010008"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0010008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0010008">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cardiac endothelial cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000115"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002494"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0010012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0010012">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cerebral cortex neuron</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_2000029"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a neuron that is part_of a cerebral cortex</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0011012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0011012">
+        <rdfs:label>neural crest cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000048"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002321"/>
+        <obo:IAO_0000115>A cell of the neural crest. Neural crest cells are multipotent. Premigratory neural crest cells are found at the neural plate boarder, some of which will undergo ectomesynchymal transition and delamination to form migratory neural crest cells.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
     </owl:Class>
     
 
@@ -11390,6 +11760,62 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000003"/>
         <obo:IAO_0000115>A cell that, by division or terminal differentiation, can give rise to other cell types.</obo:IAO_0000115>
         <rdfs:comment>Work is needed on GO &apos;cell differentiation&apos; before it is clear whether the equivalent class definition &apos;native cell&apos; that capable_of some &apos;cell differentiation&apos; works. Also, may want to consider merging this with non-terminally differentiated cell. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0012001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0012001">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neuron of the forebrain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000117"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A CNS neuron of the forebrain.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">forebrain neuron</oboInOwl:hasExactSynonym>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tberardini</oboInOwl:created_by>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_1000413 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_1000413">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endothelial cell of artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000071"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A blood vessel endothelial cell that is part of an arterial endothelium.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0004758</oboInOwl:hasDbXref>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0002542</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:67761</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KUPO:0001095</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">arterial endothelial cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_1000426 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_1000426">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chromaffin cell of adrenal gland</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000150"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000166"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A chromaffin cell that is part of the adrenal gland.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:69794</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym>adrenal chromaffin cell</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_1000488 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_1000488">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cholangiocyte</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000069"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An epithelial cell that is part of the bile duct. Cholangiocytes contribute to bile secretion via net release of bicarbonate and water. They are cuboidal epithelium in the small interlobular bile ducts, but become columnar and mucus secreting in larger bile ducts approaching the porta hepatis and the extrahepatic ducts.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:86481</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epithelial cell of bile duct</oboInOwl:hasExactSynonym>
     </owl:Class>
     
 
@@ -11424,10 +11850,26 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_1001610">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bone marrow hematopoietic cell</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000988"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002092"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CALOHA:TS-2109</oboInOwl:hasDbXref>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hematopoietic cells resident in the bone marrow. Include: hematopoietic stem cells (lymphoid stem cells and myeloid stem cells) and the precursor cells for thrombocytes, erythrocytes, basophils, neutrophils, eosinophils, monocytes and lymphocytes.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bone marrow hematopoietic cells</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bone marrow poietic cells</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_2000018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_2000018">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endothelial cell of coronary artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0010006"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_1000413"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014-06-04T17:08:47Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any endothelial cell of artery that is part of a coronary artery.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:2000018</oboInOwl:id>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TermGenie</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</oboInOwl:hasOBONamespace>
     </owl:Class>
     
 
@@ -11442,6 +11884,21 @@
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:2000029</oboInOwl:id>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TermGenie</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_2000058 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_2000058">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">calvarial osteoblast</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000062"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014-10-06T19:48:30Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any osteoblast that is part of a skull.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:2000058</oboInOwl:id>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TermGenie</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</oboInOwl:hasOBONamespace>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.sciencellonline.com/site/productInformation.php?keyword=4600</rdfs:comment>
     </owl:Class>
     
 
@@ -11463,14 +11920,18 @@
 
     <!-- http://purl.obolibrary.org/obo/GO_0005575 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005575"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005575">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular_component</rdfs:label>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/GO_0005623 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005623">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005575"/>
     </owl:Class>
 </rdf:RDF>
 

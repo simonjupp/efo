@@ -1,56 +1,211 @@
-http://purl.obolibrary.org/obo/PO_0007053	FL.02 1/2 of flowers open stage
-http://purl.obolibrary.org/obo/PO_0007094	LP.01 one leaf visible stage
-http://purl.obolibrary.org/obo/PO_0006085	root meristem
-http://purl.obolibrary.org/obo/PO_0007095	LP.08 eight leaves visible stage
-http://purl.obolibrary.org/obo/PO_0006081	primary root apical meristem
-http://purl.obolibrary.org/obo/PO_0007016	whole plant flowering stage
-http://purl.obolibrary.org/obo/PO_0007017	sporophyte senescent stage
-http://purl.obolibrary.org/obo/PO_0007015	radicle emergence
-http://purl.obolibrary.org/obo/PO_0007133	leaf production stage
-http://purl.obolibrary.org/obo/PO_0007057	0 seed germination stage
-http://purl.obolibrary.org/obo/PO_0007098	LP.02 two leaves visible stage
-http://purl.obolibrary.org/obo/PO_0007131	seedling development stage
-http://purl.obolibrary.org/obo/PO_0007010	whole plant fruit ripening stage
+http://purl.obolibrary.org/obo/PO_0009074	style
+http://purl.obolibrary.org/obo/PO_0009073	stigma
+http://purl.obolibrary.org/obo/PO_0009072	plant ovary
+http://purl.obolibrary.org/obo/PO_0006001	phyllome
+http://purl.obolibrary.org/obo/PO_0000014	rosette leaf
+http://purl.obolibrary.org/obo/PO_0000256	root hair
+http://purl.obolibrary.org/obo/PO_0000017	vascular leaf primordium
 http://purl.obolibrary.org/obo/PO_0000258	root cortex
-http://purl.obolibrary.org/obo/PO_0007063	LP.07 seven leaves visible stage
-http://purl.obolibrary.org/obo/PO_0007064	LP.12 twelve leaves visible stage
+http://purl.obolibrary.org/obo/PO_0009088	seed coat
+http://purl.obolibrary.org/obo/PO_0009084	pericarp
 http://purl.obolibrary.org/obo/PO_0007104	LP.15 fifteen leaves visible stage
 http://purl.obolibrary.org/obo/PO_0007103	LP.10 ten leaves visible stage
-http://purl.obolibrary.org/obo/PO_0007026	FL.00 first flower(s) open stage
-http://purl.obolibrary.org/obo/PO_0007067	LP.17 seventeen leaves visible stage
-http://purl.obolibrary.org/obo/PO_0007068	mid rosette growth stage
+http://purl.obolibrary.org/obo/PO_0020099	microgametophyte vegetative cell
 http://purl.obolibrary.org/obo/PO_0007101	LP.09 nine leaves visible
-http://purl.obolibrary.org/obo/PO_0007024	FL.04 end of flowering stage
-http://purl.obolibrary.org/obo/PO_0025475	coleorhiza emergence stage
-http://purl.obolibrary.org/obo/PO_0007065	LP.05 five leaves visible stage
-http://purl.obolibrary.org/obo/PO_0007022	seed imbibition stage
+http://purl.obolibrary.org/obo/PO_0009089	endosperm
 http://purl.obolibrary.org/obo/PO_0000025	root tip
-http://purl.obolibrary.org/obo/PO_0007072	LP.18 eighteen leaves visible stage
-http://purl.obolibrary.org/obo/PO_0009052	pedicel
+http://purl.obolibrary.org/obo/PO_0004506	developing seed stage
+http://purl.obolibrary.org/obo/PO_0004505	fertilized ovule stage
+http://purl.obolibrary.org/obo/PO_0000026	primary root tip
 http://purl.obolibrary.org/obo/PO_0007115	LP.04 four leaves visible stage
 http://purl.obolibrary.org/obo/PO_0007116	LP.11 eleven leaves visible stage
-http://purl.obolibrary.org/obo/PO_0020124	root stele
-http://purl.obolibrary.org/obo/PO_0007036	beginning of whole plant fruit ripening stage
+http://purl.obolibrary.org/obo/PO_0005059	root endodermis
 http://purl.obolibrary.org/obo/PO_0007113	rosette growth stage
-http://purl.obolibrary.org/obo/PO_0007078	rosette growth complete stage
-http://purl.obolibrary.org/obo/PO_0025142	leaf tip
+http://purl.obolibrary.org/obo/PO_0000043	crown root
+http://purl.obolibrary.org/obo/PO_0005052	plant callus
 http://purl.obolibrary.org/obo/PO_0007112	1 main shoot growth stage
+http://purl.obolibrary.org/obo/PO_0025585	floral organ formation stage
+http://purl.obolibrary.org/obo/PO_0006023	bundle sheath
+http://purl.obolibrary.org/obo/PO_0001002	fruit development stage
+http://purl.obolibrary.org/obo/PO_0000034	vascular system
+http://purl.obolibrary.org/obo/PO_0007109	SE.99 maximum stem length reached stage
+http://purl.obolibrary.org/obo/PO_0007106	LP.03 three leaves visible stage
+http://purl.obolibrary.org/obo/PO_0030007	meristematic apical cell
+http://purl.obolibrary.org/obo/PO_0000037	shoot apex
+http://purl.obolibrary.org/obo/PO_0030004	chloronema
+http://purl.obolibrary.org/obo/PO_0030003	protonema
+http://purl.obolibrary.org/obo/PO_0004518	bark
+http://purl.obolibrary.org/obo/PO_0006036	root epidermis
+http://purl.obolibrary.org/obo/PO_0007006	IL.00 inflorescence just visible stage
+http://purl.obolibrary.org/obo/PO_0007001	early whole plant fruit ripening stage
+http://purl.obolibrary.org/obo/PO_0007123	LP.06 six leaves visible stage
+http://purl.obolibrary.org/obo/PO_0007120	LP.19 nineteen leaves visible stage
+http://purl.obolibrary.org/obo/PO_0000046	seminal root
+http://purl.obolibrary.org/obo/PO_0000045	embryo root
+http://purl.obolibrary.org/obo/PO_0007119	LP.16 sixteen leaves visible stage
+http://purl.obolibrary.org/obo/PO_0007117	SE.02 two nodes or internodes visible stage
+http://purl.obolibrary.org/obo/PO_0009033	tepal
+http://purl.obolibrary.org/obo/PO_0009032	petal
+http://purl.obolibrary.org/obo/PO_0009031	sepal
+http://purl.obolibrary.org/obo/PO_0007094	LP.01 one leaf visible stage
+http://purl.obolibrary.org/obo/PO_0009030	carpel
+http://purl.obolibrary.org/obo/PO_0007095	LP.08 eight leaves visible stage
+http://purl.obolibrary.org/obo/PO_0005597	cambium
+http://purl.obolibrary.org/obo/PO_0005352	xylem
+http://purl.obolibrary.org/obo/PO_0007098	LP.02 two leaves visible stage
+http://purl.obolibrary.org/obo/PO_0025075	phyllid
+http://purl.obolibrary.org/obo/PO_0025196	basal endosperm transfer layer
+http://purl.obolibrary.org/obo/PO_0025074	embryo sac
+http://purl.obolibrary.org/obo/PO_0009049	inflorescence
+http://purl.obolibrary.org/obo/PO_0000230	inflorescence meristem
+http://purl.obolibrary.org/obo/PO_0005360	aleurone layer
+http://purl.obolibrary.org/obo/PO_0025197	stele
+http://purl.obolibrary.org/obo/PO_0009047	stem
+http://purl.obolibrary.org/obo/PO_0009046	flower structure
+http://purl.obolibrary.org/obo/PO_0025501	fruit formation stage
+http://purl.obolibrary.org/obo/PO_0006204	sporocyte
+http://purl.obolibrary.org/obo/PO_0025502	fruit ripening stage
+http://purl.obolibrary.org/obo/PO_0025504	fruit size up to 10% stage
+http://purl.obolibrary.org/obo/PO_0025507	fruit size 50 to 70% stage
+http://purl.obolibrary.org/obo/PO_0025506	fruit size 30 to 50% stage
+http://purl.obolibrary.org/obo/PO_0000229	flower meristem
+http://purl.obolibrary.org/obo/PO_0025508	fruit size 70% to final size stage
+http://purl.obolibrary.org/obo/PO_0009052	pedicel
+http://purl.obolibrary.org/obo/PO_0006220	central endosperm
+http://purl.obolibrary.org/obo/PO_0009056	flower nectary
+http://purl.obolibrary.org/obo/PO_0006338	embryo leaf
+http://purl.obolibrary.org/obo/PO_0009066	anther
+http://purl.obolibrary.org/obo/PO_0009064	receptacle
+http://purl.obolibrary.org/obo/PO_0009062	gynoecium
+http://purl.obolibrary.org/obo/PO_0028002	sporophyte development stage
+http://purl.obolibrary.org/obo/PO_0009067	filament
+http://purl.obolibrary.org/obo/PO_0000003	whole plant
+http://purl.obolibrary.org/obo/PO_0025522	tuber
+http://purl.obolibrary.org/obo/PO_0007053	FL.02 1/2 of flowers open stage
+http://purl.obolibrary.org/obo/PO_0006085	root meristem
+http://purl.obolibrary.org/obo/PO_0025280	microgametophyte
+http://purl.obolibrary.org/obo/PO_0006081	primary root apical meristem
+http://purl.obolibrary.org/obo/PO_0020149	quiescent center
+http://purl.obolibrary.org/obo/PO_0020148	shoot apical meristem
+http://purl.obolibrary.org/obo/PO_0007611	petal differentiation and expansion stage
+http://purl.obolibrary.org/obo/PO_0025281	pollen
+http://purl.obolibrary.org/obo/PO_0020147	root apical meristem
+http://purl.obolibrary.org/obo/PO_0020144	apical meristem
+http://purl.obolibrary.org/obo/PO_0007057	0 seed germination stage
+http://purl.obolibrary.org/obo/PO_0020142	stem internode
+http://purl.obolibrary.org/obo/PO_0020141	stem node
+http://purl.obolibrary.org/obo/PO_0020020	nucellus
+http://purl.obolibrary.org/obo/PO_0007607	sepal primordium visible stage
+http://purl.obolibrary.org/obo/PO_0025279	megagametophyte
+http://purl.obolibrary.org/obo/PO_0020030	cotyledon
+http://purl.obolibrary.org/obo/PO_0007605	androecium development stage
+http://purl.obolibrary.org/obo/PO_0007606	gynoecium development stage
+http://purl.obolibrary.org/obo/PO_0007603	calyx development stage
+http://purl.obolibrary.org/obo/PO_0007604	corolla development stage
+http://purl.obolibrary.org/obo/PO_0007601	floral organ meristem development stage
+http://purl.obolibrary.org/obo/PO_0009109	ear meristem
+http://purl.obolibrary.org/obo/PO_0007063	LP.07 seven leaves visible stage
+http://purl.obolibrary.org/obo/PO_0007064	LP.12 twelve leaves visible stage
+http://purl.obolibrary.org/obo/PO_0001083	inflorescence development stage
+http://purl.obolibrary.org/obo/PO_0009007	portion of plant tissue
+http://purl.obolibrary.org/obo/PO_0020136	ear inflorescence
+http://purl.obolibrary.org/obo/PO_0003023	root nodule
+http://purl.obolibrary.org/obo/PO_0009006	shoot system
+http://purl.obolibrary.org/obo/PO_0009005	root
+http://purl.obolibrary.org/obo/PO_0007067	LP.17 seventeen leaves visible stage
+http://purl.obolibrary.org/obo/PO_0020132	columella root cap cell
+http://purl.obolibrary.org/obo/PO_0007068	mid rosette growth stage
+http://purl.obolibrary.org/obo/PO_0009002	plant cell
+http://purl.obolibrary.org/obo/PO_0020131	lateral root cap
+http://purl.obolibrary.org/obo/PO_0007065	LP.05 five leaves visible stage
+http://purl.obolibrary.org/obo/PO_0025034	leaf
+http://purl.obolibrary.org/obo/PO_0009001	fruit
+http://purl.obolibrary.org/obo/PO_0003015	primary root differentiation zone
+http://purl.obolibrary.org/obo/PO_0007615	flower development stage
+http://purl.obolibrary.org/obo/PO_0025029	shoot axis
+http://purl.obolibrary.org/obo/PO_0007613	stamen primordium visible stage
+http://purl.obolibrary.org/obo/PO_0009011	plant structure
+http://purl.obolibrary.org/obo/PO_0009010	seed
+http://purl.obolibrary.org/obo/PO_0007072	LP.18 eighteen leaves visible stage
+http://purl.obolibrary.org/obo/PO_0007073	2 formation of axillary shoot stage
+http://purl.obolibrary.org/obo/PO_0007632	seed maturation stage
+http://purl.obolibrary.org/obo/PO_0007631	plant embryo development stage
+http://purl.obolibrary.org/obo/PO_0009015	vascular tissue
+http://purl.obolibrary.org/obo/PO_0007078	rosette growth complete stage
+http://purl.obolibrary.org/obo/PO_0007079	SE.00 stem elongation begins stage
+http://purl.obolibrary.org/obo/PO_0009013	portion of meristem tissue
 http://purl.obolibrary.org/obo/PO_0007076	late rosette growth stage
 http://purl.obolibrary.org/obo/PO_0009012	plant structure development stage
-http://purl.obolibrary.org/obo/PO_0007106	LP.03 three leaves visible stage
+http://purl.obolibrary.org/obo/PO_0025615	rosette
+http://purl.obolibrary.org/obo/PO_0009009	plant embryo
 http://purl.obolibrary.org/obo/PO_0007085	LP.14 fourteen leaves visible stage
-http://purl.obolibrary.org/obo/PO_0007041	inflorescence emergence stage
 http://purl.obolibrary.org/obo/PO_0007083	LP.13 thirteen leaves visible stage
 http://purl.obolibrary.org/obo/PO_0007081	early rosette growth stage
 http://purl.obolibrary.org/obo/PO_0007082	LP.20 twenty or more leaves whorls visible stage
-http://purl.obolibrary.org/obo/PO_0007049	cotyledon emergence stage
+http://purl.obolibrary.org/obo/PO_0007080	2.03 main shoot and axillary shoots visible at three nodes stage
+http://purl.obolibrary.org/obo/PO_0020039	leaf lamina
 http://purl.obolibrary.org/obo/PO_0020038	petiole
-http://purl.obolibrary.org/obo/PO_0007006	IL.00 inflorescence just visible stage
-http://purl.obolibrary.org/obo/PO_0007047	3 inflorescence detectable stage
-http://purl.obolibrary.org/obo/PO_0007045	coleoptile emergence stage
+http://purl.obolibrary.org/obo/PO_0009029	stamen
+http://purl.obolibrary.org/obo/PO_0020037	mesocotyl
+http://purl.obolibrary.org/obo/PO_0007089	stem elongation stage
 http://purl.obolibrary.org/obo/PO_0009025	vascular leaf
-http://purl.obolibrary.org/obo/PO_0007123	LP.06 six leaves visible stage
-http://purl.obolibrary.org/obo/PO_0028002	sporophyte development stage
+http://purl.obolibrary.org/obo/PO_0004010	meristematic cell
+http://purl.obolibrary.org/obo/PO_0020031	radicle
+http://purl.obolibrary.org/obo/PO_0020040	leaf base
+http://purl.obolibrary.org/obo/PO_0025601	staminate inflorescence
+http://purl.obolibrary.org/obo/PO_0025606	native plant cell
+http://purl.obolibrary.org/obo/PO_0020104	leaf sheath
+http://purl.obolibrary.org/obo/PO_0007016	whole plant flowering stage
+http://purl.obolibrary.org/obo/PO_0020103	flag leaf
+http://purl.obolibrary.org/obo/PO_0007017	sporophyte senescent stage
+http://purl.obolibrary.org/obo/PO_0004542	rhizome
+http://purl.obolibrary.org/obo/PO_0002000	stomatal complex
+http://purl.obolibrary.org/obo/PO_0007014	booting stage
+http://purl.obolibrary.org/obo/PO_0007015	radicle emergence
+http://purl.obolibrary.org/obo/PO_0025121	pollen sperm cell
+http://purl.obolibrary.org/obo/PO_0007133	leaf production stage
+http://purl.obolibrary.org/obo/PO_0020100	hypocotyl
+http://purl.obolibrary.org/obo/PO_0007134	sporophyte vegetative stage
+http://purl.obolibrary.org/obo/PO_0007131	seedling development stage
+http://purl.obolibrary.org/obo/PO_0007010	whole plant fruit ripening stage
+http://purl.obolibrary.org/obo/PO_0025001	cardinal organ part
+http://purl.obolibrary.org/obo/PO_0025598	pistillate inflorescence
+http://purl.obolibrary.org/obo/PO_0025355	corm
+http://purl.obolibrary.org/obo/PO_0000056	flower bud
+http://purl.obolibrary.org/obo/PO_0000055	bud
+http://purl.obolibrary.org/obo/PO_0030027	thallus
+http://purl.obolibrary.org/obo/PO_0004532	wood parenchyma
+http://purl.obolibrary.org/obo/PO_0006058	cotyledon adaxial epidermis
+http://purl.obolibrary.org/obo/PO_0007027	whole plant fruit formation stage 70% to final size
+http://purl.obolibrary.org/obo/PO_0006057	cotyledon abaxial epidermis
+http://purl.obolibrary.org/obo/PO_0007026	FL.00 first flower(s) open stage
+http://purl.obolibrary.org/obo/PO_0007024	FL.04 end of flowering stage
+http://purl.obolibrary.org/obo/PO_0025475	coleorhiza emergence stage
+http://purl.obolibrary.org/obo/PO_0007022	seed imbibition stage
+http://purl.obolibrary.org/obo/PO_0025223	vegetative shoot apex
+http://purl.obolibrary.org/obo/PO_0030015	sporophyte meristematic apical cell
+http://purl.obolibrary.org/obo/PO_0030014	gametophyte meristematic apical cell
+http://purl.obolibrary.org/obo/PO_0007031	mid whole plant fruit ripening stage
+http://purl.obolibrary.org/obo/PO_0020127	primary root
+http://purl.obolibrary.org/obo/PO_0020126	tassel inflorescence
+http://purl.obolibrary.org/obo/PO_0007038	whole plant fruit ripening complete stage
+http://purl.obolibrary.org/obo/PO_0001170	seed development stage
+http://purl.obolibrary.org/obo/PO_0020124	root stele
+http://purl.obolibrary.org/obo/PO_0007036	beginning of whole plant fruit ripening stage
+http://purl.obolibrary.org/obo/PO_0020003	plant ovule
+http://purl.obolibrary.org/obo/PO_0020123	root cap
+http://purl.obolibrary.org/obo/PO_0025022	collective leaf structure
+http://purl.obolibrary.org/obo/PO_0025142	leaf tip
+http://purl.obolibrary.org/obo/PO_0020121	lateral root
+http://purl.obolibrary.org/obo/PO_0007029	whole plant fruit formation stage 30 to 50%
+http://purl.obolibrary.org/obo/PO_0005645	leaf mesophyll
+http://purl.obolibrary.org/obo/PO_0007041	inflorescence emergence stage
+http://purl.obolibrary.org/obo/PO_0007042	whole plant fruit formation stage
+http://purl.obolibrary.org/obo/PO_0007049	cotyledon emergence stage
+http://purl.obolibrary.org/obo/PO_0007600	floral organ differentiation stage
+http://purl.obolibrary.org/obo/PO_0007047	3 inflorescence detectable stage
+http://purl.obolibrary.org/obo/PO_0008016	vegetative shoot apical meristem
+http://purl.obolibrary.org/obo/PO_0007045	coleoptile emergence stage
+http://purl.obolibrary.org/obo/PO_0025131	plant anatomical entity
 http://purl.obolibrary.org/obo/PO_0007043	hypocotyl emergence stage
-http://purl.obolibrary.org/obo/PO_0007120	LP.19 nineteen leaves visible stage
-http://purl.obolibrary.org/obo/PO_0007119	LP.16 sixteen leaves visible stage
+http://purl.obolibrary.org/obo/PO_0005417	phloem

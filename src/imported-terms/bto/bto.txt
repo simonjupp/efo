@@ -43,7 +43,7 @@ http://purl.obolibrary.org/obo/BTO_0000740	myeloid leukemia cell line
 http://purl.obolibrary.org/obo/BTO_0003147	juvenile leaf
 http://purl.obolibrary.org/obo/BTO_0002488	uterine leiomyosarcoma cell line
 http://purl.obolibrary.org/obo/BTO_0001795	anterior silk gland
-http://purl.obolibrary.org/obo/BTO_0001630	right ventricle
+http://purl.obolibrary.org/obo/BTO_0001630	obsolete_right ventricle
 http://purl.obolibrary.org/obo/BTO_0002179	184A1N4 cell
 http://purl.obolibrary.org/obo/BTO_0000155	bronchoalveolar lavage
 http://purl.obolibrary.org/obo/BTO_0000551	lung cancer cell
@@ -54,7 +54,7 @@ http://purl.obolibrary.org/obo/BTO_0002842	cholangioma cell
 http://purl.obolibrary.org/obo/BTO_0000152	infected cell
 http://purl.obolibrary.org/obo/BTO_0002844	breast invasive ductal carcinoma cell
 http://purl.obolibrary.org/obo/BTO_0001708	coelomic fluid
-http://purl.obolibrary.org/obo/BTO_0001629	left ventricle
+http://purl.obolibrary.org/obo/BTO_0001629	obsolete_left ventricle
 http://purl.obolibrary.org/obo/BTO_0001948	JURKAT E-6.1 cell
 http://purl.obolibrary.org/obo/BTO_0001903	logarithmic phase culture
 http://purl.obolibrary.org/obo/BTO_0003250	colonic epithelium cell line

@@ -46,6 +46,12 @@
     
 
 
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
@@ -89,8 +95,216 @@
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013-04-10T13:21:11Z</oboInOwl:creation_date>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plant experimental condition (EO:0007359) or set of conditions describing the application of an abiotic (EO:0007191) or biotic plant treatment (EO:0007357) or the combinatorial application thereof.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0001001</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO_GIT:48</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO_SF2_EO:48</oboInOwl:hasDbXref>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cooperl</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0001003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0001003">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic chemical treatment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007189"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013-04-10T13:58:52Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A chemical treatment (EO:0007189) involving the application of organic chemical(s).</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0001003</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO_GIT:55</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO_SF2_EO:55</oboInOwl:hasDbXref>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cooperl</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0001004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0001004">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inorganic chemical treatment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007189"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013-04-10T14:03:18Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A chemical treatment (EO:0007189) involving the application of inorganic chemical(s).</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0001004</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO_GIT:51</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO_SF2_EO:51</oboInOwl:hasDbXref>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cooperl</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0001006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0001006">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phosphate treatment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0001009"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013-04-10T14:54:09Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An inorganic anion treatment (EO:0001009) involving the application of phosphate (CHEBI:18367).</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0001006</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO_GIT:7</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO_SF2_EO:7</oboInOwl:hasDbXref>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cooperl</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0001009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0001009">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inorganic anion treatment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0001004"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013-04-11T12:29:25Z</oboInOwl:creation_date>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An anion (CHEBI:22653) is defined as a monoatomic or polyatomic species having one or more elementary charges of the electron.</rdfs:comment>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An inorganic chemical treatment (EO:0001004) involving the application of an anion or a mixture of anions (CHEBI:22563).</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0001009</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO_GIT:54</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO_SF2_EO:54</oboInOwl:hasDbXref>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cooperl</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0001019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0001019">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic gas treatment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0001003"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013-04-12T12:38:49Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organic chemical treatment (EO:0001003) involving the application of a gas or mixture of gases.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0001019</oboInOwl:id>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cooperl</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0001020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0001020">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carbon dioxide treatment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0001055"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013-04-12T12:41:25Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An inorganic gas treatment (EO:0001055) that involves the application of carbon dioxide (CHEBI:16526).</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0001020</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO_GIT:28</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO_SF2_EO:28</oboInOwl:hasDbXref>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cooperl</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0001036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0001036">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemical stress treatment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007189"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013-04-16T13:48:41Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A chemical treatment (EO:0007189) that induces stress.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0001036</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO_GIT:64</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO_SF2_EO:64</oboInOwl:hasDbXref>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">moorel</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0001038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0001038">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">osmotic stress treatment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0001036"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013-04-16T14:11:36Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A chemical stress treatment (EO:0001036) involving use of osmotic stress-inducing chemicals.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0001038</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO_GIT:31</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO_SF2_EO:31</oboInOwl:hasDbXref>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">moorel</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0001046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0001046">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">limited phosphate treatment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0001006"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013-04-24T12:43:48Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A phosphate treatment (EO:0001006) involving exposure to limiting amounts or absence of phosphate (CHEBI:18367).</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0001046</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO_GIT:20</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO_GIT:26</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO_SF2_EO:20</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO_SF2_EO:26</oboInOwl:hasDbXref>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">moorel</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0001047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0001047">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">limited iron regimen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007242"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013-04-24T13:10:33Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An iron nutrient regimen (EO:0007242) involving exposure to limiting amounts or the absence of iron (CHEBI:18248).</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0001047</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO_GIT:14</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO_SF2_EO:14</oboInOwl:hasDbXref>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">moorel</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0001054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0001054">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">limited nitrate regimen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007406"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013-04-24T14:28:43Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nitrate regimen (EO:0007406) involving exposure to limiting amounts or the absence of nitrate (CHEBI:17632).</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0001054</oboInOwl:id>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">moorel</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0001055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0001055">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inorganic gas treatment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0001004"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013-04-25T13:16:47Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An inorganic chemical treatment (EO:0001004) involving the application of a gas or mixture of gases.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0001055</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO_GIT:66</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO_SF2_EO:66</oboInOwl:hasDbXref>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">moorel</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0001056 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0001056">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">elevated carbon dioxide treatment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0001020"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013-04-25T13:18:08Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A carbon dioxide treatment (EO:0001020) involving an increased concentration of carbon dioxide (CHEBI:16526).</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0001056</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO_GIT:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO_SF2_EO:1</oboInOwl:hasDbXref>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">moorel</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
     </owl:Class>
     
@@ -104,8 +318,305 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A salt treatment (EO:0007185) involving the use of sodium chloride salt as supplement to liquid and soil growth media to study various types of responses on its application.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:26710</oboInOwl:hasDbXref>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007048</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO_GIT:76</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NaCl treatment</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO_SF2_EO:77</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007049 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007049">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soil environment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007147"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007049</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving growing plants and exposing them to soil growth media with varying contents.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007064 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007064">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ecological environment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0001001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plant treatment (EO:0001001) involving exposure to the various factors that comprise a geographical/regional location.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007064</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO_GIT:79</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO_SF2_EO:80</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007067 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007067">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hydroponic plant culture media</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007147"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007067</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment suggesting the use of liquid growth media for growing the plants.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soilless pant culture media</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007068 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007068">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ethylene treatment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0001019"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007165"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A growth hormone treatment (EO:0007165) involving the use of ethylene (or its homolog) growth hormone to study various types of responses on its extrinsic and/or intrinsic application.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007068</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO_GIT:71</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO_SF2_EO:72</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007078 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007078">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">light quantity regimen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007153"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007078</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In biological experiments often it refer to the length of the exposure time. The treatment also includes the quantity of light falling on a per unit area. This may be expressed either in terms of hours for which teh radiation was available or in the units of luminous flux or the lumens.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">photoperiod regimen</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007085 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007085">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fertilizer regimen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007241"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plant nutrient treatment (EO:0007241) involving the use of a fertilizer, a combination of plant nutrients.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007085</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007086 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007086">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemical fertilizer regimen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007085"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007086</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment involving the use of inorganic fertilizer and its components as supplements to study various types of responses.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007102 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007102">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nitrogen fertilizer regimen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007086"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007102</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment involving the use of nitrogen fertilizer and its components as supplements to study various types of responses.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007105 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007105">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abscisic acid treatment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007165"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A growth hormone treatment (EO:0007165) involving the use of abscisic acid (or its homolog) growth hormone to study various types of responses on its extrinsic and/or intrinsic application.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ABA regimen</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007105</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO_GIT:71</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO_SF2_EO:72</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007116 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007116">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hemiptera insect plant treatment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007333"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An insect plant treatment (EO:0007333) involving the exposure of a plant to an insect(s) of the Hemiptera order.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007116</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Insects of the Hemiptera order include aphids, planthoppers, bugs
+whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bug</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007128 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007128">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intermittent light regimen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007078"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007128</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In biological experiments it refer to the intermittent exposure of plant to the cycles of light and dark or one light Vs the another type of light.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007129 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007129">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UV-C light regimen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007222"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007129</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment using UV-C light either exclusively or as part of a supplemental electromagnetic radiation in the wavelength range of 280-10nm.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007147 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007147">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant growth medium</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007191"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An abiotic plant treatment (EO:0007191) involving the use of a solid or liquid substrate for growing plants or tissue-cultured plant samples.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007147</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO_GIT:81</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO_SF2_EO:82</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007151 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007151">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiation treatment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007316"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A physical plant treatment (EO:0007316) involving an exposure with a radiation type, intensity or quantity.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMR is classified according to the frequency of its wave. The electromagnetic spectrum, in order of increasing frequency and decreasing wavelength, consists of radio waves, microwaves, infrared radiation, visible light, ultraviolet radiation, X-rays and gamma rays. (from Wikipedia).</rdfs:comment>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007151</oboInOwl:id>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">light regimen</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007153 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007153">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiation quantity regimen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007151"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007153</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In biological experiments it refer to the treatment involving radiation in terms of length of the exposure time. It also includes the quantity of radiation falling on a per unit area. This is expressed in the units of luminous flux or the lumens.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007154 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007154">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiation quality treatment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007151"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007154</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving an exposure to a given type of radiation. Often it is in the form of electromagnetic and ionizing radiation such as light (infrared, visible or ultraviolet), x-rays, gamma rays, etc.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007161 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007161">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">air temperature regimen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007175"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007382"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007161</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving an exposure to wind with varying degree of temperature, which may depend on the study type or the regional environment.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007162 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007162">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">continuous light regimen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007078"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007162</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving continuous exposure of light to the plant.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007165 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007165">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">growth hormone treatment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007189"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A chemical treatment (EO:0007189) involving the use of growth hormones to study various types of responses on their extrinsic and/or intrinsic application.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007165</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO_GIT:71</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO_SF2_EO:72</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007171 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007171">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pH regimen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007189"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007171</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plants to varying levels of pH of the growth media.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007173 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007173">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">warm/hot temperature regimen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007175"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007173</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving an exposure to above optimal temperature, which may depend on the study type or the regional environment.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007174 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007174">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cold temperature regimen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007175"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007174</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving an exposure to cold or sub-optimal temperature, which may depend on the study type or the regional environment.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007175 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007175">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temperature environment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007316"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A physical plant treatment (EO:0007316) involving an exposure to varying degree of temperature, which may depend on regional environment.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007175</oboInOwl:id>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
     </owl:Class>
     
@@ -119,6 +630,7 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A chemical treatment (EO:0007189) involving use of salts as supplement to liquid and soil growth media to study various types of responses on their application.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:24866</oboInOwl:hasDbXref>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007185</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO_GIT:76</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO_SF2_EO:77</oboInOwl:hasDbXref>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This treatment may be used to simulate the growth conditions of sea coast regions and saline/sodic soils.</rdfs:comment>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
@@ -134,6 +646,7 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An abiotic plant treatment (EO:0007191) involving the application of chemical(s).</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007042</oboInOwl:hasAlternativeId>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007189</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO_GIT:50</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO_SF2_EO:50</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other chemical regimen</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
@@ -148,7 +661,116 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0001001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plant treatment (EO:0001001) involving the application of chemical or non-biological factors.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007191</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO_GIT:49</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO_SF2_EO:49</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007196 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007196">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">light regimen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007154"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A type of light used in a commercial light box to simulate natural daylight. For experiments carried out in growth chambers, the daylight is a light source providing a color temperature of 6500+/-200 K at an illumination of 90 to 120 ft/candles. This source is typically provided by fluorescent,  tungsten or halogen lamps.</rdfs:comment>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007196</oboInOwl:id>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007201</oboInOwl:hasAlternativeId>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving day light as the light of the sun or the artificial light in a growth chamber.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">artificial daylight</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">artificial light</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">day light</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">natural light</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sun light</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007198 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007198">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">water environment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007316"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A physical plant treatment (EO:0007316) involving an exposure of varying amounts of water and watering frequencies, which may depend on regional environment.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007198</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO_GIT:86</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO_SF2_EO:87</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007199 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007199">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">long day length regimen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007128"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007199</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to long day light duration followed by a short night cycle.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007200 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007200">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">short day length regimen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007128"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007200</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to short day light duration followed by a long night cycle.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007203 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007203">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">far red light regimen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007196"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007203</oboInOwl:id>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pfr light</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment using far red light either exclusively or as part of a supplemental light treatment involving red color light in the wavelength range of 800-700 nM.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007207 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007207">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">red light regimen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007221"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007207</oboInOwl:id>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pr light</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment using red light either exclusively or as part of a supplemental light treatment involving red color light in the wavelength range of 780-622 nM.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007221 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007221">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">visible light regimen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007196"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007221</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment using visible light in the wavelength range of 380-780 nM.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Visible light  is the portion of the electromagnetic spectrum that is visible to the human eye. The optical spectrum is a composite, or mixture, of the various colors.</rdfs:comment>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007222 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007222">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UV light regimen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007196"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007222</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment using UV-B light either exclusively or as part of a supplemental light involving electromagnetic radiation in the wavelength range of 315-10nm.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
     </owl:Class>
     
@@ -161,7 +783,73 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007359"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plant experimental condition (EO:0007359) or set of conditions describing what kind of plant growth facility was used for the experiment.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007231</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO_GIT:81</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO_SF2_EO:82</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007239 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007239">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">micronutrient regimen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007241"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007239</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to elements that are required in tiny quantities for growth, as supplement to study various types of responses.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trace element regimen</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007241 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007241">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant nutrient treatment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007189"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plant chemical treatment (EO:0007189) involving a plant nutrient or a combination of plant nutrients.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007241</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO_GIT:84</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO_SF2_EO:85</oboInOwl:hasDbXref>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fertilizer regimen</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007242 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007242">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">iron nutrient regimen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007239"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007242</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to micronutrient iron as supplement to study various types of responses.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007248 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007248">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">green house study</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007231"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007248</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment where the plants were grown under green house conditions. This may involve supplemental treatments in addition to any standard conditions.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007256 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007256">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">field study</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007231"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007256</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment where the plants were grown under field conditions. This may involve supplemental treatments in addition to any naturally occurring conditions.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">open field study</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
     </owl:Class>
     
@@ -179,18 +867,161 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/EO_0007270 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007270">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">continuous dark (no light) regimen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007078"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007270</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving continuous exposure to darkness (no light) to the plant.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">continuous night regimen</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007316 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007316">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">physical plant treatment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007191"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An abiotic plant treatment (EO:0007191) involving the application of a physical factor such as temperature, moisture, gravity, wind, radiation, etc. or a combination thereof.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007316</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO_GIT:77</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO_SF2_EO:78</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007317 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007317">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nilaparvata lugens</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007116"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007317</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest brown planthopper.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brown planthopper</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007319 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007319">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">warm/hot air temperature regimen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007161"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007173"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007319</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving an exposure to above optimal air temperature, which may depend on the study type or the regional environment.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007333 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007333">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insect plant treatment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007349"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A metazoan plant treatment  (EO:0007349) involving exposure of a plant to an insect or a mixture of insects.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007333</oboInOwl:id>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insect</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true insects</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007337 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007337">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nematoda</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007349"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007337</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the nematode pests.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">round worm</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">roundworm</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007349 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007349">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metazoan plant treatment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007357"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biotic plant treatment (EO:0007357) involving exposure of a plant to a metazoan organism (animal).</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Animalia</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007349</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007357 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007357">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biotic plant treatment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0001001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plant treatment (EO:0001001) involving the application of a biotic or biological factor such as a microbe, insect, animal, or plant or a combination thereof.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007357</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO_GIT:78</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO_SF2_EO:79</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/EO_0007359 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007359">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant experimental condition</rdfs:label>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plant treatment (EO:0001001) and/or study type (EO:0007231) applied to a whole plant (PO:0000003), a plant structure (PO:00090119), and/or a plant population as part of an experiment to evaluate the plant response.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007359</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO_GIT:4</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO_SF2_EO:4</oboInOwl:hasDbXref>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Plant Environment Ontology describes the treatments,growing conditions, and/or study types used in various types of plant biology experiments. The subjects of the studies may also include in vitro
-plant structures (PO:0000004). A plant treatment is the most specific,and may be a component of a plant growing condition, and the plant study type. The broadest classes are the plant study types where the terms can be used to identify the growth study facility. Each growth facility such as field study, growth chamber, green house etc is a environment on its own and it may also involve instances of biotic and abiotic treatments and different growing conditions.</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Plant Environment Ontology describes the treatments,growing conditions, and/or study types used in various types of plant biology experiments. The subjects of the studies may also include in vitro plant structures (PO:0000004). A plant treatment is the most specific,and may be a component of a plant growing condition, and the plant study type. The broadest classes are the plant study types where the terms can be used to identify the growth study facility. Each growth facility such as field study, growth chamber, green house etc is a environment on its own and it may also involve instances of biotic and abiotic treatments and different growing conditions.</rdfs:comment>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant treatment ontology</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">treatment ontology</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007382 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007382">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wind environment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007064"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007316"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007382</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving an exposure to wind, which may depend on regional environment.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007404 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007404">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drought environment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007198"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007404</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007406 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007406">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nitrate regimen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007102"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007406</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
     </owl:Class>
 </rdf:RDF>
 
