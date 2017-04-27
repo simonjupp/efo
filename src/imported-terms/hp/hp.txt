@@ -1,185 +1,210 @@
 http://purl.obolibrary.org/obo/HP_0000014	Abnormality of the bladder
 http://purl.obolibrary.org/obo/HP_0000377	Abnormality of the pinna
-http://purl.obolibrary.org/obo/HP_0009907	Attached earlobe
-http://purl.obolibrary.org/obo/HP_0006517	Alveolar proteinosis
-http://purl.obolibrary.org/obo/HP_0001742	Nasal obstruction
 http://purl.obolibrary.org/obo/HP_0000016	Urinary retention
-http://purl.obolibrary.org/obo/HP_0001985	Hypoketotic hypoglycemia
-http://purl.obolibrary.org/obo/HP_0003124	hypercholesterolemia
+http://purl.obolibrary.org/obo/HP_0002315	Headache
 http://purl.obolibrary.org/obo/HP_0000252	Microcephaly
-http://purl.obolibrary.org/obo/HP_0002035	rectal prolapse
 http://purl.obolibrary.org/obo/HP_0000011	Neurogenic bladder
-http://purl.obolibrary.org/obo/HP_0002037	Inflammation of the large intestine
 http://purl.obolibrary.org/obo/HP_0004296	Abnormality of gastrointestinal vasculature
 http://purl.obolibrary.org/obo/HP_0004299	Hernia of the abdominal wall
+http://purl.obolibrary.org/obo/HP_0011821	Abnormality of facial skeleton
 http://purl.obolibrary.org/obo/HP_0100543	cognitive impairment
-http://purl.obolibrary.org/obo/HP_0000093	Proteinuria
 http://purl.obolibrary.org/obo/HP_0012234	agranulocytosis
 http://purl.obolibrary.org/obo/HP_0011024	abnormality of the gastrointestinal tract
-http://purl.obolibrary.org/obo/HP_0100825	Cheilitis
 http://purl.obolibrary.org/obo/HP_0011142	age-related nuclear cataract
 http://purl.obolibrary.org/obo/HP_0012594	Microalbuminuria
 http://purl.obolibrary.org/obo/HP_0000818	Abnormality of the endocrine system
 http://purl.obolibrary.org/obo/HP_0012115	hepatitis
 http://purl.obolibrary.org/obo/HP_0012235	drug-induced agranulocytosis
-http://purl.obolibrary.org/obo/HP_0001507	growth abnormality
-http://purl.obolibrary.org/obo/HP_0000539	Abnormality of refraction
-http://purl.obolibrary.org/obo/HP_0002719	recurrent infection
 http://purl.obolibrary.org/obo/HP_0000938	osteopenia
 http://purl.obolibrary.org/obo/HP_0011141	age-related cataract
-http://purl.obolibrary.org/obo/HP_0001626	Abnormality of the cardiovascular system
-http://purl.obolibrary.org/obo/HP_0002715	abnormality of the immune system
-http://purl.obolibrary.org/obo/HP_0001510	growth delay
-http://purl.obolibrary.org/obo/HP_0001873	thrombocytopenia
-http://purl.obolibrary.org/obo/HP_0001634	Mitral valve prolapse
-http://purl.obolibrary.org/obo/HP_0000545	Myopia
 http://purl.obolibrary.org/obo/HP_0000820	Abnormality of the thyroid gland
 http://purl.obolibrary.org/obo/HP_0000023	Inguinal hernia
-http://purl.obolibrary.org/obo/HP_0002840	lymphadenitis
-http://purl.obolibrary.org/obo/HP_0001871	abnormality of blood and blood-forming tissues
-http://purl.obolibrary.org/obo/HP_0000540	hypermetropia
-http://purl.obolibrary.org/obo/HP_0100790	HP_0100790
-http://purl.obolibrary.org/obo/HP_0003011	abnormality of the musculature
+http://purl.obolibrary.org/obo/HP_0100790	Hernia
 http://purl.obolibrary.org/obo/HP_0000020	Urinary incontinence
 http://purl.obolibrary.org/obo/HP_0010865	oppositional defiant disorder
-http://purl.obolibrary.org/obo/HP_0011276	HP_0011276
+http://purl.obolibrary.org/obo/HP_0011276	Vascular skin abnormality
 http://purl.obolibrary.org/obo/HP_0011277	abnormality of the urinary system physiology
 http://purl.obolibrary.org/obo/HP_0000708	behavioral abnormality
 http://purl.obolibrary.org/obo/HP_0001919	Acute kidney injury
+http://purl.obolibrary.org/obo/HP_0011950	Bronchiolitis
 http://purl.obolibrary.org/obo/HP_0001915	aplastic anemia
 http://purl.obolibrary.org/obo/HP_0000707	abnormality of the nervous system
-http://purl.obolibrary.org/obo/HP_0001636	tetralogy of fallot
 http://purl.obolibrary.org/obo/HP_0011031	abnormality of iron homeostasis
-http://purl.obolibrary.org/obo/HP_0005208	Secretory diarrhea
 http://purl.obolibrary.org/obo/HP_0002459	Dysautonomia
 http://purl.obolibrary.org/obo/HP_0000951	abnormality of the skin
-http://purl.obolibrary.org/obo/HP_0003146	hypocholesterolemia
 http://purl.obolibrary.org/obo/HP_0000153	abnormality of the mouth
 http://purl.obolibrary.org/obo/HP_0002573	rectal bleeding
-http://purl.obolibrary.org/obo/HP_0006536	obstructive lung disease
 http://purl.obolibrary.org/obo/HP_0002576	intussusception
+http://purl.obolibrary.org/obo/HP_0000277	Abnormality of the mandible
 http://purl.obolibrary.org/obo/HP_0100880	Nephrogenic rest
-http://purl.obolibrary.org/obo/HP_0004354	Abnormality of carboxylic acid metabolism
-http://purl.obolibrary.org/obo/HP_0008277	Abnormality of zinc homeostasis
+http://purl.obolibrary.org/obo/HP_0000152	Abnormality of head or neck
 http://purl.obolibrary.org/obo/HP_0100763	abnormality of the lymphatic system
-http://purl.obolibrary.org/obo/HP_0009124	Abnormality of adipose tissue
 http://purl.obolibrary.org/obo/HP_0100529	Abnormality of phosphate homeostasis
-http://purl.obolibrary.org/obo/HP_0002619	Varicose veins
+http://purl.obolibrary.org/obo/HP_0010752	Cleft mandible
+http://purl.obolibrary.org/obo/HP_0010753	Midline defect of mandible
 http://purl.obolibrary.org/obo/HP_0003549	Abnormality of connective tissue
 http://purl.obolibrary.org/obo/HP_0000833	Glucose intolerance
 http://purl.obolibrary.org/obo/HP_0001258	Spastic paraplegia
-http://purl.obolibrary.org/obo/HP_0002624	Venous abnormality
-http://purl.obolibrary.org/obo/HP_0002745	Oral leukoplakia
-http://purl.obolibrary.org/obo/HP_0001891	iron deficiency anemia
-http://purl.obolibrary.org/obo/HP_0004363	Abnormality of calcium homeostasis
+http://purl.obolibrary.org/obo/HP_0030236	Abnormality of muscle size
 http://purl.obolibrary.org/obo/HP_0001250	Seizures
 http://purl.obolibrary.org/obo/HP_0012823	clinical modifier
-http://purl.obolibrary.org/obo/HP_0011458	Abdominal symptom
 http://purl.obolibrary.org/obo/HP_0010886	Osteochondritis Dissecans
-http://purl.obolibrary.org/obo/HP_0004364	Abnormality of nitrogen compound homeostasis
-http://purl.obolibrary.org/obo/HP_0100256	senile plaques
-http://purl.obolibrary.org/obo/HP_0003270	abdominal distention
-http://purl.obolibrary.org/obo/HP_0002180	neurodegeneration
-http://purl.obolibrary.org/obo/HP_0003150	Glutaric aciduria
 http://purl.obolibrary.org/obo/HP_0100537	Fasciitis
 http://purl.obolibrary.org/obo/HP_0001939	abnormality of metabolism/homeostasis
 http://purl.obolibrary.org/obo/HP_0002108	spontaneous pneumothorax
-http://purl.obolibrary.org/obo/HP_0001657	prolonged QT interval
 http://purl.obolibrary.org/obo/HP_0002901	Hypocalcemia
 http://purl.obolibrary.org/obo/HP_0000964	Eczema
 http://purl.obolibrary.org/obo/HP_0002109	Abnormality of bronchi
 http://purl.obolibrary.org/obo/HP_0002900	hypokalemia
-http://purl.obolibrary.org/obo/HP_0001933	HP_0001933
-http://purl.obolibrary.org/obo/HP_0003326	Myalgia
-http://purl.obolibrary.org/obo/HP_0001268	cognitive decline
-http://purl.obolibrary.org/obo/HP_0002239	gastrointestinal hemorrhage
+http://purl.obolibrary.org/obo/HP_0001933	Subcutaneous hemorrhage
 http://purl.obolibrary.org/obo/HP_0001425	heterogeneous
-http://purl.obolibrary.org/obo/HP_0000175	cleft palate
-http://purl.obolibrary.org/obo/HP_0001541	ascites
-http://purl.obolibrary.org/obo/HP_0002597	Abnormality of the vasculature
+http://purl.obolibrary.org/obo/HP_0007648	Punctate cataract
+http://purl.obolibrary.org/obo/HP_0001541	Ascites
 http://purl.obolibrary.org/obo/HP_0040233	Factor XIII subunit A deficiency
-http://purl.obolibrary.org/obo/HP_0002110	Bronchiectasis
 http://purl.obolibrary.org/obo/HP_0004370	abnormality of temperature regulation
-http://purl.obolibrary.org/obo/HP_0012719	Functional abnormality of the gastrointestinal tract
-http://purl.obolibrary.org/obo/HP_0100508	abnormality of vitamin metabolism
-http://purl.obolibrary.org/obo/HP_0000979	HP_0000979
-http://purl.obolibrary.org/obo/HP_0004419	Recurrent thrombophlebitis
 http://purl.obolibrary.org/obo/HP_0002637	Cerebral ischemia
-http://purl.obolibrary.org/obo/HP_0001943	Hypoglycemia
-http://purl.obolibrary.org/obo/HP_0004418	Thrombophlebitis
 http://purl.obolibrary.org/obo/HP_0001548	overgrowth
-http://purl.obolibrary.org/obo/HP_0001945	fever
-http://purl.obolibrary.org/obo/HP_0001824	weight loss
 http://purl.obolibrary.org/obo/HP_0004936	Venous thrombosis
 http://purl.obolibrary.org/obo/HP_0000103	polyuria
-http://purl.obolibrary.org/obo/HP_0000863	Central diabetes insipidus
-http://purl.obolibrary.org/obo/HP_0001392	abnormality of the liver
 http://purl.obolibrary.org/obo/HP_0002086	Abnormality of the respiratory system
-http://purl.obolibrary.org/obo/HP_0002242	Abnormality of the intestine
 http://purl.obolibrary.org/obo/HP_0004386	gastrointestinal inflammation
 http://purl.obolibrary.org/obo/HP_0002088	abnormality of the lung
-http://purl.obolibrary.org/obo/HP_0001395	HP_0001395
-http://purl.obolibrary.org/obo/HP_0100633	Esophagitis
 http://purl.obolibrary.org/obo/HP_0001679	abnormality of the aorta
-http://purl.obolibrary.org/obo/HP_0012042	aspirin induced asthma
-http://purl.obolibrary.org/obo/HP_0001438	abnormality of the abdomen
-http://purl.obolibrary.org/obo/HP_0000989	Pruritus
-http://purl.obolibrary.org/obo/HP_0002017	Nausea and vomiting
+http://purl.obolibrary.org/obo/HP_0001438	abnormality of the abdomen morphology
+http://purl.obolibrary.org/obo/HP_0000234	Abnormality of the head
 http://purl.obolibrary.org/obo/HP_0000356	Abnormality of the outer ear
 http://purl.obolibrary.org/obo/HP_0000598	Abnormality of the ear
-http://purl.obolibrary.org/obo/HP_0002018	Nausea
 http://purl.obolibrary.org/obo/HP_0000478	Abnormality of the eye
-http://purl.obolibrary.org/obo/HP_0002019	constipation
-http://purl.obolibrary.org/obo/HP_0004796	gastrointestinal obstruction
-http://purl.obolibrary.org/obo/HP_0002014	diarrhea
-http://purl.obolibrary.org/obo/HP_0004798	Recurrent infection of the gastrointestinal tract
-http://purl.obolibrary.org/obo/HP_0005521	disseminated intravascular coagulation
-http://purl.obolibrary.org/obo/HP_0002015	Dysphagia
 http://purl.obolibrary.org/obo/HP_0002652	Skeletal dysplasia
-http://purl.obolibrary.org/obo/HP_0002251	megacolon
+http://purl.obolibrary.org/obo/HP_0025095	Sneeze
 http://purl.obolibrary.org/obo/HP_0011009	acute
-http://purl.obolibrary.org/obo/HP_0002250	Abnormality of the large intestine
 http://purl.obolibrary.org/obo/HP_0012219	erythema nodosum
 http://purl.obolibrary.org/obo/HP_0004398	Peptic ulcer
 http://purl.obolibrary.org/obo/HP_0011007	age of onset
-http://purl.obolibrary.org/obo/HP_0012735	Cough
-http://purl.obolibrary.org/obo/HP_0002373	febrile seizures
 http://purl.obolibrary.org/obo/HP_0006695	Atrioventricular canal defect
+http://purl.obolibrary.org/obo/HP_0011805	Abnormality of muscle morphology
+http://purl.obolibrary.org/obo/HP_0007780	Cortical pulverulent cataract
 http://purl.obolibrary.org/obo/HP_0011804	Abnormality of muscle physiology
-http://purl.obolibrary.org/obo/HP_0200042	Skin ulcer
 http://purl.obolibrary.org/obo/HP_0012211	abnormal renal physiology
-http://purl.obolibrary.org/obo/HP_0100727	Histiocytosis
-http://purl.obolibrary.org/obo/HP_0000639	Nystagmus
 http://purl.obolibrary.org/obo/HP_0000359	Abnormality of the inner ear
-http://purl.obolibrary.org/obo/HP_0000999	pyoderma
-http://purl.obolibrary.org/obo/HP_0002148	Hypophosphatemia
-http://purl.obolibrary.org/obo/HP_0002027	abdominal pain
+http://purl.obolibrary.org/obo/HP_0000118	Phenotypic abnormality
 http://purl.obolibrary.org/obo/HP_0000366	abnormality of the nose
-http://purl.obolibrary.org/obo/HP_0004326	cachexia
-http://purl.obolibrary.org/obo/HP_0003119	Abnormality of lipid metabolism
 http://purl.obolibrary.org/obo/HP_0000005	mode of inheritance
 http://purl.obolibrary.org/obo/HP_0010609	skin tags
-http://purl.obolibrary.org/obo/HP_0004323	abnormality of body weight
 http://purl.obolibrary.org/obo/HP_0000483	Astigmatism
 http://purl.obolibrary.org/obo/HP_0000363	Abnormality of earlobe
 http://purl.obolibrary.org/obo/HP_0030436	Fibrofolliculoma
 http://purl.obolibrary.org/obo/HP_0001574	abnormality of the integument
 http://purl.obolibrary.org/obo/HP_0000364	Hearing abnormality
 http://purl.obolibrary.org/obo/HP_0004840	Hypochromic microcytic anemia
-http://purl.obolibrary.org/obo/HP_0002140	Ischemic stroke
 http://purl.obolibrary.org/obo/HP_0007313	cerebral degeneration
-http://purl.obolibrary.org/obo/HP_0003111	Abnormality of ion homeostasis
-http://purl.obolibrary.org/obo/HP_0040188	Osteochondritis
-http://purl.obolibrary.org/obo/HP_0003110	Abnormality of urine homeostasis
 http://purl.obolibrary.org/obo/HP_0003072	Hypercalcemia
 http://purl.obolibrary.org/obo/HP_0003074	Hyperglycemia
 http://purl.obolibrary.org/obo/HP_0100578	Lipoatrophy
 http://purl.obolibrary.org/obo/HP_0003073	hypoalbuminemia
 http://purl.obolibrary.org/obo/HP_0011013	abnormality of carbohydrate metabolism/homeostasis
 http://purl.obolibrary.org/obo/HP_0011010	chronic
+http://purl.obolibrary.org/obo/HP_0000929	Abnormality of the skull
 http://purl.obolibrary.org/obo/HP_0011014	Abnormal glucose homeostasis
 http://purl.obolibrary.org/obo/HP_0011015	Abnormality of blood glucose concentration
-http://purl.obolibrary.org/obo/HP_0000407	Sensorineural hearing impairment
 http://purl.obolibrary.org/obo/HP_0000924	abnormality of the skeletal system
+http://purl.obolibrary.org/obo/HP_0030791	Abnormal jaw morphology
+http://purl.obolibrary.org/obo/HP_0009907	Attached earlobe
+http://purl.obolibrary.org/obo/HP_0006517	Alveolar proteinosis
+http://purl.obolibrary.org/obo/HP_0001742	Nasal obstruction
+http://purl.obolibrary.org/obo/HP_0001985	Hypoketotic hypoglycemia
+http://purl.obolibrary.org/obo/HP_0003124	hypercholesterolemia
+http://purl.obolibrary.org/obo/HP_0002035	rectal prolapse
+http://purl.obolibrary.org/obo/HP_0002037	Inflammation of the large intestine
+http://purl.obolibrary.org/obo/HP_0025031	Abnormality of the digestive system
+http://purl.obolibrary.org/obo/HP_0000093	Proteinuria
+http://purl.obolibrary.org/obo/HP_0100825	Cheilitis
+http://purl.obolibrary.org/obo/HP_0012199	Custer headache
+http://purl.obolibrary.org/obo/HP_0001507	growth abnormality
+http://purl.obolibrary.org/obo/HP_0000539	Abnormality of refraction
+http://purl.obolibrary.org/obo/HP_0002719	recurrent infection
+http://purl.obolibrary.org/obo/HP_0001626	Abnormality of the cardiovascular system
+http://purl.obolibrary.org/obo/HP_0002715	abnormality of the immune system
+http://purl.obolibrary.org/obo/HP_0001510	growth delay
+http://purl.obolibrary.org/obo/HP_0001873	thrombocytopenia
+http://purl.obolibrary.org/obo/HP_0001634	Mitral valve prolapse
+http://purl.obolibrary.org/obo/HP_0000545	Myopia
+http://purl.obolibrary.org/obo/HP_0002840	lymphadenitis
+http://purl.obolibrary.org/obo/HP_0001871	abnormality of blood and blood-forming tissues
+http://purl.obolibrary.org/obo/HP_0000540	hypermetropia
+http://purl.obolibrary.org/obo/HP_0003011	abnormality of the musculature
+http://purl.obolibrary.org/obo/HP_0008388	Abnormality of the toenails
+http://purl.obolibrary.org/obo/HP_0001636	tetralogy of fallot
+http://purl.obolibrary.org/obo/HP_0005208	Secretory diarrhea
+http://purl.obolibrary.org/obo/HP_0003146	hypocholesterolemia
+http://purl.obolibrary.org/obo/HP_0006536	obstructive lung disease
+http://purl.obolibrary.org/obo/HP_0004354	Abnormality of carboxylic acid metabolism
+http://purl.obolibrary.org/obo/HP_0008277	Abnormality of zinc homeostasis
+http://purl.obolibrary.org/obo/HP_0009124	Abnormality of adipose tissue
+http://purl.obolibrary.org/obo/HP_0002619	Varicose veins
+http://purl.obolibrary.org/obo/HP_0000202	Oral cleft
+http://purl.obolibrary.org/obo/HP_0002624	Venous abnormality
+http://purl.obolibrary.org/obo/HP_0002745	Oral leukoplakia
+http://purl.obolibrary.org/obo/HP_0001891	iron deficiency anemia
+http://purl.obolibrary.org/obo/HP_0004363	Abnormality of calcium homeostasis
+http://purl.obolibrary.org/obo/HP_0011458	Abdominal symptom
+http://purl.obolibrary.org/obo/HP_0004364	Abnormality of nitrogen compound homeostasis
+http://purl.obolibrary.org/obo/HP_0100256	senile plaques
+http://purl.obolibrary.org/obo/HP_0003270	Abdominal distention
+http://purl.obolibrary.org/obo/HP_0002180	neurodegeneration
+http://purl.obolibrary.org/obo/HP_0003150	Glutaric aciduria
+http://purl.obolibrary.org/obo/HP_0001657	prolonged QT interval
+http://purl.obolibrary.org/obo/HP_0003326	Myalgia
+http://purl.obolibrary.org/obo/HP_0001268	cognitive decline
+http://purl.obolibrary.org/obo/HP_0002239	gastrointestinal hemorrhage
+http://purl.obolibrary.org/obo/HP_0000175	cleft palate
+http://purl.obolibrary.org/obo/HP_0002597	Abnormality of the vasculature
+http://purl.obolibrary.org/obo/HP_0011868	Sciatica
+http://purl.obolibrary.org/obo/HP_0002110	Bronchiectasis
+http://purl.obolibrary.org/obo/HP_0012719	Functional abnormality of the gastrointestinal tract
+http://purl.obolibrary.org/obo/HP_0100508	abnormality of vitamin metabolism
+http://purl.obolibrary.org/obo/HP_0000979	Purpura
+http://purl.obolibrary.org/obo/HP_0004419	Recurrent thrombophlebitis
+http://purl.obolibrary.org/obo/HP_0001943	Hypoglycemia
+http://purl.obolibrary.org/obo/HP_0004418	Thrombophlebitis
+http://purl.obolibrary.org/obo/HP_0001945	fever
+http://purl.obolibrary.org/obo/HP_0001824	weight loss
+http://purl.obolibrary.org/obo/HP_0000863	Central diabetes insipidus
+http://purl.obolibrary.org/obo/HP_0001397	Hepatic steatosis
+http://purl.obolibrary.org/obo/HP_0001392	Abnormality of the liver
+http://purl.obolibrary.org/obo/HP_0002242	Abnormality of the intestine
+http://purl.obolibrary.org/obo/HP_0001395	Hepatic fibrosis
+http://purl.obolibrary.org/obo/HP_0100633	Esophagitis
+http://purl.obolibrary.org/obo/HP_0012042	aspirin induced asthma
+http://purl.obolibrary.org/obo/HP_0000989	Pruritus
+http://purl.obolibrary.org/obo/HP_0002017	Nausea and vomiting
+http://purl.obolibrary.org/obo/HP_0002018	Nausea
+http://purl.obolibrary.org/obo/HP_0002019	constipation
+http://purl.obolibrary.org/obo/HP_0002012	Abnormality of the abdominal organs
+http://purl.obolibrary.org/obo/HP_0004796	gastrointestinal obstruction
+http://purl.obolibrary.org/obo/HP_0002014	diarrhea
+http://purl.obolibrary.org/obo/HP_0004798	Recurrent infection of the gastrointestinal tract
+http://purl.obolibrary.org/obo/HP_0005521	disseminated intravascular coagulation
+http://purl.obolibrary.org/obo/HP_0002015	Dysphagia
+http://purl.obolibrary.org/obo/HP_0000079	Abnormality of the urinary system
+http://purl.obolibrary.org/obo/HP_0002251	megacolon
+http://purl.obolibrary.org/obo/HP_0002250	Abnormality of the large intestine
+http://purl.obolibrary.org/obo/HP_0012735	Cough
+http://purl.obolibrary.org/obo/HP_0002373	febrile seizures
+http://purl.obolibrary.org/obo/HP_0200042	Skin ulcer
+http://purl.obolibrary.org/obo/HP_0100727	Histiocytosis
+http://purl.obolibrary.org/obo/HP_0000639	Nystagmus
+http://purl.obolibrary.org/obo/HP_0000999	pyoderma
+http://purl.obolibrary.org/obo/HP_0002148	Hypophosphatemia
+http://purl.obolibrary.org/obo/HP_0002027	abdominal pain
+http://purl.obolibrary.org/obo/HP_0004326	cachexia
+http://purl.obolibrary.org/obo/HP_0003119	Abnormality of lipid metabolism
+http://purl.obolibrary.org/obo/HP_0004323	abnormality of body weight
+http://purl.obolibrary.org/obo/HP_0002140	Ischemic stroke
+http://purl.obolibrary.org/obo/HP_0003111	Abnormality of ion homeostasis
+http://purl.obolibrary.org/obo/HP_0040188	Osteochondritis
+http://purl.obolibrary.org/obo/HP_0003110	Abnormality of urine homeostasis
+http://purl.obolibrary.org/obo/HP_0000407	Sensorineural hearing impairment
 http://purl.obolibrary.org/obo/HP_0002829	arthralgia
 http://purl.obolibrary.org/obo/HP_0001977	Abnormal thrombosis
+http://purl.obolibrary.org/obo/HP_0030151	Cholangitis

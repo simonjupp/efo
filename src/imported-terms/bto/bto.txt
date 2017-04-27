@@ -40,7 +40,7 @@ http://purl.obolibrary.org/obo/BTO_0001678	obsolete_Th1-cell
 http://purl.obolibrary.org/obo/BTO_0001038	peritrophic membrane
 http://purl.obolibrary.org/obo/BTO_0000664	obsolete_K-562 cell
 http://purl.obolibrary.org/obo/BTO_0000740	myeloid leukemia cell line
-http://purl.obolibrary.org/obo/BTO_0003147	juvenile leaf
+http://purl.obolibrary.org/obo/BTO_0003147	obsolete_juvenile leaf
 http://purl.obolibrary.org/obo/BTO_0002488	uterine leiomyosarcoma cell line
 http://purl.obolibrary.org/obo/BTO_0001795	anterior silk gland
 http://purl.obolibrary.org/obo/BTO_0001630	obsolete_right ventricle

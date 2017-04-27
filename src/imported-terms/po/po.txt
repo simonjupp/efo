@@ -61,7 +61,7 @@ http://purl.obolibrary.org/obo/PO_0000230	inflorescence meristem
 http://purl.obolibrary.org/obo/PO_0005360	aleurone layer
 http://purl.obolibrary.org/obo/PO_0025197	stele
 http://purl.obolibrary.org/obo/PO_0009047	stem
-http://purl.obolibrary.org/obo/PO_0009046	flower structure
+http://purl.obolibrary.org/obo/PO_0009046	flower
 http://purl.obolibrary.org/obo/PO_0025501	fruit formation stage
 http://purl.obolibrary.org/obo/PO_0006204	sporocyte
 http://purl.obolibrary.org/obo/PO_0025502	fruit ripening stage
@@ -73,6 +73,7 @@ http://purl.obolibrary.org/obo/PO_0025508	fruit size 70% to final size stage
 http://purl.obolibrary.org/obo/PO_0009052	pedicel
 http://purl.obolibrary.org/obo/PO_0006220	central endosperm
 http://purl.obolibrary.org/obo/PO_0009056	flower nectary
+http://purl.obolibrary.org/obo/PO_0006339	juvenile vascular leaf
 http://purl.obolibrary.org/obo/PO_0006338	embryo leaf
 http://purl.obolibrary.org/obo/PO_0009066	anther
 http://purl.obolibrary.org/obo/PO_0009064	receptacle

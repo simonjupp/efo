@@ -13,3 +13,9 @@ http://purl.obolibrary.org/obo/EO_0007231   http://purl.obolibrary.org/obo/IAO_0
 http://purl.obolibrary.org/obo/MP_0001845  http://purl.obolibrary.org/obo/HP_0002715
 http://purl.obolibrary.org/obo/UO_0000000   http://purl.obolibrary.org/obo/IAO_0000030
 http://purl.obolibrary.org/obo/FBbt_00017027     http://purl.obolibrary.org/obo/UBERON_0002050
+http://purl.obolibrary.org/obo/CHEBI_33232  http://www.ifomis.org/bfo/1.1/snap#Role
+http://purl.obolibrary.org/obo/OBI_0000427  http://www.ifomis.org/bfo/1.1/snap#MaterialEntity
+http://purl.obolibrary.org/obo/OGMS_0000063 http://purl.obolibrary.org/obo/GO_0008150
+http://purl.obolibrary.org/obo/MP_0001914   http://purl.obolibrary.org/obo/HP_0001892
+http://purl.obolibrary.org/obo/SO_0000274   http://purl.obolibrary.org/obo/CHEBI_33697
+http://purl.obolibrary.org/obo/SO_0000655   http://purl.obolibrary.org/obo/CHEBI_33697

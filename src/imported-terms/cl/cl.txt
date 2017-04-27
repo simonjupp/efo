@@ -382,6 +382,7 @@ http://purl.obolibrary.org/obo/CL_0002417	primitive erythroid lineage cell
 http://purl.obolibrary.org/obo/CL_0000485	mucosal type mast cell
 http://purl.obolibrary.org/obo/CL_0002422	enucleated reticulocyte
 http://purl.obolibrary.org/obo/CL_0000484	connective tissue type mast cell
+http://purl.obolibrary.org/obo/CL_0000000	cell
 http://purl.obolibrary.org/obo/CL_0002423	DN2a thymocyte
 http://purl.obolibrary.org/obo/CL_0000362	epidermal cell
 http://purl.obolibrary.org/obo/CL_0002424	DN2b thymocyte
@@ -567,7 +568,7 @@ http://purl.obolibrary.org/obo/CL_0002472	MHC-II-low non-classical monocyte
 http://purl.obolibrary.org/obo/CL_0001020	mature CD8_alpha-low Langerhans cell
 http://purl.obolibrary.org/obo/CL_0000051	common lymphoid progenitor
 http://purl.obolibrary.org/obo/CL_0000050	megakaryocyte-erythroid progenitor cell
-http://purl.obolibrary.org/obo/CL_0000171	alpha cell
+http://purl.obolibrary.org/obo/CL_0000171	pancreatic A cell
 http://purl.obolibrary.org/obo/CL_0000292	guard cell
 http://purl.obolibrary.org/obo/CL_0001029	common dendritic progenitor
 http://purl.obolibrary.org/obo/CL_0002118	CD38-negative IgG-negative class switched memory B cell

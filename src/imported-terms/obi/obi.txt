@@ -46,6 +46,7 @@ http://purl.obolibrary.org/obo/OBI_0400112	liquid handler
 http://purl.obolibrary.org/obo/OBI_0600015	group assignment
 http://purl.obolibrary.org/obo/OBI_0001620	latitude
 http://purl.obolibrary.org/obo/OBI_0001621	longitude
+http://purl.obolibrary.org/obo/OBI_0001468	cell specimen
 http://purl.obolibrary.org/obo/OBI_0000415	PCR
 http://purl.obolibrary.org/obo/OBI_0000018	material supplier role
 http://purl.obolibrary.org/obo/OBI_0001140	spike-in quality control role

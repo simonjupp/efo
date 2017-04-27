@@ -164,7 +164,6 @@ http://purl.obolibrary.org/obo/GO_0005622	intracellular
 http://purl.obolibrary.org/obo/GO_0006954	inflammatory response
 http://purl.obolibrary.org/obo/GO_1901659	glycosyl compound biosynthetic process
 http://purl.obolibrary.org/obo/GO_0009306	protein secretion
-http://purl.obolibrary.org/obo/GO_0005623	cell
 http://purl.obolibrary.org/obo/GO_0097366	response to bronchodilator
 http://purl.obolibrary.org/obo/GO_0018130	heterocycle biosynthetic process
 http://purl.obolibrary.org/obo/GO_0072522	purine-containing compound biosynthetic process
@@ -345,7 +344,7 @@ http://purl.obolibrary.org/obo/GO_0044249	cellular biosynthetic process
 http://purl.obolibrary.org/obo/GO_0070062	extracellular vesicular exosome
 http://purl.obolibrary.org/obo/GO_0002526	acute inflammatory response
 http://purl.obolibrary.org/obo/GO_0000226	microtubule cytoskeleton organization
-http://purl.obolibrary.org/obo/GO_0002524	GO_0002524
+http://purl.obolibrary.org/obo/GO_0002524	hypersensitivity
 http://purl.obolibrary.org/obo/GO_0042060	wound healing
 http://purl.obolibrary.org/obo/GO_1990054	response to temozolomide
 http://purl.obolibrary.org/obo/GO_0031974	membrane-enclosed lumen

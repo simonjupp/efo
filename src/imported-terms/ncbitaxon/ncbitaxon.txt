@@ -181,7 +181,7 @@ http://purl.obolibrary.org/obo/NCBITaxon_61235	Fusarium equiseti
 http://purl.obolibrary.org/obo/NCBITaxon_62324	Anopheles funestus
 http://purl.obolibrary.org/obo/NCBITaxon_186497	Pyrococcus furiosus DSM 3638
 http://purl.obolibrary.org/obo/NCBITaxon_10487	Iridovirus
-http://purl.obolibrary.org/obo/NCBITaxon_63416	Trichophyton megninii
+http://purl.obolibrary.org/obo/NCBITaxon_63416	obsolete_Trichophyton megninii
 http://purl.obolibrary.org/obo/NCBITaxon_63417	Trichophyton verrucosum
 http://purl.obolibrary.org/obo/NCBITaxon_11577	La Crosse virus
 http://purl.obolibrary.org/obo/NCBITaxon_121558	Senecio vulgaris subsp. vulgaris

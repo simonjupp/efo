@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1484050902676" name="duplicate:http://www.ebi.ac.uk/efo-merged" uri="efo-release-candidate-test.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1484050902676" name="duplicate:http://www.ebi.ac.uk/efo-merged" uri="efo-release-candidate.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1484050902676" name="http://www.ebi.ac.uk/efo/bto" uri="generated/bto/bto.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1484050902676" name="http://www.ebi.ac.uk/efo/chebi" uri="generated/chebi/chebi.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1484050902676" name="http://www.ebi.ac.uk/efo/cl" uri="generated/cl/cl.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1484050902676" name="http://www.ebi.ac.uk/efo/clo" uri="generated/clo/clo.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1484050902676" name="http://www.ebi.ac.uk/efo/doid" uri="generated/doid/doid.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1484050902676" name="http://www.ebi.ac.uk/efo/eo" uri="generated/eo/eo.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1484050902676" name="http://www.ebi.ac.uk/efo/fbbt" uri="generated/fbbt/fbbt.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1484050902676" name="http://www.ebi.ac.uk/efo/fbdv" uri="generated/fbdv/fbdv.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1484050902676" name="http://www.ebi.ac.uk/efo/go" uri="generated/go/go.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1484050902676" name="http://www.ebi.ac.uk/efo/hp" uri="generated/hp/hp.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1484050902676" name="http://www.ebi.ac.uk/efo/iao" uri="generated/iao/iao.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1484050902676" name="http://www.ebi.ac.uk/efo/ido" uri="generated/ido/ido.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1484050902676" name="http://www.ebi.ac.uk/efo/mp" uri="generated/mp/mp.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1484050902676" name="http://www.ebi.ac.uk/efo/mpath" uri="generated/mpath/mpath.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1484050902676" name="http://www.ebi.ac.uk/efo/ncbitaxon" uri="generated/ncbitaxon/ncbitaxon.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1484050902676" name="http://www.ebi.ac.uk/efo/obi" uri="generated/obi/obi.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1484050902676" name="http://www.ebi.ac.uk/efo/ogms" uri="generated/ogms/ogms.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1484050902676" name="http://www.ebi.ac.uk/efo/ordo" uri="generated/ordo/ordo.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1484050902676" name="http://www.ebi.ac.uk/efo/pato" uri="generated/pato/pato.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1484050902676" name="http://www.ebi.ac.uk/efo/po" uri="generated/po/po.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1484050902676" name="http://www.ebi.ac.uk/efo/pr" uri="generated/pr/pr.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1484050902676" name="http://www.ebi.ac.uk/efo/so" uri="generated/so/so.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1484050902676" name="http://www.ebi.ac.uk/efo/uberon" uri="generated/uberon/uberon.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1484050902676" name="http://www.ebi.ac.uk/efo/uo" uri="generated/uo/uo.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1493297368314" name="duplicate:http://www.ebi.ac.uk/efo-merged" uri="efo-release-candidate-test.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1493297368314" name="duplicate:http://www.ebi.ac.uk/efo-merged" uri="efo-release-candidate.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1493297368314" name="http://www.ebi.ac.uk/efo/bto" uri="generated/bto/bto.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1493297368314" name="http://www.ebi.ac.uk/efo/chebi" uri="generated/chebi/chebi.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1493297368314" name="http://www.ebi.ac.uk/efo/cl" uri="generated/cl/cl.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1493297368314" name="http://www.ebi.ac.uk/efo/clo" uri="generated/clo/clo.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1493297368314" name="http://www.ebi.ac.uk/efo/doid" uri="generated/doid/doid.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1493297368314" name="http://www.ebi.ac.uk/efo/eo" uri="generated/eo/eo.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1493297368314" name="http://www.ebi.ac.uk/efo/fbbt" uri="generated/fbbt/fbbt.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1493297368314" name="http://www.ebi.ac.uk/efo/fbdv" uri="generated/fbdv/fbdv.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1493297368314" name="http://www.ebi.ac.uk/efo/go" uri="generated/go/go.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1493297368314" name="http://www.ebi.ac.uk/efo/hp" uri="generated/hp/hp.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1493297368314" name="http://www.ebi.ac.uk/efo/iao" uri="generated/iao/iao.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1493297368314" name="http://www.ebi.ac.uk/efo/ido" uri="generated/ido/ido.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1493297368314" name="http://www.ebi.ac.uk/efo/mp" uri="generated/mp/mp.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1493297368314" name="http://www.ebi.ac.uk/efo/mpath" uri="generated/mpath/mpath.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1493297368314" name="http://www.ebi.ac.uk/efo/ncbitaxon" uri="generated/ncbitaxon/ncbitaxon.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1493297368314" name="http://www.ebi.ac.uk/efo/obi" uri="generated/obi/obi.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1493297368314" name="http://www.ebi.ac.uk/efo/ogms" uri="generated/ogms/ogms.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1493297368314" name="http://www.ebi.ac.uk/efo/ordo" uri="generated/ordo/ordo.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1493297368314" name="http://www.ebi.ac.uk/efo/pato" uri="generated/pato/pato.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1493297368314" name="http://www.ebi.ac.uk/efo/po" uri="generated/po/po.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1493297368314" name="http://www.ebi.ac.uk/efo/pr" uri="generated/pr/pr.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1493297368314" name="http://www.ebi.ac.uk/efo/so" uri="generated/so/so.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1493297368314" name="http://www.ebi.ac.uk/efo/uberon" uri="generated/uberon/uberon.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1493297368314" name="http://www.ebi.ac.uk/efo/uo" uri="generated/uo/uo.owl"/>
     </group>
 </catalog>

@@ -228,7 +228,6 @@ http://purl.obolibrary.org/obo/CHEBI_30145	lithium atom
 http://purl.obolibrary.org/obo/CHEBI_51065	dopamine agonist
 http://purl.obolibrary.org/obo/CHEBI_53003	naphthalene-1,5-diamine
 http://purl.obolibrary.org/obo/CHEBI_8107	phenytoin
-http://purl.obolibrary.org/obo/CHEBI_53002	beta amyloid
 http://purl.obolibrary.org/obo/CHEBI_9678	tribenuron methyl
 http://purl.obolibrary.org/obo/CHEBI_64139	(2R,3S)-EHNA hydrochloride
 http://purl.obolibrary.org/obo/CHEBI_9674	triazolam
@@ -550,6 +549,7 @@ http://purl.obolibrary.org/obo/CHEBI_22152	abscisic acid
 http://purl.obolibrary.org/obo/CHEBI_33286	agrochemical role
 http://purl.obolibrary.org/obo/CHEBI_4975	famotidine
 http://purl.obolibrary.org/obo/CHEBI_33284	nutrient
+http://purl.obolibrary.org/obo/CHEBI_33281	antimicrobial agent
 http://purl.obolibrary.org/obo/CHEBI_63934	bathocuproine disulfonic acid
 http://purl.obolibrary.org/obo/CHEBI_63933	Aroclor 1254
 http://purl.obolibrary.org/obo/CHEBI_23008	carbohydrate
@@ -651,7 +651,6 @@ http://purl.obolibrary.org/obo/CHEBI_16919	creatine
 http://purl.obolibrary.org/obo/CHEBI_6904	metoprolol
 http://purl.obolibrary.org/obo/CHEBI_58994	(+)-catechin monohydrate
 http://purl.obolibrary.org/obo/CHEBI_32145	sodium hydroxide
-http://purl.obolibrary.org/obo/CHEBI_22582	antibiotic
 http://purl.obolibrary.org/obo/CHEBI_22584	antimycin A
 http://purl.obolibrary.org/obo/CHEBI_73177	brassinazole
 http://purl.obolibrary.org/obo/CHEBI_22586	antioxidant
@@ -844,6 +843,7 @@ http://purl.obolibrary.org/obo/CHEBI_28794	coumarin
 http://purl.obolibrary.org/obo/CHEBI_5123	fluphenazine
 http://purl.obolibrary.org/obo/CHEBI_4034	cyfluthrin
 http://purl.obolibrary.org/obo/CHEBI_3182	bromocriptine methanesulfonate
+http://purl.obolibrary.org/obo/CHEBI_64645	beta amyloid
 http://purl.obolibrary.org/obo/CHEBI_25048	linolenic acid
 http://purl.obolibrary.org/obo/CHEBI_27226	uric acid
 http://purl.obolibrary.org/obo/CHEBI_8871	risperidone
@@ -887,6 +887,7 @@ http://purl.obolibrary.org/obo/CHEBI_6888	6alpha-methylprednisolone
 http://purl.obolibrary.org/obo/CHEBI_3139	bleomycin A2
 http://purl.obolibrary.org/obo/CHEBI_7735	olanzapine
 http://purl.obolibrary.org/obo/CHEBI_27698	Vanadium
+http://purl.obolibrary.org/obo/CHEBI_114785	erlotinib
 http://purl.obolibrary.org/obo/CHEBI_30621	diarsenic trioxide
 http://purl.obolibrary.org/obo/CHEBI_50683	folic acid reductase inhibitor
 http://purl.obolibrary.org/obo/CHEBI_9925	sodium valproate
